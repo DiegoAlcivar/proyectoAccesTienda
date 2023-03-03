@@ -12,9 +12,9 @@ include("includes/main.php");
   <main>
     <!-- HERO -->
     <div class="nero">
-      <div class="nero__heading">
-        <span class="nero__bold">shop</span> AT AVE
-      </div>
+     <!-- <div class="nero__heading">
+        <span class="nero__bold">shop</span> Hola mundo
+      </div> -->
       <p class="nero__text">
       </p>
     </div>

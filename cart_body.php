@@ -55,6 +55,7 @@ $count = mysqli_num_rows($run_cart);
 
 <tr>
 
+
 <th colspan="2" >Product</th>
 
 <th>Quantity</th>
