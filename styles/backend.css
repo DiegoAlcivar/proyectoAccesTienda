@@ -903,9 +903,9 @@ img {
   padding-top: 300px;
   padding-bottom: 140px;
   color: #fff;
-  background: #666 url(../images/photo0.png) no-repeat;
+  background: #666 url(../images/ink1.png) no-repeat;
   background-size: cover;
-  background-position: 50%
+  background-position: 50%;
 }
 
 .hero .btn1 {
