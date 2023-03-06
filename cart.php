@@ -15,7 +15,7 @@ include("includes/main.php");
     <!-- HERO -->
     <div class="nero">
       <div class="nero__heading">
-        <span class="nero__bold">SHOP</span> Cart
+       <!--  <span class="nero__bold">SHOP</span> Cart-->
       </div>
       <p class="nero__text">
       </p>
@@ -35,7 +35,7 @@ include("includes/main.php");
 
 <form action="cart.php" method="post" enctype="multipart-form-data" ><!-- form Starts -->
 
-<h1> Shopping Cart </h1>
+<h1> Carro de la compra</h1>
 
 <?php
 
@@ -49,7 +49,7 @@ $count = mysqli_num_rows($run_cart);
 
 ?>
 
-<p class="text-muted" > You currently have <?php echo $count; ?> item(s) in your cart. </p>
+<p class="text-muted" > Actualmente tiene  <?php echo $count; ?> artículo(s) en su carrito. </p>
 
 <div class="table-responsive" ><!-- table-responsive Starts -->
 
@@ -59,15 +59,15 @@ $count = mysqli_num_rows($run_cart);
 
 <tr>
 
-<th colspan="2" >Product</th>
+<th colspan="2" >Producto</th>
 
-<th>Quantity</th>
+<th>Cantidad</th>
 
-<th>Unit Price</th>
+<th>Precio unitario</th>
 
-<th>Size</th>
+<th>Tamaño</th>
 
-<th colspan="1">Delete</th>
+<th colspan="1">Borrar</th>
 
 <th colspan="2"> Sub Total </th>
 
@@ -174,13 +174,13 @@ $<?php echo $sub_total; ?>.00
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label>Coupon Code : </label>
+<label>Código promocional: </label>
 
 <input type="text" name="code" class="form-control">
 
 </div><!-- form-group Ends -->
 
-<input class="btn btn-primary" type="submit" name="apply_coupon" value="Apply Coupon Code" >
+<input class="btn btn-primary" type="submit" name="apply_coupon" value="Aplicar código de cupón" >
 
 </div><!-- form-inline pull-right Ends -->
 
@@ -193,7 +193,7 @@ $<?php echo $sub_total; ?>.00
 
 <a href="index.php" class="btn btn-default">
 
-<i class="fa fa-chevron-left"></i> Continue Shopping
+<i class="fa fa-chevron-left"></i> Seguir comprando
 
 </a>
 
@@ -203,13 +203,13 @@ $<?php echo $sub_total; ?>.00
 
 <button class="btn btn-info" type="submit" name="update" value="Update Cart">
 
-<i class="fa fa-refresh"></i> Update Cart
+<i class="fa fa-refresh"></i> Actualización de la compra
 
 </button>
 
 <a href="checkout.php" class="btn btn-success">
 
-Proceed to Checkout <i class="fa fa-chevron-right"></i>
+Pasar por la caja<i class="fa fa-chevron-right"></i>
 
 </a>
 
@@ -351,7 +351,7 @@ echo @$up_cart = update_cart();
 
 <div class="box same-height headline"><!-- box same-height headline Starts -->
 
-<h3 class="text-center"> You may like these Products </h3>
+<h3 class="text-center"> Te pueden gustar estos productos </h3>
 
 </div><!-- box same-height headline Ends -->
 
@@ -497,12 +497,12 @@ $product_label
 
 <div class="box-header"><!-- box-header Starts -->
 
-<h3>Order Summary</h3>
+<h3>Resumen del pedido</h3>
 
 </div><!-- box-header Ends -->
 
 <p class="text-muted">
-Shipping and additional costs are calculated based on the values you have entered.
+Los gastos de envío y adicionales se calculan en función de los valores que haya introducido.
 </p>
 
 <div class="table-responsive"><!-- table-responsive Starts -->
@@ -513,7 +513,7 @@ Shipping and additional costs are calculated based on the values you have entere
 
 <tr>
 
-<td> Order Subtotal </td>
+<td> Subtotal de Orden</td>
 
 <th> $<?php echo $total; ?>.00 </th>
 
@@ -521,7 +521,7 @@ Shipping and additional costs are calculated based on the values you have entere
 
 <tr>
 
-<td> Shipping and handling </td>
+<td> Envío y manipulación</td>
 
 <th>$0.00</th>
 
@@ -529,7 +529,7 @@ Shipping and additional costs are calculated based on the values you have entere
 
 <tr>
 
-<td>Tax</td>
+<td>Impuesto</td>
 
 <th>$0.00</th>
 

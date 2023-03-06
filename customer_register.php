@@ -16,7 +16,7 @@ include("includes/main.php");
     <!-- HERO -->
     <div class="nero">
       <div class="nero__heading">
-        <span class="nero__bold">Register</span> AT AVE
+       <!-- <span class="nero__bold">Register</span> AT AVE-->
       </div>
       <p class="nero__text">
       </p>
@@ -39,7 +39,7 @@ include("includes/main.php");
 
 <center><!-- center Starts -->
 
-<h2> Register A New Account </h2>
+<h2> Registre una nueva cuenta </h2>
 
 
 
@@ -51,7 +51,7 @@ include("includes/main.php");
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label>Customer Name</label>
+<label>Nombre del cliente</label>
 
 <input type="text" class="form-control" name="c_name" required>
 
@@ -59,7 +59,7 @@ include("includes/main.php");
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label> Customer Email</label>
+<label> Email del cliente</label>
 
 <input type="text" class="form-control" name="c_email" required>
 
@@ -67,7 +67,7 @@ include("includes/main.php");
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label> Customer Password </label>
+<label> Contraseña del cliente</label>
 
 <div class="input-group"><!-- input-group Starts -->
 
@@ -100,7 +100,7 @@ include("includes/main.php");
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label> Confirm Password </label>
+<label> confirmar Contraseña</label>
 
 <div class="input-group"><!-- input-group Starts -->
 
@@ -121,7 +121,7 @@ include("includes/main.php");
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label> Customer Country </label>
+<label> País del cliente </label>
 
 <input type="text" class="form-control" name="c_country" required>
 
@@ -129,7 +129,7 @@ include("includes/main.php");
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label> Customer City </label>
+<label> Ciudad del cliente</label>
 
 <input type="text" class="form-control" name="c_city" required>
 
@@ -137,7 +137,7 @@ include("includes/main.php");
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label> Customer Contact </label>
+<label> Contacto con el cliente </label>
 
 <input type="text" class="form-control" name="c_contact" required>
 
@@ -145,7 +145,7 @@ include("includes/main.php");
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label> Customer Address </label>
+<label> Dirección del cliente </label>
 
 <input type="text" class="form-control" name="c_address" required>
 
@@ -153,7 +153,7 @@ include("includes/main.php");
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label> Customer Image </label>
+<label> Dirección del cliente</label>
 
 <input type="file" class="form-control" name="c_image" required>
 
@@ -177,7 +177,7 @@ include("includes/main.php");
 
 <button type="submit" name="register" class="btn btn-primary">
 
-<i class="fa fa-user-md"></i> Register
+<i class="fa fa-user-md"></i> Registrar
 
 </button>
 

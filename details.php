@@ -96,7 +96,7 @@ $p_cat_title = $row_p_cat['p_cat_title'];
     <!-- HERO -->
     <div class="nero">
       <div class="nero__heading">
-        <span class="nero__bold">Product </span>View
+      <!--   <span class="nero__bold">Product </span>View-->
       </div>
       <p class="nero__text">
       </p>
@@ -300,13 +300,13 @@ if($status == "product"){
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-5 control-label" >Bundle Quantity </label>
+<label class="col-md-5 control-label" >Cantidad de paquetes </label>
 
 <div class="col-md-7" ><!-- col-md-7 Starts -->
 
 <select name="product_qty" class="form-control" >
 
-<option>Select quantity</option>
+<option>Selecciona la cantidad</option>
 <option>1</option>
 <option>2</option>
 <option>3</option>
@@ -322,16 +322,16 @@ if($status == "product"){
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-5 control-label" >Bundle Size</label>
+<label class="col-md-5 control-label" >Tamaño del paquete</label>
 
 <div class="col-md-7" ><!-- col-md-7 Starts -->
 
 <select name="product_size" class="form-control" >
 
-<option>Select a Size</option>
-<option>Small</option>
-<option>Medium</option>
-<option>Large</option>
+<option>Seleccione una talla</option>
+<option>Pequeño</option>
+<option>Medio</option>
+<option>Grande</option>
 
 
 </select>

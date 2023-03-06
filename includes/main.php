@@ -11,11 +11,11 @@
           <a class="currency__change" href="customer/my_account.php?my_orders">
           <?php
           if(!isset($_SESSION['customer_email'])){
-          echo "Welcome :Guest"; 
+          echo "Bienvenido"; 
           }
           else
           { 
-              echo "Welcome : " . $_SESSION['customer_email'] . "";
+              echo "Bienvenido : " . $_SESSION['customer_email'] . "";
             }
 ?>
           </a>
@@ -24,7 +24,7 @@
         <div class="basket">
           <a href="cart.php" class="btn btn--basket">
             <i class="icon-basket"></i>
-            <?php items(); ?> items
+            <?php items(); ?> Productos
           </a>
         </div>
         
@@ -34,11 +34,11 @@
 <li class="login__item">
 <?php
 if(!isset($_SESSION['customer_email'])){
-  echo '<a href="customer_register.php" class="login__link">Register</a>';
+  echo '<a href="customer_register.php" class="login__link">Registro</a>';
 } 
   else
   { 
-      echo '<a href="customer/my_account.php?my_orders" class="login__link">My Account</a>';
+      echo '<a href="customer/my_account.php?my_orders" class="login__link">Mi cuenta</a>';
   }   
 ?>  
 </li>
@@ -47,11 +47,11 @@ if(!isset($_SESSION['customer_email'])){
 <li class="login__item">
 <?php
 if(!isset($_SESSION['customer_email'])){
-  echo '<a href="checkout.php" class="login__link">Sign In</a>';
+  echo '<a href="checkout.php" class="login__link">Iniciar Sesion</a>';
 } 
   else
   { 
-      echo '<a href="./logout.php" class="login__link">Logout</a>';
+      echo '<a href="./logout.php" class="login__link">Cerrar Sesion</a>';
   }   
 ?>  
   

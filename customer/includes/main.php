@@ -23,7 +23,7 @@
         <div class="basket">
           <a href="../cart.php" class="btn btn--basket">
             <i class="icon-basket"></i>
-            <?php items(); ?> items
+            <?php items(); ?> Productos
           </a>
         </div>
         

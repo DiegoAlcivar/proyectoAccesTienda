@@ -494,7 +494,7 @@ $product_label
 
 <div class="box-header"><!-- box-header Starts -->
 
-<h3>Order Summary</h3>
+<h3>Resumen del pedido</h3>
 
 </div><!-- box-header Ends -->
 

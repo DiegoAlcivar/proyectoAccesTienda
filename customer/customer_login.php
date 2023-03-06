@@ -4,9 +4,9 @@
 
 <center>
 
-<h1>Login</h1>
+<h1>Acceso</h1>
 
-<p class="lead" >Already our Customer</p>
+<p class="lead" >Ya nuestro cliente</p>
 
 
 </center>
@@ -33,13 +33,13 @@ Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac tu
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label>Password</label>
+<label>Contraseña</label>
 
 <input type="password" class="form-control" name="c_pass" required >
 
 <h4 align="center">
 
-<a href="forgot_pass.php"> Forgot Password </a>
+<a href="forgot_pass.php"> Has olvidado tu contraseña? </a>
 
 </h4>
 
@@ -49,7 +49,7 @@ Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac tu
 
 <button name="login" value="Login" class="btn btn-primary" >
 
-<i class="fa fa-sign-in" ></i> Log in
+<i class="fa fa-sign-in" ></i> Acceso
 
 
 </button>
@@ -63,7 +63,7 @@ Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac tu
 
 <a href="customer_register.php" >
 
-<h3>New ? Register Here</h3>
+<h3>Nuevo ? Registrarse aqui</h3>
 
 </a>
 
