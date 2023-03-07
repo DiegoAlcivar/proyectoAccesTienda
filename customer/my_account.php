@@ -54,11 +54,11 @@ if(!empty($customer_confirm_code)){
 
 <div class="alert alert-danger"><!-- alert alert-danger Starts -->
 
-<strong> Warning! </strong> Please Confirm Your Email and if you have not received your confirmation email
+<strong> Advertencia! </strong> Confirme su correo electrónico y si no ha recibido su correo electrónico de confirmación
 
 <a href="my_account.php?send_email" class="alert-link">
 
-Send Email Again
+Enviar correo electrónico de nuevo
 
 </a>
 

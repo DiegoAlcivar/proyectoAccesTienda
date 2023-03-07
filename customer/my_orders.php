@@ -1,13 +1,15 @@
 
 <center><!-- center Starts -->
 
-<h1>My Orders</h1>
+<h1>Mis ordenes</h1>
 
-<p class="lead"> Your orders on one place.</p>
+<p class="lead"> Tus pedidos en un solo lugar.</p>
 
 <p class="text-muted" >
 
-If you have any questions, please feel free to <a href="../contact.php" > contact us,</a> our customer service center is working for you 24/7.
+Si tiene alguna pregunta, por favor siéntase libre de<a href="../contact.php" > Contáctenos,
+    
+</a> nuestro centro de atención al cliente está trabajando para usted 24/7.
 
 
 </p>
@@ -26,13 +28,13 @@ If you have any questions, please feel free to <a href="../contact.php" > contac
 <tr>
 
 <th>#</th>
-<th>Amount</th>
-<th>Invoice</th>
-<th>Qty</th>
-<th>Size</th>
-<th>Order Date</th>
-<th>Status</th>
-<th>Action</th>
+<th>Cantidad</th>
+<th>factura</th>
+<th>Cantidad</th>
+<th>Tamaño</th>
+<th>Fecha de orden</th>
+<th>Estado</th>
+<th>Accion</th>
 
 
 </tr>
@@ -79,12 +81,12 @@ $i++;
 
 if($order_status=='pending'){
 
-$order_status = "<b style='color:red;'>Unpaid</b>";
+$order_status = "<b style='color:red;'>No pagado</b>";
 
 }
 else{
 
-$order_status = "<b style='color:green;'>Paid</b>";
+$order_status = "<b style='color:green;'>Pagado</b>";
 
 }
 
@@ -107,7 +109,7 @@ $order_status = "<b style='color:green;'>Paid</b>";
 <td><?php echo $order_status; ?></td>
 
 <td>
-<a href="confirm.php?order_id=<?php echo $order_id; ?>" target="blank" class="btn btn-success btn-xs" > Confirm If Paid </a>
+<a href="confirm.php?order_id=<?php echo $order_id; ?>" target="blank" class="btn btn-success btn-xs" > Confirmar si se paga </a>
 </td>
 
 
