@@ -17,9 +17,9 @@ include("includes/main.php");
       <div class="nero__heading">
       <!--  <span class="nero__bold">Contact</span> Us-->
       </div>
-      <p class="nero__text">
-      If you have any questions, please feel free to contact us, our customer service center is working for you 24/7.
-      </p>
+      <!--<p class="nero__text">
+      Si tiene alguna pregunta, no dude en contactarnos, nuestro centro de servicio al cliente está trabajando para usted las 24 horas del día, los 7 días de la semana.
+      </p>-->
     </div>
   </main>
 
@@ -61,7 +61,7 @@ $contact_email = $row_conatct_us['contact_email'];
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label>Name</label>
+<label>Nombre</label>
 
 <input type="text" class="form-control" name="name" required>
 
@@ -77,7 +77,7 @@ $contact_email = $row_conatct_us['contact_email'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label> Subject </label>
+<label> Sujeto </label>
 
 <input type="text" class="form-control" name="subject" required>
 
@@ -85,7 +85,7 @@ $contact_email = $row_conatct_us['contact_email'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label> Message </label>
+<label> Mensaje </label>
 
 <textarea class="form-control" name="message"> </textarea>
 
@@ -94,12 +94,12 @@ $contact_email = $row_conatct_us['contact_email'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label> Select Enquiry Type </label>
+<label> Seleccionar tipo de consulta </label>
 
 
 <select name="enquiry_type" class="form-control"><!-- select Starts -->
 
-<option> Select Enquiry Type </option>
+<option> Seleccionar tipo de consulta </option>
 
 <?php
 
@@ -126,7 +126,7 @@ echo "<option> $enquiry_title </option>";
 
 <button type="submit" name="submit" class="btn btn-primary">
 
-<i class="fa fa-user-md"></i> Send Message
+<i class="fa fa-user-md"></i> Enviar mensaje
 
 </button>
 
