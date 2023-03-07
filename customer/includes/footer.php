@@ -4,85 +4,85 @@
 		<div class="container clearfix">
 
 			<div class="footer-nav__col footer-nav__col--info">
-				<div class="footer-nav__heading">Information</div>
+				<div class="footer-nav__heading">Informacion</div>
 				<ul class="footer-nav__list">
 					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">The brand</a>
+						<a href="#" class="footer-nav__link">La marca</a>
 					</li>
 					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Local stores</a>
+						<a href="#" class="footer-nav__link">Tiendas locales</a>
 					</li>
 					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Customer service</a>
+						<a href="#" class="footer-nav__link">Servicio al Cliente</a>
 					</li>
 					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Privacy &amp; cookies</a>
+						<a href="#" class="footer-nav__link">Privacidad &amp; cookies</a>
 					</li>
 					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Site map</a>
+						<a href="#" class="footer-nav__link">Mapa del sitio</a>
 					</li>
 				</ul>
 			</div>
 
 			<div class="footer-nav__col footer-nav__col--whybuy">
-				<div class="footer-nav__heading">Why buy from us</div>
+				<div class="footer-nav__heading">¿Por qué comprar con nosotros?</div>
 				<ul class="footer-nav__list">
 					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Shipping &amp; returns</a>
+						<a href="#" class="footer-nav__link">Envío &amp; devoluciones</a>
 					</li>
 					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Secure shipping</a>
+						<a href="#" class="footer-nav__link">Envío seguro</a>
 					</li>
 					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Testimonials</a>
+						<a href="#" class="footer-nav__link">Testimonios</a>
 					</li>
 					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Award winning</a>
+						<a href="#" class="footer-nav__link">Galardonado</a>
 					</li>
 					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Ethical trading</a>
+						<a href="#" class="footer-nav__link">comercio ético</a>
 					</li>
 				</ul>
 			</div>
 
 			<div class="footer-nav__col footer-nav__col--account">
-				<div class="footer-nav__heading">Your account</div>
+				<div class="footer-nav__heading">Su cuenta</div>
 				<ul class="footer-nav__list">
 					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Sign in</a>
+						<a href="#" class="footer-nav__link">iniciar sesión</a>
 					</li>
 					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Register</a>
+						<a href="#" class="footer-nav__link">Registro</a>
 					</li>
 					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">View cart</a>
+						<a href="#" class="footer-nav__link">Ver carrito</a>
 					</li>
 					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">View your lookbook</a>
+						<a href="#" class="footer-nav__link">Ver su catálogo</a>
 					</li>
 					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Track an order</a>
+						<a href="#" class="footer-nav__link">Seguimiento de un pedido</a>
 					</li>
 					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Update information</a>
+						<a href="#" class="footer-nav__link">Actualizar información</a>
 					</li>
 				</ul>
 			</div>
 
 
 			<div class="footer-nav__col footer-nav__col--contacts">
-				<div class="footer-nav__heading">Contact details</div>
+				<div class="footer-nav__heading">Detalles de contacto</div>
 				<address class="address">
-				Head Office: Avenue Fashion.<br>
-				180-182 Regent Street, London.
+				AV. AMAZONAS Y AV. MARIANA DE JESUS<br>
+            EDIF. BAEZ PISO 4 OFICINA NRO 404
 			</address>
 				<div class="phone">
 					Telephone:
-					<a class="phone__number" href="tel:0123456789">0123-456-789</a>
+					<a class="phone__number" href="tel:0123456789">0989138892</a>
 				</div>
 				<div class="email">
 					Email:
-					<a href="mailto:support@yourwebsite.com" class="email__addr">support@yourwebsite.com</a>
+					<a href="atencionalcliente@accesworldtravel.com" class="email__addr">atencionalcliente@accesworldtravel.com</a>
 				</div>
 			</div>
 
@@ -93,15 +93,15 @@
 		<div class="container clearfix">
 
 			<div class="banner-award">
-				<span>Award winner</span><br> Fashion awards 2016
+				<span>INKPORTECH</span><br> 2023
 			</div>
 
 			<div class="banner-social">
 				<a href="#" class="banner-social__link">
-				<i class="icon-facebook"></i>
+				<i class="icon-instagram"></i>
 			</a>
 				<a href="#" class="banner-social__link">
-				<i class="icon-twitter"></i>
+				<i class="icon-instagram"></i>
 			</a>
 				<a href="#" class="banner-social__link">
 				<i class="icon-instagram"></i>
@@ -118,15 +118,15 @@
 		<div class="container clearfix">
 
 			<div class="copyright">
-				&copy; 2018 Avenue Fashion&trade;
+				&copy; 2023 INKPORTECH&trade;
 			</div>
 
 			<div class="developer">
-				Dev by Yasser Dalouzi
+				Dev by INKPORTECH
 			</div>
 
 			<div class="designby">
-				Design by Yasser Dalouzi
+				Design by INKPORTECH
 			</div>
 		</div>
 	</div>

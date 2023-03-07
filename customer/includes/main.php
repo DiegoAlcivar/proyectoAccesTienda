@@ -14,7 +14,7 @@
          } 
           else
           { 
-              echo "Welcome : " . $_SESSION['customer_email'] . "";
+              echo "Bienvenido : " . $_SESSION['customer_email'] . "";
             }
 ?>
           </a>
@@ -37,7 +37,7 @@
           } 
             else
             { 
-                echo '<a href="my_account.php?my_orders" class="login__link">My Account</a>';
+                echo '<a href="my_account.php?my_orders" class="login__link">Mi Cuenta</a>';
             }   
 ?>  
           </li>
@@ -50,7 +50,7 @@
           } 
             else
             { 
-                echo '<a href="../logout.php" class="login__link">Log out</a>';
+                echo '<a href="../logout.php" class="login__link">Cerrar Sesion</a>';
             }   
 ?>  
             
@@ -66,7 +66,7 @@
 
         <div class="logo">
           <a class="logo__link" href="../index.php">
-            <img class="logo__img" src="images/logo.png" alt="Avenue fashion logotype" width="237" height="19">
+            <img class="logo__img" src="images/inicio.png" alt="inkportech logotype" width="28" height="28">
           </a>
         </div>
 
@@ -75,48 +75,48 @@
 
             <li class="categories__item">
               <a class="categories__link" href="#">
-                Mens
+                Hombres
                 <i class="icon-down-open-1"></i>
               </a>
               </li>
 
             <li class="categories__item">
               <a class="categories__link" href="#">
-                Womens
+                Mujeres
             
               </a>
             </li>
 
             <li class="categories__item">
               <a class="categories__link categories__link--active" href="shop.php">
-                Shop
+                Tienda
               </a>
             </li>
 
             <li class="categories__item">
               <a class="categories__link" href="../about.php">
-                About us
+              Sobre nosotros
               </a>
             </li>
 
           <li class="categories__item">
               <a class="categories__link" href="#">
-                My Account
+                Mi cuenta
                 <i class="icon-down-open-1"></i>
               </a>
               <div class="dropdown dropdown--lookbook">
                 <div class="clearfix">
                   <div class="dropdown__half">
-                    <div class="dropdown__heading">Account Settings</div>
+                    <div class="dropdown__heading">Configuraciones de la cuenta</div>
                     <ul class="dropdown__items">
                       <li class="dropdown__item">
-                        <a href="#" class="dropdown__link">My Wishlist</a>
+                        <a href="#" class="dropdown__link">Mi lista de deseos</a>
                       </li>
                       <li class="dropdown__item">
-                        <a href="#" class="dropdown__link">My Orders</a>
+                        <a href="#" class="dropdown__link">Mis ordenes</a>
                       </li>
                       <li class="dropdown__item">
-                        <a href="#" class="dropdown__link">View Shopping Cart</a>
+                        <a href="#" class="dropdown__link">Ver carro de compras</a>
                       </li>
                     </ul>
                   </div>
@@ -124,13 +124,13 @@
                     <div class="dropdown__heading"></div>
                     <ul class="dropdown__items">
                       <li class="dropdown__item">
-                        <a href="#" class="dropdown__link">Edit Your Account</a>
+                        <a href="#" class="dropdown__link">Edite su cuenta</a>
                       </li>
                       <li class="dropdown__item">
-                        <a href="#" class="dropdown__link">Change Password</a>
+                        <a href="#" class="dropdown__link">Cambiar la contraseña</a>
                       </li>
                       <li class="dropdown__item">
-                        <a href="#" class="dropdown__link">Delete Account</a>
+                        <a href="#" class="dropdown__link">Borrar Cuenta</a>
                       </li>
                     </ul>
                   </div>

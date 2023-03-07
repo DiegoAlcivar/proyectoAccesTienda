@@ -4,8 +4,8 @@
 		<div class="container clearfix">
 
 			<div class="footer-nav__col footer-nav__col--info">
-				<div class="footer-nav__heading">Information</div>
-				<ul class="footer-nav__list">
+				<div class="footer-nav__heading">Informacion</div>
+				<ul class="footer-nav__list">	
 					<li class="footer-nav__item">
 						<a href="#" class="footer-nav__link">The brand</a>
 					</li>

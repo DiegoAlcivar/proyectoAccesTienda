@@ -38,14 +38,14 @@ $order_id = $_GET['order_id'];
 
 <div class="box"><!-- box Starts -->
 
-<h1 align="center"> Please Confirm Your Payment </h1>
+<h1 align="center">Por favor confirme su pago </h1>
 
 
 <form action="confirm.php?update_id=<?php echo $order_id; ?>" method="post" enctype="multipart/form-data"><!--- form Starts -->
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label>Invoice No:</label>
+<label> Factura No:</label>
 
 <input type="text" class="form-control" name="invoice_no" required>
 
@@ -54,7 +54,7 @@ $order_id = $_GET['order_id'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label>Amount Sent:</label>
+<label>Cantidad enviada:</label>
 
 <input type="text" class="form-control" name="amount_sent" required>
 
@@ -62,12 +62,12 @@ $order_id = $_GET['order_id'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label>Select Payment Mode:</label>
+<label>Seleccione Modo de pago:</label>
 
 <select name="payment_mode" class="form-control"><!-- select Starts -->
 
-<option>Select Payment Mode</option>
-<option>Bank Code</option>
+<option>Seleccionar modo de pago</option>
+<option>Codigo bancario</option>
 <option>UBL/Omni</option>
 <option>Western Union</option>
 
@@ -77,7 +77,7 @@ $order_id = $_GET['order_id'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label>Transaction/Reference Id:</label>
+<label>ID de transacción/referencia:</label>
 
 <input type="text" class="form-control" name="ref_no" required>
 
@@ -95,7 +95,7 @@ $order_id = $_GET['order_id'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label>Payment Date:</label>
+<label>Fecha de pago:</label>
 
 <input type="text" class="form-control" name="date" required>
 
@@ -105,7 +105,7 @@ $order_id = $_GET['order_id'];
 
 <button type="submit" name="confirm_payment" class="btn btn-primary btn-lg">
 
-<i class="fa fa-user-md"></i> Confirm Payment
+<i class="fa fa-user-md"></i> Confirmar pago
 
 </button>
 

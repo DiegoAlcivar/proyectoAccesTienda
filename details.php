@@ -391,9 +391,9 @@ echo "
 
 <p class='price'>
 
-Bundle Price : <del> $$pro_price </del><br>
+Precio del paquete : <del> $$pro_price </del><br>
 
-Bundle sale Price : $$pro_psp_price
+Precio de venta del paquete : $$pro_psp_price
 
 </p>
 
@@ -423,13 +423,13 @@ Bundle Price : $$pro_price
 
 <button class="btn btn-danger" type="submit" name="add_cart">
 
-<i class="fa fa-shopping-cart" ></i> Add to Cart
+<i class="fa fa-shopping-cart" ></i> Añadir al carro
 
 </button>
 
 <button class="btn btn-warning" type="submit" name="add_wishlist">
 
-<i class="fa fa-heart" ></i> Add to Wishlist
+<i class="fa fa-heart" ></i> Añadir a la lista de deseos
 
 </button>
 
@@ -553,7 +553,7 @@ echo "Product Description";
 }
 else{
 
-echo "Bundle Description";
+echo "Descripción del paquete";
 
 }
 
@@ -563,13 +563,13 @@ echo "Bundle Description";
 
 <a class="btn btn-info tab" style="margin-bottom:10px;" href="#features" data-toggle="tab"><!-- btn btn-primary tab Starts -->
 
-Features
+Características
 
 </a><!-- btn btn-primary tab Ends -->
 
 <a class="btn btn-info tab" style="margin-bottom:10px;" href="#video" data-toggle="tab"><!-- btn btn-primary tab Starts -->
 
-Sounds and Videos
+Sonidos y Vídeos
 
 </a><!-- btn btn-primary tab Ends -->
 
