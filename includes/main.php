@@ -95,16 +95,15 @@ if(!isset($_SESSION['customer_email'])){
 
             <li class="categories__item">
               <a class="categories__link" href="localstore.php">
-                Local Stores
+                Tiendas Locales
               </a>
             </li>
 
           <li class="categories__item">
               <a class="categories__link" href="customer/my_account.php?my_orders">
                 MI CUENTA
-                <i class="icon-down-open-1"></i>
               </a>
-              <div class="dropdown dropdown--lookbook">
+            <!--  <div class="dropdown dropdown--lookbook">
                 <div class="clearfix">
                   <div class="dropdown__half">
                     <div class="dropdown__heading">Account Settings</div>
@@ -137,7 +136,7 @@ if(!isset($_SESSION['customer_email'])){
                 </div>
              
 
-              </div>
+              </div>-->
 
             </li>
 

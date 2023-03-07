@@ -76,7 +76,7 @@
             <li class="categories__item">
               <a class="categories__link" href="#">
                 Hombres
-                <i class="icon-down-open-1"></i>
+                
               </a>
               </li>
 
@@ -102,9 +102,8 @@
           <li class="categories__item">
               <a class="categories__link" href="#">
                 Mi cuenta
-                <i class="icon-down-open-1"></i>
               </a>
-              <div class="dropdown dropdown--lookbook">
+            <!--  <div class="dropdown dropdown--lookbook">
                 <div class="clearfix">
                   <div class="dropdown__half">
                     <div class="dropdown__heading">Configuraciones de la cuenta</div>
@@ -137,7 +136,7 @@
                 </div>
              
 
-              </div>
+              </div>-->
 
             </li>
 
