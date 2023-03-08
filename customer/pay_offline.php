@@ -1,10 +1,10 @@
 <center><!-- center Starts -->
 
-<h1> Pay OffLine Using Method  </h1>
+<h1>Método de pago fuera de línea </h1>
 
 <p class="text-muted" >
 
-If you have any questions, please feel free to <a href="../contact.php" >contact us,</a> our customer service center is working for you 24/7.
+Si tiene alguna pregunta, por favor siéntase libre de <a href="../contact.php" >Contacta con nosotros,</a> nuestro centro de atención al cliente está trabajando para usted 24/7.
 
 </p>
 
@@ -21,11 +21,11 @@ If you have any questions, please feel free to <a href="../contact.php" >contact
 
 <tr>
 
-<th> Bank Account Details </th>
+<th> Detalles de cuenta bancaria </th>
 
-<th> UBL Omni,Mobi Cash Details: </th>
+<th> Detalles de UBL Omni, Mobi Cash: </th>
 
-<th> Western Union Details: </th>
+<th> Detalles de Western Union: </th>
 
 </tr>
 
@@ -35,11 +35,11 @@ If you have any questions, please feel free to <a href="../contact.php" >contact
 
 <tr>
 
-<td> Bank Name:ubl Account No:03333333 Branch Code:0342 Branch Name:DemoBranch	 </td>
+<td> Nombre del banco:ubl Account No:03333333 Branch Code:0342 Nombre de la sucursal:DemoBranch	 </td>
 
-<td> NIC#001230006 Mobile No:7410000000, Name:DemoName </td>
+<td> NIC#001230006 Mobile No:7410000000, Nombre:DemoName </td>
 
-<td> Full Name:Demo Name, Mobile No:7000015000, Name:Demo, Country:US, N.I.C No:011234567
+<td> Nombre completo:Demo Name, Mobile No:7000015000, Nombre:Demo, Ciudad:US, N.I.C No:011234567
 </td>
 
 

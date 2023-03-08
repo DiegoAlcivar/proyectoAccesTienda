@@ -129,7 +129,7 @@ echo $count;
 
 <a href="index.php?delete_product=<?php echo $pro_id; ?>">
 
-<i class="fa fa-trash-o"> </i> Delete
+<i class="fa fa-trash-o"> </i> Borrar
 
 </a>
 
@@ -139,7 +139,7 @@ echo $count;
 
 <a href="index.php?edit_product=<?php echo $pro_id; ?>">
 
-<i class="fa fa-pencil"> </i> Edit
+<i class="fa fa-pencil"> </i> Editar
 
 </a>
 

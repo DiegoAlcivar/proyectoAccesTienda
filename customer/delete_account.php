@@ -1,13 +1,13 @@
 
 <center>
 
-<h1>Do You Reaaly Want To Delete Your Account!</h1>
+<h1>¿Realmente quieres eliminar tu cuenta?</h1>
 
 <form action="" method="post">
 
-<input class="btn btn-danger" type="submit" name="yes" value="Yes, I want to delete">
+<input class="btn btn-danger" type="submit" name="yes" value="Sí, quiero eliminar">
 
-<input class="btn btn-primary" type="submit" name="no" value="No, I Don,t want to delete">
+<input class="btn btn-primary" type="submit" name="no" value="No, no quiero eliminar">
 
 </form>
 
@@ -27,7 +27,7 @@ if($run_delete){
 
 session_destroy();
 
-echo "<script>alert('Your Account Has Been Deleted! Good By')</script>";
+echo "<script>alert('¡Tu cuenta ha sido eliminada! Bueno por')</script>";
 
 echo "<script>window.open('../index.php','_self')</script>";
 

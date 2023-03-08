@@ -24,7 +24,7 @@ $run_delete = mysqli_query($con,$delete_coupon);
 
 if($run_delete){
 
-echo "<script>alert('One Coupon Has Been Deleted')</script>";
+echo "<script>alert('Se ha eliminado un cupón')</script>";
 
 echo "<script> window.open('index.php?view_coupons','_self') </script>";
 

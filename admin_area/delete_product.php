@@ -24,7 +24,7 @@ $run_delete = mysqli_query($con,$delete_pro);
 
 if($run_delete){
 
-echo "<script>alert('One Product Has been deleted')</script>";
+echo "<script>alert('Se ha eliminado un producto')</script>";
 
 echo "<script>window.open('index.php?view_products','_self')</script>";
 

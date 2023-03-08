@@ -1,9 +1,9 @@
 
 <center><!-- center Starts -->
 
-<h1> My Wishlist </h1>
+<h1> Mi Lista de Deseos </h1>
 
-<p class="lead"> Your all Wishlist Products on one place. </p>
+<p class="lead">Todos sus productos de lista de deseos en un solo lugar. </p>
 
 </center><!-- center Ends -->
 
@@ -17,11 +17,11 @@
 
 <tr>
 
-<th> Wishlist No: </th>
+<th> No. de lista de deseos: </th>
 
-<th> Wishlist Product </th>
+<th> Producto de la lista de deseos </th>
 
-<th> Delete Wishlist </th>
+<th> Eliminar lista de deseos </th>
 
 </tr>
 
@@ -93,7 +93,7 @@ $i++;
 
 <a href="my_account.php?delete_wishlist=<?php echo $wishlist_id; ?>" class="btn btn-primary">
 
-<i class="fa fa-trash-o"> </i> Delete
+<i class="fa fa-trash-o"> </i>Borrar
 
 </a>
 

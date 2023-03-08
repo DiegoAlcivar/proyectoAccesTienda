@@ -124,7 +124,7 @@ $i++;
 
 <a href="index.php?customer_delete=<?php echo $c_id; ?>" >
 
-<i class="fa fa-trash-o" ></i> Delete
+<i class="fa fa-trash-o" ></i> Borrar
 
 </a>
 

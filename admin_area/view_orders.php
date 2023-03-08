@@ -182,7 +182,7 @@ echo $order_status='Completed';
 
 <a href="index.php?order_delete=<?php echo $order_id; ?>" >
 
-<i class="fa fa-trash-o" ></i> Delete
+<i class="fa fa-trash-o" ></i> Borrar
 
 </a>
 

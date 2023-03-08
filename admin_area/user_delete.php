@@ -23,7 +23,7 @@ $run_delete = mysqli_query($con,$delete_user);
 
 if($run_delete){
 
-echo "<script>alert('One User Has Been Deleted')</script>";
+echo "<script>alert('Un usuario ha sido eliminado')</script>";
 
 echo "<script>window.open('index.php?view_users','_self')</script>";
 

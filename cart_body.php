@@ -452,11 +452,11 @@ echo "
 
 <p class='buttons' >
 
-<a href='$pro_url' class='btn btn-default' >View details</a>
+<a href='$pro_url' class='btn btn-default' >Ver detalles</a>
 
 <a href='$pro_url' class='btn btn-primary'>
 
-<i class='fa fa-shopping-cart'></i> Add To Cart
+<i class='fa fa-shopping-cart'></i> Añadir a la cesta
 
 </a>
 

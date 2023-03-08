@@ -201,7 +201,7 @@ $run_check = mysqli_query($con,$check_product);
 
 if(mysqli_num_rows($run_check)>0){
 
-echo "<script>alert('This Product is already added in cart')</script>";
+echo "<script>alert('Este producto ya está agregado en el carrito')</script>";
 
 echo "<script>window.open('$pro_url','_self')</script>";
 
@@ -358,9 +358,9 @@ echo "
 
 <p class='price'>
 
-Product Price : <del> $$pro_price </del><br>
+Precio del producto : <del> $$pro_price </del><br>
 
-Product sale Price : $$pro_psp_price
+Precio de venta del producto : $$pro_psp_price
 
 </p>
 
@@ -373,7 +373,7 @@ echo "
 
 <p class='price'>
 
-Product Price : $$pro_price
+Precio del producto : $$pro_price
 
 </p>
 
@@ -406,7 +406,7 @@ echo "
 
 <p class='price'>
 
-Bundle Price : $$pro_price
+Precio del paquete : $$pro_price
 
 </p>
 
@@ -440,7 +440,7 @@ if(isset($_POST['add_wishlist'])){
 
 if(!isset($_SESSION['customer_email'])){
 
-echo "<script>alert('You Must Login To Add Product In Wishlist')</script>";
+echo "<script>alert('Debe iniciar sesión para agregar productos en la lista de deseos')</script>";
 
 echo "<script>window.open('checkout.php','_self')</script>";
 
@@ -465,7 +465,7 @@ $check_wishlist = mysqli_num_rows($run_wishlist);
 
 if($check_wishlist == 1){
 
-echo "<script>alert('This Product Has Been already Added In Wishlist')</script>";
+echo "<script>alert('Este producto ya ha sido agregado en la lista de deseos')</script>";
 
 echo "<script>window.open('$pro_url','_self')</script>";
 
@@ -478,7 +478,7 @@ $run_wishlist = mysqli_query($con,$insert_wishlist);
 
 if($run_wishlist){
 
-echo "<script> alert('Product Has Inserted Into Wishlist') </script>";
+echo "<script> alert('El producto se ha insertado en la lista de deseos') </script>";
 
 echo "<script>window.open('$pro_url','_self')</script>";
 
@@ -614,7 +614,7 @@ if($status == "product"){
 
 <div class="box same-height headline"><!-- box same-height headline Starts -->
 
-<h3 class="text-center"> You may also like these Products: We provide you top 3 product items. </h3>
+<h3 class="text-center"> También le pueden gustar estos productos: le proporcionamos los 3 mejores artículos de productos. </h3>
 
 </div><!-- box same-height headline Ends -->
 
@@ -718,11 +718,11 @@ echo "
 
 <p class='buttons' >
 
-<a href='$pro_url' class='btn btn-default' >View Details</a>
+<a href='$pro_url' class='btn btn-default' >Ver detalles</a>
 
 <a href='$pro_url' class='btn btn-danger'>
 
-<i class='fa fa-shopping-cart'></i> Add To Cart
+<i class='fa fa-shopping-cart'></i> Añadir a la cesta
 
 </a>
 
@@ -750,7 +750,7 @@ $product_label
 
 <div class="box same-height"><!-- box same-height Starts -->
 
-<h3 class="text-center"> Bundle Products </h3>
+<h3 class="text-center">Paquete de productos</h3>
 
 </div><!-- box same-height Ends -->
 
@@ -860,12 +860,11 @@ echo "
 
 <p class='buttons' >
 
-<a href='$pro_url' class='btn btn-default' >View details</a>
+<a href='$pro_url' class='btn btn-default' >Ver detalles</a>
 
 <a href='$pro_url' class='btn btn-primary'>
 
-<i class='fa fa-shopping-cart'></i> Add to cart
-
+<i class='fa fa-shopping-cart'></i> Añadir a la cesta
 </a>
 
 

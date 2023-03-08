@@ -123,7 +123,7 @@ $i++;
 
 <a href="index.php?payment_delete=<?php echo $payment_id; ?>" >
 
-<i class="fa fa-trash-o" ></i> Delete
+<i class="fa fa-trash-o" ></i> Borrar
 
 </a>
 

@@ -98,7 +98,7 @@ $i++;
 
 <a href="index.php?delete_p_cat=<?php echo $p_cat_id; ?>">
 
-<i class="fa fa-trash-o"></i> Delete
+<i class="fa fa-trash-o"></i> Borrar
 
 </a>
 
@@ -108,7 +108,7 @@ $i++;
 
 <a href="index.php?edit_p_cat=<?php echo $p_cat_id; ?>">
 
-<i class="fa fa-pencil"></i> Edit
+<i class="fa fa-pencil"></i> Editar
 
 </a>
 

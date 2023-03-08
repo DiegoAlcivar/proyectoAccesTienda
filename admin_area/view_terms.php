@@ -88,14 +88,14 @@ $term_desc = substr($row_terms['term_desc'],0,400);
 
 <a href="index.php?delete_term=<?php echo $term_id; ?>" class="pull-left">
 
-<i class="fa fa-trash-o"></i> Delete
+<i class="fa fa-trash-o"></i> Borrar
 
 </a>
 
 
 <a href="index.php?edit_term=<?php echo $term_id; ?>" class="pull-right">
 
-<i class="fa fa-pencil"></i> Edit
+<i class="fa fa-pencil"></i> Editar
 
 </a>
 

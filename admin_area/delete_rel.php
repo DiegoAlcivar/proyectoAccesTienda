@@ -24,7 +24,7 @@ $run_delete = mysqli_query($con,$delete_rel);
 
 if($run_delete){
 
-echo "<script>alert('One Relation Has Been Deleted')</script>";
+echo "<script>alert('Se ha eliminado una relación')</script>";
 
 echo "<script>window.open('index.php?view_rel','_self')</script>";
 

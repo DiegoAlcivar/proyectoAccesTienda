@@ -132,7 +132,7 @@ $i++;
 
 <a href="index.php?delete_rel=<?php echo $rel_id; ?>">
 
-<i class="fa fa-trash-o"></i> Delete
+<i class="fa fa-trash-o"></i> Borrar
 
 </a>
 
@@ -142,7 +142,7 @@ $i++;
 
 <a href="index.php?edit_rel=<?php echo $rel_id; ?>">
 
-<i class="fa fa-pencil"></i> Edit
+<i class="fa fa-pencil"></i> Editar
 
 </a>
 

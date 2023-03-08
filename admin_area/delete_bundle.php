@@ -28,7 +28,7 @@ $run_rel = mysqli_query($con,$delete_rel);
 
 if($run_rel){
 
-echo "<script>alert('One Bundle Has been deleted')</script>";
+echo "<script>alert('Se ha eliminado un paquete')</script>";
 
 echo "<script>window.open('index.php?view_bundles','_self')</script>";
 

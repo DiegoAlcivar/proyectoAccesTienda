@@ -120,7 +120,7 @@ $admin_job = $row_admin['admin_job'];
 
 <a href="index.php?user_delete=<?php echo $admin_id; ?>" >
 
-<i class="fa fa-trash-o" ></i> Delete
+<i class="fa fa-trash-o" ></i> Borrar
 
 </a>
 

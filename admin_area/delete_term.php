@@ -24,7 +24,7 @@ $run_term = mysqli_query($con,$delete_term);
 
 if($run_term){
 
-echo "<script>alert(' One Term Box Has Been Deleted ')</script>";
+echo "<script>alert(' Se ha eliminado un cuadro de término')</script>";
 
 echo "<script>window.open('index.php?view_terms','_self')</script>";
 

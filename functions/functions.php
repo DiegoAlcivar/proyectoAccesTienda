@@ -178,11 +178,11 @@ echo "
 
 <p class='buttons' >
 
-<a href='$pro_url' class='btn btn-default' >View Details</a>
+<a href='$pro_url' class='btn btn-default' >Ver detalles</a>
 
 <a href='$pro_url' class='btn btn-danger'>
 
-<i class='fa fa-shopping-cart'></i> Add To Cart
+<i class='fa fa-shopping-cart'></i> Añadir a la cesta
 
 </a>
 
@@ -385,11 +385,11 @@ echo "
 
 <p class='buttons' >
 
-<a href='$pro_url' class='btn btn-default' >View details</a>
+<a href='$pro_url' class='btn btn-default' >Ver detalles</a>
 
 <a href='$pro_url' class='btn btn-danger'>
 
-<i class='fa fa-shopping-cart' data-price=$pro_price></i> Add To Cart
+<i class='fa fa-shopping-cart' data-price=$pro_price></i> Añadir a la cesta
 
 </a>
 
@@ -506,7 +506,7 @@ echo "<li><a href='shop.php?page=1";
 
 if(!empty($aPath)){ echo "&".$aPath; }
 
-echo "' >".'First Page'."</a></li>";
+echo "' >".'Primera página'."</a></li>";
 
 for ($i=1; $i<=$total_pages; $i++){
 
@@ -518,7 +518,7 @@ echo "<li><a href='shop.php?page=$total_pages";
 
 if(!empty($aPath)){ echo "&".$aPath; }
 
-echo "' >".'Last Page'."</a></li>";
+echo "' >".'Última página'."</a></li>";
 
 /// getPaginator Function Code Ends ///
 

@@ -371,7 +371,7 @@ $check_email = mysqli_num_rows($run_email);
 
 if($check_email == 1){
 
-echo "<script>alert('This email is already registered, try another one')</script>";
+echo "<script>alert('Este correo ya está registrado, prueba con otro')</script>";
 
 exit();
 
@@ -379,7 +379,7 @@ exit();
 
 $customer_confirm_code = mt_rand();
 
-$subject = "Email Confirmation Message";
+$subject = "Mensaje de confirmación de correo electrónico";
 
 $from = "sad.ahmed22224@gmail.com";
 
@@ -418,7 +418,7 @@ if($check_cart>0){
 
 $_SESSION['customer_email']=$c_email;
 
-echo "<script>alert('You have been Registered Successfully')</script>";
+echo "<script>alert('Has sido Registrado Exitosamente')</script>";
 
 echo "<script>window.open('checkout.php','_self')</script>";
 
@@ -426,7 +426,7 @@ echo "<script>window.open('checkout.php','_self')</script>";
 
 $_SESSION['customer_email']=$c_email;
 
-echo "<script>alert('You have been Registered Successfully')</script>";
+echo "<script>alert('Has sido Registrado Exitosamente')</script>";
 
 echo "<script>window.open('index.php','_self')</script>";
 
@@ -437,7 +437,7 @@ echo "<script>window.open('index.php','_self')</script>";
 }
 else{
 
-echo "<script>alert('Please Select Captcha, Try Again')</script>";
+echo "<script>alert('Seleccione Captcha, Inténtelo de nuevo')</script>";
 
 }
 

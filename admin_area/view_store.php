@@ -102,13 +102,13 @@ $store_url = $row_store['store_url'];
 
 <a href="index.php?delete_store=<?php echo $store_id; ?>" class="pull-left">
 
-<i class="fa fa-trash-o"></i> Delete
+<i class="fa fa-trash-o"></i> Borrar
 
 </a>
 
 <a href="index.php?edit_store=<?php echo $store_id; ?>" class="pull-right">
 
-<i class="fa fa-pencil"></i> Edit
+<i class="fa fa-pencil"></i> Editar
 
 </a>
 
