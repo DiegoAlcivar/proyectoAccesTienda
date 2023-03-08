@@ -90,7 +90,7 @@ $count_coupons = mysqli_num_rows($run_coupons);
 
 <head>
 
-<title>Admin Panel</title>
+<title>Panel de administrador</title>
 
 <link href="css/bootstrap.min.css" rel="stylesheet">
 

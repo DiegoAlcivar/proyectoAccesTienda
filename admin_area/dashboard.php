@@ -25,7 +25,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard"></i> Dashboard
+<i class="fa fa-dashboard"></i> Panel
 
 </li>
 
@@ -56,7 +56,7 @@ else {
 
 <div class="huge"> <?php echo $count_products; ?> </div>
 
-<div>Products</div>
+<div>Productos</div>
 
 </div><!-- col-xs-9 text-right Ends -->
 
@@ -68,7 +68,7 @@ else {
 
 <div class="panel-footer"><!-- panel-footer Starts -->
 
-<span class="pull-left"> View Details </span>
+<span class="pull-left"> Ver Detalles </span>
 
 <span class="pull-right"> <i class="fa fa-arrow-circle-right"></i> </span>
 
@@ -101,7 +101,7 @@ else {
 
 <div class="huge"> <?php echo $count_customers; ?> </div>
 
-<div>Customers</div>
+<div>Clientes</div>
 
 </div><!-- col-xs-9 text-right Ends -->
 
@@ -113,7 +113,7 @@ else {
 
 <div class="panel-footer"><!-- panel-footer Starts -->
 
-<span class="pull-left"> View Details </span>
+<span class="pull-left"> Ver Detalles </span>
 
 <span class="pull-right"> <i class="fa fa-arrow-circle-right"></i> </span>
 
@@ -146,7 +146,7 @@ else {
 
 <div class="huge"> <?php echo $count_p_categories; ?> </div>
 
-<div>Products Categories</div>
+<div>Categorías de productos</div>
 
 </div><!-- col-xs-9 text-right Ends -->
 
@@ -158,7 +158,7 @@ else {
 
 <div class="panel-footer"><!-- panel-footer Starts -->
 
-<span class="pull-left"> View Details </span>
+<span class="pull-left"> Ver Detalles </span>
 
 <span class="pull-right"> <i class="fa fa-arrow-circle-right"></i> </span>
 
@@ -191,7 +191,7 @@ else {
 
 <div class="huge"> <?php echo $count_total_orders; ?> </div>
 
-<div>Orders</div>
+<div>Pedidos</div>
 
 </div><!-- col-xs-9 text-right Ends -->
 
@@ -203,7 +203,7 @@ else {
 
 <div class="panel-footer"><!-- panel-footer Starts -->
 
-<span class="pull-left"> View Details </span>
+<span class="pull-left"> Ver Detalles </span>
 
 <span class="pull-right"> <i class="fa fa-arrow-circle-right"></i> </span>
 
@@ -239,7 +239,7 @@ else {
         
         <div class="huge"> <?php echo $count_total_earnings ?> </div>
         
-        <div>Earnings</div>
+        <div>Ganancias</div>
         
         </div><!-- col-xs-9 text-right Ends -->
         
@@ -251,7 +251,7 @@ else {
         
         <div class="panel-footer"><!-- panel-footer Starts -->
         
-        <span class="pull-left"> View Details </span>
+        <span class="pull-left"> Ver Detalles </span>
         
         <span class="pull-right"> <i class="fa fa-arrow-circle-right"></i> </span>
         
@@ -284,7 +284,7 @@ else {
             
             <div class="huge"> <?php echo $count_pending_orders ?> </div>
             
-            <div>Pending Orders</div>
+            <div>Ordenes pendientes</div>
             
             </div><!-- col-xs-9 text-right Ends -->
             
@@ -296,7 +296,7 @@ else {
             
             <div class="panel-footer"><!-- panel-footer Starts -->
             
-            <span class="pull-left"> View Details </span>
+            <span class="pull-left"> Ver Detalles </span>
             
             <span class="pull-right"> <i class="fa fa-arrow-circle-right"></i> </span>
             
@@ -330,7 +330,7 @@ else {
                 
                 <div class="huge"> <?php echo $count_completed_orders ?> </div>
                 
-                <div>Completed Orders</div>
+                <div>Pedidos completados</div>
                 
                 </div><!-- col-xs-9 text-right Ends -->
                 
@@ -342,7 +342,7 @@ else {
                 
                 <div class="panel-footer"><!-- panel-footer Starts -->
                 
-                <span class="pull-left"> View Details </span>
+                <span class="pull-left"> Ver Detalles </span>
                 
                 <span class="pull-right"> <i class="fa fa-arrow-circle-right"></i> </span>
                 
@@ -376,7 +376,7 @@ else {
                     
                     <div class="huge"> <?php echo $count_coupons; ?> </div>
                     
-                    <div>Total Coupons</div>
+                    <div>Cupones totales</div>
                     
                     </div><!-- col-xs-9 text-right Ends -->
                     
@@ -388,7 +388,7 @@ else {
                     
                     <div class="panel-footer"><!-- panel-footer Starts -->
                     
-                    <span class="pull-left"> View Details </span>
+                    <span class="pull-left"> Ver Detalles </span>
                     
                     <span class="pull-right"> <i class="fa fa-arrow-circle-right"></i> </span>
                     
@@ -413,7 +413,7 @@ else {
 
 <h3 class="panel-title" ><!-- panel-title Starts -->
 
-<i class="fa fa-money fa-fw" ></i> New Orders
+<i class="fa fa-money fa-fw" ></i> Nuevos pedidos
 
 </h3><!-- panel-title Ends -->
 
@@ -428,13 +428,13 @@ else {
 <thead><!-- thead Starts -->
 
 <tr>
-<th>Order #</th>
-<th>Customer</th>
-<th>Invoice No</th>
-<th>Product ID</th>
-<th>Qty</th>
-<th>Size</th>
-<th>Status</th>
+<th>Orden #</th>
+<th>Cliente</th>
+<th>Factura No</th>
+<th>Producto ID</th>
+<th>Cantidad</th>
+<th>Tamaño</th>
+<th>Estado</th>
 
 
 </tr>
@@ -522,7 +522,7 @@ echo $order_status='Complete';
 
 <a href="index.php?view_orders" >
 
-View All Orders <i class="fa fa-arrow-circle-right" ></i>
+Ver todos los pedidos <i class="fa fa-arrow-circle-right" ></i>
 
 </a>
 

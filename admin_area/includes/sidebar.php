@@ -32,7 +32,7 @@ else {
 
 </button><!-- navbar-ex1-collapse Ends -->
 
-<a class="navbar-brand" href="index.php?dashboard" >Admin Panel</a>
+<a class="navbar-brand" href="index.php?dashboard" >Panel de administrador</a>
 
 
 </div><!-- navbar-header Ends -->
@@ -132,7 +132,7 @@ else {
 
 <a href="index.php?dashboard">
 
-<i class="fa fa-fw fa-dashboard"></i> Dashboard
+<i class="fa fa-fw fa-dashboard"></i> Panel
 
 </a>
 
@@ -142,7 +142,7 @@ else {
 
 <a href="#" data-toggle="collapse" data-target="#products">
 
-<i class="fa fa-fw fa-table"></i> Products
+<i class="fa fa-fw fa-table"></i> Productos
 
 <i class="fa fa-fw fa-caret-down"></i>
 
@@ -152,11 +152,11 @@ else {
 <ul id="products" class="collapse">
 
 <li>
-<a href="index.php?insert_product"> Insert Products </a>
+<a href="index.php?insert_product">Insertar productos </a>
 </li>
 
 <li>
-<a href="index.php?view_products"> View Products </a>
+<a href="index.php?view_products"> Ver productos </a>
 </li>
 
 
@@ -168,7 +168,7 @@ else {
 
 <a href="#" data-toggle="collapse" data-target="#bundles">
 
-<i class="fa fa-fw fa-edit"></i> Bundles
+<i class="fa fa-fw fa-edit"></i> Paquetes
 
 <i class="fa fa-fw fa-caret-down"></i>
 
@@ -177,11 +177,11 @@ else {
 <ul id="bundles" class="collapse">
 
 <li>
-<a href="index.php?insert_bundle"> Insert Bundle </a>
+<a href="index.php?insert_bundle"> Insertar paquete </a>
 </li>
 
 <li>
-<a href="index.php?view_bundles"> View Bundles </a>
+<a href="index.php?view_bundles"> Ver paquetes </a>
 </li>
 
 </ul>
@@ -192,7 +192,7 @@ else {
 
 <a href="#" data-toggle="collapse" data-target="#relations"><!-- anchor Starts -->
 
-<i class="fa fa-fw fa-retweet"></i> Assign Products To Bundles Relations
+<i class="fa fa-fw fa-retweet"></i> Asignar productos a relaciones de paquetes
 
 <i class="fa fa-fw fa-caret-down"></i>
 
@@ -202,14 +202,14 @@ else {
 
 <li>
 
-<a href="index.php?insert_rel"> Insert Relation </a>
+<a href="index.php?insert_rel"> Insertar relación </a>
 
 </li>
 
 
 <li>
 
-<a href="index.php?view_rel"> View Relations </a>
+<a href="index.php?view_rel"> Ver relaciones </a>
 
 </li>
 
@@ -224,8 +224,7 @@ else {
 
 <a href="#" data-toggle="collapse" data-target="#manufacturers"><!-- anchor Starts -->
 
-<i class="fa fa-fw fa-briefcase"></i> Manufacturers
-
+<i class="fa fa-fw fa-briefcase"></i> Fabricantes
 <i class="fa fa-fw fa-caret-down"></i>
 
 
@@ -234,11 +233,11 @@ else {
 <ul id="manufacturers" class="collapse"><!-- ul collapse Starts -->
 
 <li>
-<a href="index.php?insert_manufacturer"> Insert Manufacturer </a>
+<a href="index.php?insert_manufacturer"> Insertar Fabricantes </a>
 </li>
 
 <li>
-<a href="index.php?view_manufacturers"> View Manufacturers </a>
+<a href="index.php?view_manufacturers"> Ver Fabricantes </a>
 </li>
 
 </ul><!-- ul collapse Ends -->
@@ -251,7 +250,7 @@ else {
 
 <a href="#" data-toggle="collapse" data-target="#p_cat">
 
-<i class="fa fa-fw fa-pencil"></i> Products Categories
+<i class="fa fa-fw fa-pencil"></i> Categorías de productos
 
 <i class="fa fa-fw fa-caret-down"></i>
 
@@ -261,11 +260,11 @@ else {
 <ul id="p_cat" class="collapse">
 
 <li>
-<a href="index.php?insert_p_cat"> Insert Product Category </a>
+<a href="index.php?insert_p_cat"> Insertar categoría de producto </a>
 </li>
 
 <li>
-<a href="index.php?view_p_cats"> View Products Categories </a>
+<a href="index.php?view_p_cats"> Ver categorías de productos </a>
 </li>
 
 
@@ -278,7 +277,7 @@ else {
 
 <a href="#" data-toggle="collapse" data-target="#cat">
 
-<i class="fa fa-fw fa-arrows-v"></i> Categories
+<i class="fa fa-fw fa-arrows-v"></i> Categorías
 
 <i class="fa fa-fw fa-caret-down"></i>
 
@@ -287,11 +286,11 @@ else {
 <ul id="cat" class="collapse">
 
 <li>
-<a href="index.php?insert_cat"> Insert Category </a>
+<a href="index.php?insert_cat"> Insertar categoría </a>
 </li>
 
 <li>
-<a href="index.php?view_cats"> View Categories </a>
+<a href="index.php?view_cats">Ver categorías </a>
 </li>
 
 
@@ -305,7 +304,7 @@ else {
 
 <a href="#" data-toggle="collapse" data-target="#store">
 
-<i class="fa fa-fw fa-briefcase"></i> Stores
+<i class="fa fa-fw fa-briefcase"></i> Tiendas
 
 <i class="fa fa-fw fa-caret-down"></i>
 
@@ -314,11 +313,11 @@ else {
 <ul id="store" class="collapse">
 
 <li>
-<a href="index.php?insert_store"> Insert store </a>
+<a href="index.php?insert_store"> Insertar tienda </a>
 </li>
 
 <li>
-<a href="index.php?view_store"> View store </a>
+<a href="index.php?view_store"> Ver Tienda </a>
 </li>
 
 </ul>
@@ -330,7 +329,7 @@ else {
 
 <a href="#" data-toggle="collapse" data-target="#contact_us"><!-- anchor Starts -->
 
-<i class="fa fa-fw fa-pencil"> </i> Contact Us Section
+<i class="fa fa-fw fa-pencil"> </i> Sección Contáctenos
 
 <i class="fa fa-fw fa-caret-down"></i>
 
@@ -340,19 +339,19 @@ else {
 
 <li>
 
-<a href="index.php?edit_contact_us"> Edit Contact Us </a>
+<a href="index.php?edit_contact_us"> Editar Contáctenos </a>
 
 </li>
 
 <li>
 
-<a href="index.php?insert_enquiry"> Insert Enquiry Type </a>
+<a href="index.php?insert_enquiry"> Insertar tipo de consulta</a>
 
 </li>
 
 <li>
 
-<a href="index.php?view_enquiry"> View Enquiry Types </a>
+<a href="index.php?view_enquiry"> Ver tipos de consulta </a>
 
 </li>
 
@@ -364,7 +363,7 @@ else {
 
 <a href="index.php?edit_about_us">
 
-<i class="fa fa-fw fa-edit"></i> Edit About Us Page
+<i class="fa fa-fw fa-edit"></i> Editar la página Acerca de nosotros
 
 </a>
 
@@ -375,7 +374,7 @@ else {
 
 <a href="#" data-toggle="collapse" data-target="#coupons"><!-- anchor Starts -->
 
-<i class="fa fa-fw fa-arrows-v"></i> Coupons
+<i class="fa fa-fw fa-arrows-v"></i> Cupones
 
 <i class="fa fa-fw fa-caret-down"></i>
 
@@ -384,11 +383,11 @@ else {
 <ul id="coupons" class="collapse"><!-- ul collapse Starts -->
 
 <li>
-<a href="index.php?insert_coupon"> Insert Coupon </a>
+<a href="index.php?insert_coupon"> Insertar cupón </a>
 </li>
 
 <li>
-<a href="index.php?view_coupons"> View Coupons </a>
+<a href="index.php?view_coupons"> Ver cupones</a>
 </li>
 
 </ul><!-- ul collapse Ends -->
@@ -401,7 +400,7 @@ else {
 
 <a href="#" data-toggle="collapse" data-target="#terms" ><!-- anchor Starts -->
 
-<i class="fa fa-fw fa-table"></i> Terms
+<i class="fa fa-fw fa-table"></i> Términos
 
 <i class="fa fa-fw fa-caret-down"></i>
 
@@ -410,11 +409,11 @@ else {
 <ul id="terms" class="collapse"><!-- ul collapse Starts -->
 
 <li>
-<a href="index.php?insert_term"> Insert Terms </a> 
+<a href="index.php?insert_term"> Insertar términos </a> 
 </li>
 
 <li>
-<a href="index.php?view_terms"> View Terms </a> 
+<a href="index.php?view_terms"> Mostrar Terminos </a> 
 </li>
 
 </ul><!-- ul collapse Ends -->
@@ -428,7 +427,7 @@ else {
 
 <a href="index.php?view_customers">
 
-<i class="fa fa-fw fa-edit"></i> View Customers
+<i class="fa fa-fw fa-edit"></i> Ver clientes
 
 </a>
 
@@ -438,7 +437,7 @@ else {
 
 <a href="index.php?view_orders">
 
-<i class="fa fa-fw fa-list"></i> View Orders
+<i class="fa fa-fw fa-list"></i> Ver pedidos
 
 </a>
 
@@ -448,7 +447,7 @@ else {
 
 <a href="index.php?view_payments">
 
-<i class="fa fa-fw fa-pencil"></i> View Payments
+<i class="fa fa-fw fa-pencil"></i> Ver pagos
 
 </a>
 
@@ -458,7 +457,7 @@ else {
 
 <a href="#" data-toggle="collapse" data-target="#users">
 
-<i class="fa fa-fw fa-gear"></i> Users
+<i class="fa fa-fw fa-gear"></i> Usuarios
 
 <i class="fa fa-fw fa-caret-down"></i>
 
@@ -468,15 +467,15 @@ else {
 <ul id="users" class="collapse">
 
 <li>
-<a href="index.php?insert_user"> Insert User </a>
+<a href="index.php?insert_user"> Insertar usuario </a>
 </li>
 
 <li>
-<a href="index.php?view_users"> View Users </a>
+<a href="index.php?view_users"> Ver usuarios </a>
 </li>
 
 <li>
-<a href="index.php?user_profile=<?php echo $admin_id; ?>"> Edit Profile </a>
+<a href="index.php?user_profile=<?php echo $admin_id; ?>"> Editar perfil </a>
 </li>
 
 </ul>
@@ -487,7 +486,7 @@ else {
 
 <a href="logout.php">
 
-<i class="fa fa-fw fa-power-off"></i> Log Out
+<i class="fa fa-fw fa-power-off"></i> Cerrar sesión
 
 </a>
 
