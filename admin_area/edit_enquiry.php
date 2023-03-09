@@ -41,7 +41,7 @@ $enquiry_title = $row_enquiry_type['enquiry_title'];
 
 <li class="active">
 
-<i class="fa fa-dashboard" ></i> Dashboard / Edit Enquiry Type
+<i class="fa fa-dashboard" ></i> Panel / Edit Enquiry Type
 
 </li>
 

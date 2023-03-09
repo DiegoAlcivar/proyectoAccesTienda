@@ -116,7 +116,7 @@ $cat_title = $row_cat['cat_title'];
 
 <li class="active">
 
-<i class="fa fa-dashboard"> </i> Dashboard / Edit Products
+<i class="fa fa-dashboard"> </i> Panel / Editar productos
 
 </li>
 
@@ -137,7 +137,7 @@ $cat_title = $row_cat['cat_title'];
 
 <h3 class="panel-title">
 
-<i class="fa fa-money fa-fw"></i> Edit Products
+<i class="fa fa-money fa-fw"></i> Editar productos
 
 </h3>
 
@@ -149,7 +149,7 @@ $cat_title = $row_cat['cat_title'];
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Title </label>
+<label class="col-md-3 control-label" >Título del producto</label>
 
 <div class="col-md-6" >
 
@@ -162,7 +162,7 @@ $cat_title = $row_cat['cat_title'];
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Url </label>
+<label class="col-md-3 control-label" > URL del producto </label>
 
 <div class="col-md-6" >
 
@@ -172,7 +172,7 @@ $cat_title = $row_cat['cat_title'];
 
 <p style="font-size:15px; font-weight:bold;">
 
-Product Url Example : navy-blue-t-shirt
+Ejemplo de URL del producto: camiseta azul marino
 
 </p>
 
@@ -182,7 +182,7 @@ Product Url Example : navy-blue-t-shirt
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Select A Manufacturer </label>
+<label class="col-md-3 control-label" > Seleccione un fabricante </label>
 
 <div class="col-md-6" >
 
@@ -222,7 +222,7 @@ $manufacturer_title
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Category </label>
+<label class="col-md-3 control-label" > categoria de producto</label>
 
 <div class="col-md-6" >
 
@@ -259,7 +259,7 @@ echo "<option value='$p_cat_id' >$p_cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Category </label>
+<label class="col-md-3 control-label" > Categoría </label>
 
 <div class="col-md-6" >
 
@@ -295,7 +295,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Image 1 </label>
+<label class="col-md-3 control-label" > Imagen del producto 1 </label>
 
 <div class="col-md-6" >
 
@@ -308,7 +308,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Image 2 </label>
+<label class="col-md-3 control-label" >Imagen del producto 2</label>
 
 <div class="col-md-6" >
 
@@ -321,7 +321,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Image 3 </label>
+<label class="col-md-3 control-label" > Imagen del producto 3 </label>
 
 <div class="col-md-6" >
 
@@ -334,7 +334,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Price </label>
+<label class="col-md-3 control-label" > Precio del producto </label>
 
 <div class="col-md-6" >
 
@@ -346,7 +346,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Sale Price </label>
+<label class="col-md-3 control-label" > Precio de venta del producto</label>
 
 <div class="col-md-6" >
 
@@ -358,7 +358,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Keywords </label>
+<label class="col-md-3 control-label" > Palabras clave del producto </label>
 
 <div class="col-md-6" >
 
@@ -370,7 +370,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Tabs </label>
+<label class="col-md-3 control-label" > Pestañas de productos</label>
 
 <div class="col-md-6" >
 
@@ -378,19 +378,19 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <li class="active">
 
-<a data-toggle="tab" href="#description"> Product Description </a>
+<a data-toggle="tab" href="#description"> Descripción del Producto </a>
 
 </li>
 
 <li>
 
-<a data-toggle="tab" href="#features"> Product Features </a>
+<a data-toggle="tab" href="#features"> Características del producto </a>
 
 </li>
 
 <li>
 
-<a data-toggle="tab" href="#video"> Sounds And Videos </a>
+<a data-toggle="tab" href="#video"> Sonidos y videos</a>
 
 </li>
 
@@ -445,7 +445,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Label </label>
+<label class="col-md-3 control-label" > Etiqueta del producto</label>
 
 <div class="col-md-6" >
 
@@ -461,7 +461,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="col-md-6" >
 
-<input type="submit" name="update" value="Update Product" class="btn btn-primary form-control" >
+<input type="submit" name="update" value="Actualizar producto" class="btn btn-primary form-control" >
 
 </div>
 
@@ -546,7 +546,7 @@ $run_product = mysqli_query($con,$update_product);
 
 if($run_product){
 
-echo "<script> alert('Product has been updated successfully') </script>";
+echo "<script> alert('El producto ha sido actualizado con éxito') </script>";
 
 echo "<script>window.open('index.php?view_products','_self')</script>";
 

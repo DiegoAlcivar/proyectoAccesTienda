@@ -19,7 +19,7 @@ else {
 
 <li>
 
-<i class="fa fa-dashboard"></i> Dashboard / Insert Products Category
+<i class="fa fa-dashboard"></i> Panel / Insertar categoría de productos
 
 </li>
 
@@ -39,7 +39,7 @@ else {
 
 <h3 class="panel-title" ><!-- panel-title Starts -->
 
-<i class="fa fa-money fa-fw" ></i> Insert Product Category
+<i class="fa fa-money fa-fw" ></i> Insertar categoría de producto
 
 </h3><!-- panel-title Ends -->
 
@@ -53,7 +53,7 @@ else {
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" >Product Category Title</label>
+<label class="col-md-3 control-label" >Título de la categoría del producto</label>
 
 <div class="col-md-6" >
 
@@ -65,13 +65,13 @@ else {
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" >Show as Top Product Category</label>
+<label class="col-md-3 control-label" >Mostrar como categoría de producto superior</label>
 
 <div class="col-md-6" >
 
 <input type="radio" name="p_cat_top" value="yes" >
 
-<label> Yes </label>
+<label> Si </label>
 
 <input type="radio" name="p_cat_top" value="no" >
 
@@ -83,7 +83,7 @@ else {
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Select Product Category Image</label>
+<label class="col-md-3 control-label" > Seleccionar imagen de categoría de producto</label>
 
 <div class="col-md-6" >
 
@@ -99,7 +99,7 @@ else {
 
 <div class="col-md-6" >
 
-<input type="submit" name="submit" value="Submit Now" class="btn btn-primary form-control" >
+<input type="submit" name="submit" value="Subir ahora" class="btn btn-primary form-control" >
 
 </div>
 

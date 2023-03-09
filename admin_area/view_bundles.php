@@ -21,7 +21,7 @@ else {
 
 <li class="active" >
 
-<i class="fa fa-dashboard"></i> Dashboard / View Bundles
+<i class="fa fa-dashboard"></i> Panel / Ver paquetes
 
 </li>
 
@@ -41,7 +41,7 @@ else {
 
 <h3 class="panel-title" ><!-- panel-title Starts -->
 
-<i class="fa fa-money fa-fw" ></i> View Bundles
+<i class="fa fa-money fa-fw" ></i>Ver paquetes
 
 </h3><!-- panel-title Ends -->
 
@@ -58,14 +58,14 @@ else {
 
 <tr>
 <th>#</th>
-<th>Title</th>
-<th>Image</th>
-<th>Price</th>
-<th>Sold</th>
-<th>Keywords</th>
-<th>Date</th>
-<th>Delete</th>
-<th>Edit</th>
+<th>Titulo</th>
+<th>Imagen</th>
+<th>Precio</th>
+<th>Agotado</th>
+<th>Palabras clave</th>
+<th>Fecha</th>
+<th>Borrar</th>
+<th>Editar</th>
 
 
 

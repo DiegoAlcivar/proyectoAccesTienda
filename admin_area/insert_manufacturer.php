@@ -21,7 +21,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard"></i> Dashboard / Insert Manufacturer
+<i class="fa fa-dashboard"></i> Panel / Insertar Fabricante
 
 </li>
 
@@ -42,7 +42,7 @@ else {
 
 <h3 class="panel-title"><!-- panel-title Starts -->
 
-<i class="fa fa-money fa-fw"> </i> Insert Manufacturer
+<i class="fa fa-money fa-fw"> </i> Insertar Fabricante
 
 </h3><!-- panel-title Ends -->
 
@@ -54,7 +54,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Manufacturer Name </label>
+<label class="col-md-3 control-label"> Nombre del Fabricante </label>
 
 <div class="col-md-6">
 
@@ -66,13 +66,13 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Show as Top Manufacturers </label>
+<label class="col-md-3 control-label"> Mostrar como principales fabricantes </label>
 
 <div class="col-md-6">
 
 <input type="radio" name="manufacturer_top" value="yes" >
 
-<label> Yes </label>
+<label> Si </label>
 
 <input type="radio" name="manufacturer_top" value="no" >
 
@@ -84,7 +84,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Select Manufacturer Image </label>
+<label class="col-md-3 control-label"> Seleccione la imagen del fabricante </label>
 
 <div class="col-md-6">
 
@@ -100,7 +100,7 @@ else {
 
 <div class="col-md-6">
 
-<input type="submit" name="submit" class="form-control btn btn-primary" value=" Insert Manufacturer " >
+<input type="submit" name="submit" class="form-control btn btn-primary" value=" Insertar Fabricantes " >
 
 </div>
 

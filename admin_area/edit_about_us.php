@@ -41,7 +41,7 @@ $about_desc = $row_about_us['about_desc'];
 
 <li class="active">
 
-<i class="fa fa-dashboard" ></i> Dashboard / Edit About Us Page
+<i class="fa fa-dashboard" ></i> Panel / Editar la página Acerca de nosotros
 
 </li>
 

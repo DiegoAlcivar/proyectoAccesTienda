@@ -33,7 +33,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard"> </i> Dashboard / Insert Bundle
+<i class="fa fa-dashboard"> </i> Panel / Insertar paquete
 
 </li>
 
@@ -54,7 +54,7 @@ else {
 
 <h3 class="panel-title">
 
-<i class="fa fa-money fa-fw"></i> Insert Bundle
+<i class="fa fa-money fa-fw"></i> Insertar paquete
 
 </h3>
 
@@ -66,7 +66,7 @@ else {
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Bundle Title </label>
+<label class="col-md-3 control-label" > Título del paquete </label>
 
 <div class="col-md-6" >
 
@@ -79,7 +79,7 @@ else {
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Bundle Url </label>
+<label class="col-md-3 control-label" > URL del paquete </label>
 
 <div class="col-md-6" >
 
@@ -89,7 +89,7 @@ else {
 
 <p style="font-size:15px; font-weight:bold;">
 
-Bundle Url Example : navy-blue-t-shirt
+Ejemplo de URL de paquete: camiseta azul marino
 
 </p>
 
@@ -100,13 +100,13 @@ Bundle Url Example : navy-blue-t-shirt
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Select A Manufacturer </label>
+<label class="col-md-3 control-label" > Seleccione un fabricante </label>
 
 <div class="col-md-6" >
 
 <select class="form-control" name="manufacturer"><!-- select manufacturer Starts -->
 
-<option> Select A Manufacturer </option>
+<option> Seleccione un fabricante </option>
 
 <?php
 
@@ -133,13 +133,13 @@ $manufacturer_title
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Product Category </label>
+<label class="col-md-3 control-label" > categoria de producto</label>
 
 <div class="col-md-6" >
 
 <select name="product_cat" class="form-control" >
 
-<option> Select  a Product Category </option>
+<option> Seleccione una categoría de producto</option>
 
 
 <?php
@@ -170,14 +170,14 @@ echo "<option value='$p_cat_id' >$p_cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Category </label>
+<label class="col-md-3 control-label" > Categoría </label>
 
 <div class="col-md-6" >
 
 
 <select name="cat" class="form-control" >
 
-<option> Select a Category </option>
+<option> Seleccione una categoría</option>
 
 <?php
 
@@ -206,7 +206,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Bundle Image 1 </label>
+<label class="col-md-3 control-label" >Imagen del paquete 1</label>
 
 <div class="col-md-6" >
 
@@ -218,7 +218,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Bundle Image 2 </label>
+<label class="col-md-3 control-label" > Imagen del paquete 2</label>
 
 <div class="col-md-6" >
 
@@ -230,7 +230,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Bundle Image 3 </label>
+<label class="col-md-3 control-label" > Imagen del paquete 3 </label>
 
 <div class="col-md-6" >
 
@@ -242,7 +242,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Bundle Price </label>
+<label class="col-md-3 control-label" >Precio del paquete </label>
 
 <div class="col-md-6" >
 
@@ -254,7 +254,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Bundle Sale Price </label>
+<label class="col-md-3 control-label" >Precio de venta del paquete</label>
 
 <div class="col-md-6" >
 
@@ -266,7 +266,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Bundle Keywords </label>
+<label class="col-md-3 control-label" >Paquete de palabras clave </label>
 
 <div class="col-md-6" >
 
@@ -278,7 +278,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Bundle Tabs </label>
+<label class="col-md-3 control-label" > Paquete de pestañas </label>
 
 <div class="col-md-6" >
 
@@ -286,19 +286,19 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <li class="active">
 
-<a data-toggle="tab" href="#description"> Bundle Description </a>
+<a data-toggle="tab" href="#description"> Descripción del paquete</a>
 
 </li>
 
 <li>
 
-<a data-toggle="tab" href="#features"> Bundle Features </a>
+<a data-toggle="tab" href="#features"> Características del paquete </a>
 
 </li>
 
 <li>
 
-<a data-toggle="tab" href="#video"> Sounds And Videos </a>
+<a data-toggle="tab" href="#video"> Sonidos y videos</a>
 
 </li>
 
@@ -350,7 +350,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Bundle Label </label>
+<label class="col-md-3 control-label" > Etiqueta de paquete </label>
 
 <div class="col-md-6" >
 
@@ -366,7 +366,7 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 <div class="col-md-6" >
 
-<input type="submit" name="submit" value="Insert Bundle" class="btn btn-primary form-control" >
+<input type="submit" name="submit" value="Insertar paquete" class="btn btn-primary form-control" >
 
 </div>
 
@@ -431,7 +431,7 @@ $run_product = mysqli_query($con,$insert_product);
 
 if($run_product){
 
-echo "<script>alert('Bundle has been inserted successfully')</script>";
+echo "<script>alert('El paquete se ha insertado correctamente')</script>";
 
 echo "<script>window.open('index.php?view_bundles','_self')</script>";
 

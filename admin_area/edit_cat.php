@@ -45,7 +45,7 @@ $new_c_image = $row_edit['cat_image'];
 
 <li>
 
-<i class="fa fa-dashboard"></i> Dashboard / Edit Category
+<i class="fa fa-dashboard"></i> Panel / Editar categoria
 
 </li>
 
@@ -66,7 +66,7 @@ $new_c_image = $row_edit['cat_image'];
 
 <h3 class="panel-title"><!-- panel-title Starts -->
 
-<i class="fa fa-money fa-fw"></i> Edit Category
+<i class="fa fa-money fa-fw"></i> Editar categoria
 
 </h3><!-- panel-title Ends -->
 
@@ -78,7 +78,7 @@ $new_c_image = $row_edit['cat_image'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label">Category Title</label>
+<label class="col-md-3 control-label">Título de la categoría</label>
 
 <div class="col-md-6">
 
@@ -90,14 +90,14 @@ $new_c_image = $row_edit['cat_image'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label">Show as Category Top</label>
+<label class="col-md-3 control-label">Mostrar como categoría superior</label>
 
 <div class="col-md-6">
 
 <input type="radio" name="cat_top" value="yes" 
 <?php if($c_top == 'no'){}else{ echo "checked='checked'"; } ?>>
 
-<label>Yes</label>
+<label>Si</label>
 
 <input type="radio" name="cat_top" value="no" 
 <?php if($c_top == 'no'){ echo "checked='checked'"; }else{} ?>>
@@ -110,7 +110,7 @@ $new_c_image = $row_edit['cat_image'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label">Select Category Image</label>
+<label class="col-md-3 control-label">Seleccionar imagen de categoría</label>
 
 <div class="col-md-6">
 
@@ -131,7 +131,7 @@ $new_c_image = $row_edit['cat_image'];
 
 <div class="col-md-6">
 
-<input type="submit" name="update" value="Update Category" class="btn btn-primary form-control">
+<input type="submit" name="update" value="Actualizar Categoria" class="btn btn-primary form-control">
 
 </div>
 
@@ -173,7 +173,7 @@ $run_cat = mysqli_query($con,$update_cat);
 
 if($run_cat){
 
-echo "<script>alert('One Category Has Been Updated')</script>";
+echo "<script>alert('Se ha actualizado una categoría')</script>";
 
 echo "<script>window.open('index.php?view_cats','_self')</script>";
 

@@ -22,7 +22,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard"></i> Dashboard / Insert Terms
+<i class="fa fa-dashboard"></i> Panel / Insert Terms
 
 </li>
 

@@ -62,7 +62,7 @@ $product_title = $row_products['product_title'];
 
 <li class="active">
 
-<i class="fa fa-dashboard"> </i> Dashboard / Edit Coupon
+<i class="fa fa-dashboard"> </i> Panel / Edit Coupon
 
 </li>
 

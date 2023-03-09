@@ -19,7 +19,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard"></i> Dashboard / View Products Categories
+<i class="fa fa-dashboard"></i> Panel / Ver categorías de productos
 
 </li>
 
@@ -40,7 +40,7 @@ else {
 
 <h3 class="panel-title"><!-- panel-title Starts -->
 
-<i class="fa fa-money fa-fw"> </i> View Products Categories
+<i class="fa fa-money fa-fw"> </i> Ver categorías de productos
 
 </h3><!-- panel-title Ends -->
 

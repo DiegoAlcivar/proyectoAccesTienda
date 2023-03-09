@@ -41,7 +41,7 @@ $contact_desc = $row_contact_us['contact_desc'];
 
 <li class="active">
 
-<i class="fa fa-dashboard" ></i> Dashboard / Edit Contact Us
+<i class="fa fa-dashboard" ></i> Panel / Edit Contact Us
 
 </li>
 

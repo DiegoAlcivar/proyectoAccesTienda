@@ -20,7 +20,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard"></i> Dashboard / Insert Relation
+<i class="fa fa-dashboard"></i> Panel / Insertar relación
 
 </li>
 
@@ -41,7 +41,7 @@ else {
 
 <h3 class="panel-title"><!-- panel-title Starts -->
 
-<i  class="fa fa-money fa-fw"></i> Insert Relation
+<i  class="fa fa-money fa-fw"></i>Insertar relación
 
 </h3><!-- panel-title Ends -->
 
@@ -53,7 +53,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Relation Title  </label>
+<label class="col-md-3 control-label"> Título de la relación  </label>
 
 <div class="col-md-6">
 
@@ -65,13 +65,13 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Select Product  </label>
+<label class="col-md-3 control-label"> Seleccionar producto </label>
 
 <div class="col-md-6">
 
 <select name="product_id" class="form-control">
 
-<option> Select Product </option>
+<option> Seleccionar producto </option>
 
 <?php
 
@@ -99,13 +99,13 @@ echo "<option value='$p_id'> $p_title </option>";
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Select Bundle  </label>
+<label class="col-md-3 control-label"> Seleccionar paquete  </label>
 
 <div class="col-md-6">
 
 <select name="bundle_id" class="form-control">
 
-<option> Select Bundle </option>
+<option>Seleccionar paquete </option>
 
 <?php
 
@@ -138,7 +138,7 @@ echo "<option value='$p_id'> $p_title </option>";
 
 <div class="col-md-6">
 
-<input type="submit" name="submit" class="btn btn-primary form-control" value="Insert Relation">
+<input type="submit" name="submit" class="btn btn-primary form-control" value="Insertar relación">
 
 </div>
 
@@ -171,7 +171,7 @@ $run_rel = mysqli_query($con,$insert_rel);
 
 if($run_rel){
 
-echo "<script>alert('New Relation Has Been Inserted')</script>";
+echo "<script>alert('Se ha insertado una nueva relación')</script>";
 
 echo "<script>window.open('index.php?view_rel','_self')</script>";
 

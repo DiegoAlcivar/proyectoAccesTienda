@@ -46,7 +46,7 @@ $new_p_cat_image = $row_edit['p_cat_image'];
 
 <li>
 
-<i class="fa fa-dashboard"></i> Dashboard / Edit Product Category
+<i class="fa fa-dashboard"></i> Panel / Edit Product Category
 
 </li>
 
