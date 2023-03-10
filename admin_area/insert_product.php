@@ -1,444 +1,425 @@
 <?php
 
-if(!isset($_SESSION['admin_email'])){
+if (!isset($_SESSION['admin_email'])) {
 
-echo "<script>window.open('login.php','_self')</script>";
-
-}
-
-else {
+  echo "<script>window.open('login.php','_self')</script>";
+} else {
 
 ?>
-<!DOCTYPE html>
+  <!DOCTYPE html>
 
-<html>
+  <html>
 
-<head>
+  <head>
 
-<title>Insertar productos </title>
+    <title>Insertar productos </title>
 
 
-<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
-  <script>tinymce.init({ selector:'#product_desc,#product_features' });</script>
+    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+    <script>
+      tinymce.init({
+        selector: '#product_desc,#product_features'
+      });
+    </script>
 
-</head>
+  </head>
 
-<body>
+  <body>
 
-<div class="row"><!-- row Starts -->
+    <div class="row"><!-- row Starts -->
 
-<div class="col-lg-12"><!-- col-lg-12 Starts -->
+      <div class="col-lg-12"><!-- col-lg-12 Starts -->
 
-<ol class="breadcrumb"><!-- breadcrumb Starts -->
+        <ol class="breadcrumb"><!-- breadcrumb Starts -->
 
-<li class="active">
+          <li class="active">
 
-<i class="fa fa-dashboard"> </i> Panel /Insertar productos
+            <i class="fa fa-dashboard"> </i> Panel /Insertar productos
 
-</li>
+          </li>
 
-</ol><!-- breadcrumb Ends -->
+        </ol><!-- breadcrumb Ends -->
 
-</div><!-- col-lg-12 Ends -->
+      </div><!-- col-lg-12 Ends -->
 
-</div><!-- row Ends -->
+    </div><!-- row Ends -->
 
 
-<div class="row"><!-- 2 row Starts --> 
+    <div class="row"><!-- 2 row Starts -->
 
-<div class="col-lg-12"><!-- col-lg-12 Starts -->
+      <div class="col-lg-12"><!-- col-lg-12 Starts -->
 
-<div class="panel panel-default"><!-- panel panel-default Starts -->
+        <div class="panel panel-default"><!-- panel panel-default Starts -->
 
-<div class="panel-heading"><!-- panel-heading Starts -->
+          <div class="panel-heading"><!-- panel-heading Starts -->
 
-<h3 class="panel-title">
+            <h3 class="panel-title">
 
-<i class="fa fa-money fa-fw"></i> Insertar productos
+              <i class="fa fa-money fa-fw"></i> Insertar productos
 
-</h3>
+            </h3>
 
-</div><!-- panel-heading Ends -->
+          </div><!-- panel-heading Ends -->
 
-<div class="panel-body"><!-- panel-body Starts -->
+          <div class="panel-body"><!-- panel-body Starts -->
 
-<form class="form-horizontal" method="post" enctype="multipart/form-data"><!-- form-horizontal Starts -->
+            <form class="form-horizontal" method="post" enctype="multipart/form-data"><!-- form-horizontal Starts -->
 
-<div class="form-group" ><!-- form-group Starts -->
+              <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Titulo del producto </label>
+                <label class="col-md-3 control-label"> Titulo del producto </label>
 
-<div class="col-md-6" >
+                <div class="col-md-6">
 
-<input type="text" name="product_title" class="form-control" required >
+                  <input type="text" name="product_title" class="form-control" required>
 
-</div>
+                </div>
 
-</div><!-- form-group Ends -->
+              </div><!-- form-group Ends -->
 
 
-<div class="form-group" ><!-- form-group Starts -->
+              <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > URL del producto</label>
+                <label class="col-md-3 control-label"> URL del producto</label>
 
-<div class="col-md-6" >
+                <div class="col-md-6">
 
-<input type="text" name="product_url" class="form-control" required >
+                  <input type="text" name="product_url" class="form-control" required>
 
-<br>
+                  <br>
 
-<p style="font-size:15px; font-weight:bold;">
+                  <p style="font-size:15px; font-weight:bold;">
 
-Ejemplo de URL del producto: camiseta azul marino
+                    Ejemplo de URL del producto: camiseta azul marino
 
-</p>
+                  </p>
 
-</div>
+                </div>
 
-</div><!-- form-group Ends -->
+              </div><!-- form-group Ends -->
 
 
-<div class="form-group" ><!-- form-group Starts -->
+              <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" > Seleccione un fabricante </label>
+                <label class="col-md-3 control-label"> Seleccione un fabricante </label>
 
-<div class="col-md-6" >
+                <div class="col-md-6">
 
-<select class="form-control" name="manufacturer"><!-- select manufacturer Starts -->
+                  <select class="form-control" name="manufacturer"><!-- select manufacturer Starts -->
 
-<option> Seleccione un fabricante </option>
+                    <option> Seleccione un fabricante </option>
 
-<?php
+                    <?php
 
-$get_manufacturer = "select * from manufacturers";
-$run_manufacturer = mysqli_query($con,$get_manufacturer);
-while($row_manufacturer= mysqli_fetch_array($run_manufacturer)){
-$manufacturer_id = $row_manufacturer['manufacturer_id'];
-$manufacturer_title = $row_manufacturer['manufacturer_title'];
+                    $get_manufacturer = "select * from manufacturers";
+                    $run_manufacturer = mysqli_query($con, $get_manufacturer);
+                    while ($row_manufacturer = mysqli_fetch_array($run_manufacturer)) {
+                      $manufacturer_id = $row_manufacturer['manufacturer_id'];
+                      $manufacturer_title = $row_manufacturer['manufacturer_title'];
 
-echo "<option value='$manufacturer_id'>
-$manufacturer_title
-</option>";
+                      echo "<option value='$manufacturer_id'>
+                                          $manufacturer_title
+                                          </option>";
+                    }
 
-}
+                    ?>
 
-?>
+                  </select><!-- select manufacturer Ends -->
 
-</select><!-- select manufacturer Ends -->
+                </div>
 
-</div>
+              </div><!-- form-group Ends -->
 
-</div><!-- form-group Ends -->
 
+              <div class="form-group"><!-- form-group Starts -->
 
-<div class="form-group" ><!-- form-group Starts -->
+                <label class="col-md-3 control-label"> categoria de producto</label>
 
-<label class="col-md-3 control-label" > categoria de producto</label>
+                <div class="col-md-6">
 
-<div class="col-md-6" >
+                  <select name="product_cat" class="form-control">
 
-<select name="product_cat" class="form-control" >
+                    <option>Seleccione una categoría de producto </option>
 
-<option>Seleccione una categoría de producto </option>
 
+                    <?php
 
-<?php
+                    $get_p_cats = "select * from product_categories";
 
-$get_p_cats = "select * from product_categories";
+                    $run_p_cats = mysqli_query($con, $get_p_cats);
 
-$run_p_cats = mysqli_query($con,$get_p_cats);
+                    while ($row_p_cats = mysqli_fetch_array($run_p_cats)) {
 
-while ($row_p_cats=mysqli_fetch_array($run_p_cats)) {
+                      $p_cat_id = $row_p_cats['p_cat_id'];
 
-$p_cat_id = $row_p_cats['p_cat_id'];
+                      $p_cat_title = $row_p_cats['p_cat_title'];
 
-$p_cat_title = $row_p_cats['p_cat_title'];
+                      echo "<option value='$p_cat_id' >$p_cat_title</option>";
+                    }
 
-echo "<option value='$p_cat_id' >$p_cat_title</option>";
 
-}
+                    ?>
 
 
-?>
+                  </select>
 
+                </div>
 
-</select>
+              </div><!-- form-group Ends -->
 
-</div>
+              <div class="form-group"><!-- form-group Starts -->
 
-</div><!-- form-group Ends -->
+                <label class="col-md-3 control-label"> Categoría </label>
 
-<div class="form-group" ><!-- form-group Starts -->
+                <div class="col-md-6">
 
-<label class="col-md-3 control-label" > Categoría </label>
 
-<div class="col-md-6" >
+                  <select name="cat" class="form-control">
 
+                    <option> Seleccione una categoría </option>
 
-<select name="cat" class="form-control" >
+                    <?php
 
-<option> Seleccione una categoría </option>
+                    $get_cat = "select * from categories ";
 
-<?php
+                    $run_cat = mysqli_query($con, $get_cat);
 
-$get_cat = "select * from categories ";
+                    while ($row_cat = mysqli_fetch_array($run_cat)) {
 
-$run_cat = mysqli_query($con,$get_cat);
+                      $cat_id = $row_cat['cat_id'];
 
-while ($row_cat=mysqli_fetch_array($run_cat)) {
+                      $cat_title = $row_cat['cat_title'];
 
-$cat_id = $row_cat['cat_id'];
+                      echo "<option value='$cat_id'>$cat_title</option>";
+                    }
 
-$cat_title = $row_cat['cat_title'];
+                    ?>
 
-echo "<option value='$cat_id'>$cat_title</option>";
 
-}
+                  </select>
 
-?>
+                </div>
 
+              </div><!-- form-group Ends -->
 
-</select>
+              <div class="form-group"><!-- form-group Starts -->
 
-</div>
+                <label class="col-md-3 control-label"> Imagen del producto 1</label>
 
-</div><!-- form-group Ends -->
+                <div class="col-md-6">
 
-<div class="form-group" ><!-- form-group Starts -->
+                  <input type="file" name="product_img1" class="form-control" required>
 
-<label class="col-md-3 control-label" > Imagen del producto 1</label>
+                </div>
 
-<div class="col-md-6" >
+              </div><!-- form-group Ends -->
 
-<input type="file" name="product_img1" class="form-control" required >
+              <div class="form-group"><!-- form-group Starts -->
 
-</div>
+                <label class="col-md-3 control-label"> Imagen del producto 2 </label>
 
-</div><!-- form-group Ends -->
+                <div class="col-md-6">
 
-<div class="form-group" ><!-- form-group Starts -->
+                  <input type="file" name="product_img2" class="form-control" required>
 
-<label class="col-md-3 control-label" > Imagen del producto 2 </label>
+                </div>
 
-<div class="col-md-6" >
+              </div><!-- form-group Ends -->
 
-<input type="file" name="product_img2" class="form-control" required >
+              <div class="form-group"><!-- form-group Starts -->
 
-</div>
+                <label class="col-md-3 control-label"> Imagen del producto 3</label>
 
-</div><!-- form-group Ends -->
+                <div class="col-md-6">
 
-<div class="form-group" ><!-- form-group Starts -->
+                  <input type="file" name="product_img3" class="form-control" required>
 
-<label class="col-md-3 control-label" > Imagen del producto 3</label>
+                </div>
 
-<div class="col-md-6" >
+              </div><!-- form-group Ends -->
 
-<input type="file" name="product_img3" class="form-control" required >
+              <div class="form-group"><!-- form-group Starts -->
 
-</div>
+                <label class="col-md-3 control-label"> Precio del producto</label>
 
-</div><!-- form-group Ends -->
+                <div class="col-md-6">
 
-<div class="form-group" ><!-- form-group Starts -->
+                  <input type="text" name="product_price" class="form-control" required>
 
-<label class="col-md-3 control-label" > Precio del producto</label>
+                </div>
 
-<div class="col-md-6" >
+              </div><!-- form-group Ends -->
 
-<input type="text" name="product_price" class="form-control" required >
+              <div class="form-group"><!-- form-group Starts -->
 
-</div>
+                <label class="col-md-3 control-label"> Precio de venta del producto </label>
 
-</div><!-- form-group Ends -->
+                <div class="col-md-6">
 
-<div class="form-group" ><!-- form-group Starts -->
+                  <input type="text" name="psp_price" class="form-control" required>
 
-<label class="col-md-3 control-label" > Precio de venta del producto </label>
+                </div>
 
-<div class="col-md-6" >
+              </div><!-- form-group Ends -->
 
-<input type="text" name="psp_price" class="form-control" required >
+              <div class="form-group"><!-- form-group Starts -->
 
-</div>
+                <label class="col-md-3 control-label"> Palabras clave del producto </label>
 
-</div><!-- form-group Ends -->
+                <div class="col-md-6">
 
-<div class="form-group" ><!-- form-group Starts -->
+                  <input type="text" name="product_keywords" class="form-control" required>
 
-<label class="col-md-3 control-label" > Palabras clave del producto </label>
+                </div>
 
-<div class="col-md-6" >
+              </div><!-- form-group Ends -->
 
-<input type="text" name="product_keywords" class="form-control" required >
+              <div class="form-group"><!-- form-group Starts -->
 
-</div>
+                <label class="col-md-3 control-label"> Pestañas de productos</label>
 
-</div><!-- form-group Ends -->
+                <div class="col-md-6">
 
-<div class="form-group" ><!-- form-group Starts -->
+                  <ul class="nav nav-tabs"><!-- nav nav-tabs Starts -->
 
-<label class="col-md-3 control-label" > Pestañas de productos</label>
+                    <li class="active">
 
-<div class="col-md-6" >
+                      <a data-toggle="tab" href="#description"> Descripción del Producto </a>
 
-<ul class="nav nav-tabs"><!-- nav nav-tabs Starts -->
+                    </li>
 
-<li class="active">
+                    <li>
 
-<a data-toggle="tab" href="#description"> Descripción del Producto </a>
+                      <a data-toggle="tab" href="#features"> Características del producto</a>
 
-</li>
+                    </li>
 
-<li>
+                  </ul><!-- nav nav-tabs Ends -->
 
-<a data-toggle="tab" href="#features"> Características del producto</a>
+                  <div class="tab-content"><!-- tab-content Starts -->
 
-</li>
+                    <div id="description" class="tab-pane fade in active"><!-- description tab-pane fade in active Starts -->
 
-<li>
+                      <br>
 
-<a data-toggle="tab" href="#video"> Características del producto</a>
+                      <textarea name="product_desc" class="form-control" rows="15" id="product_desc"></textarea>
 
-</li>
+                    </div><!-- description tab-pane fade in active Ends -->
 
-</ul><!-- nav nav-tabs Ends -->
 
-<div class="tab-content"><!-- tab-content Starts -->
+                    <div id="features" class="tab-pane fade in"><!-- features tab-pane fade in Starts -->
 
-<div id="description" class="tab-pane fade in active"><!-- description tab-pane fade in active Starts -->
+                      <br>
 
-<br>
+                      <textarea name="product_features" class="form-control" rows="15" id="product_features"></textarea>
 
-<textarea name="product_desc" class="form-control" rows="15" id="product_desc">
+                    </div><!-- features tab-pane fade in Ends -->
 
 
-</textarea>
+                    <div id="video" class="tab-pane fade in"><!-- video tab-pane fade in Starts -->
 
-</div><!-- description tab-pane fade in active Ends -->
+                      <br>
 
+                      <textarea name="product_video" class="form-control" rows="15"></textarea>
 
-<div id="features" class="tab-pane fade in"><!-- features tab-pane fade in Starts -->
+                    </div><!-- video tab-pane fade in Ends -->
 
-<br>
 
-<textarea name="product_features" class="form-control" rows="15" id="product_features">
+                  </div><!-- tab-content Ends -->
 
+                </div>
 
-</textarea>
+              </div><!-- form-group Ends -->
 
-</div><!-- features tab-pane fade in Ends -->
+              <div class="form-group"><!-- form-group Starts -->
 
+                <label class="col-md-3 control-label"> Etiqueta del producto </label>
 
-<div id="video" class="tab-pane fade in"><!-- video tab-pane fade in Starts -->
+                <div class="col-md-6">
 
-<br>
+                  <input type="text" name="product_label" class="form-control" required>
 
-<textarea name="product_video" class="form-control" rows="15">
+                </div>
 
+              </div><!-- form-group Ends -->
 
-</textarea>
+              <div class="form-group"><!-- form-group Starts -->
 
-</div><!-- video tab-pane fade in Ends -->
+                <label class="col-md-3 control-label"></label>
 
+                <div class="col-md-6">
 
-</div><!-- tab-content Ends -->
+                  <input type="submit" name="submit" value="Insertar producto" class="btn btn-primary form-control">
 
-</div>
+                </div>
 
-</div><!-- form-group Ends -->
+              </div><!-- form-group Ends -->
 
-<div class="form-group" ><!-- form-group Starts -->
+            </form><!-- form-horizontal Ends -->
 
-<label class="col-md-3 control-label" > Etiqueta del producto </label>
+          </div><!-- panel-body Ends -->
 
-<div class="col-md-6" >
+        </div><!-- panel panel-default Ends -->
 
-<input type="text" name="product_label" class="form-control" required >
+      </div><!-- col-lg-12 Ends -->
 
-</div>
+    </div><!-- 2 row Ends -->
 
-</div><!-- form-group Ends -->
 
-<div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-3 control-label" ></label>
 
-<div class="col-md-6" >
+  </body>
 
-<input type="submit" name="submit" value="Insertar producto" class="btn btn-primary form-control" >
+  </html>
 
-</div>
+  <?php
 
-</div><!-- form-group Ends -->
+  if (isset($_POST['submit'])) {
 
-</form><!-- form-horizontal Ends -->
+    $product_title = $_POST['product_title'];
+    $product_cat = $_POST['product_cat'];
+    $cat = $_POST['cat'];
+    $manufacturer_id = $_POST['manufacturer'];
+    $product_price = $_POST['product_price'];
+    $product_desc = $_POST['product_desc'];
+    $product_keywords = $_POST['product_keywords'];
 
-</div><!-- panel-body Ends -->
+    $psp_price = $_POST['psp_price'];
 
-</div><!-- panel panel-default Ends -->
+    $product_label = $_POST['product_label'];
 
-</div><!-- col-lg-12 Ends -->
+    $product_url = $_POST['product_url'];
 
-</div><!-- 2 row Ends --> 
+    $product_features = $_POST['product_features'];
 
+    $product_video = $_POST['product_video'];
 
+    $status = "product";
 
+    $product_img1 = $_FILES['product_img1']['name'];
+    $product_img2 = $_FILES['product_img2']['name'];
+    $product_img3 = $_FILES['product_img3']['name'];
 
-</body>
+    $temp_name1 = $_FILES['product_img1']['tmp_name'];
+    $temp_name2 = $_FILES['product_img2']['tmp_name'];
+    $temp_name3 = $_FILES['product_img3']['tmp_name'];
 
-</html>
+    move_uploaded_file($temp_name1, "product_images/$product_img1");
+    move_uploaded_file($temp_name2, "product_images/$product_img2");
+    move_uploaded_file($temp_name3, "product_images/$product_img3");
 
-<?php
+    $insert_product = "insert into products (p_cat_id,cat_id,manufacturer_id,date,product_title,product_url,product_img1,product_img2,product_img3,product_price,product_psp_price,product_desc,product_features,product_video,product_keywords,product_label,status) values ('$product_cat','$cat','$manufacturer_id',NOW(),'$product_title','$product_url','$product_img1','$product_img2','$product_img3','$product_price','$psp_price','$product_desc','$product_features','$product_video','$product_keywords','$product_label','$status')";
 
-if(isset($_POST['submit'])){
+    $run_product = mysqli_query($con, $insert_product);
 
-$product_title = $_POST['product_title'];
-$product_cat = $_POST['product_cat'];
-$cat = $_POST['cat'];
-$manufacturer_id = $_POST['manufacturer'];
-$product_price = $_POST['product_price'];
-$product_desc = $_POST['product_desc'];
-$product_keywords = $_POST['product_keywords'];
+    if ($run_product) {
 
-$psp_price = $_POST['psp_price'];
+      echo "<script>alert('El producto ha sido insertado con éxito')</script>";
 
-$product_label = $_POST['product_label'];
+      echo "<script>window.open('index.php?view_products','_self')</script>";
+    }
+  }
 
-$product_url = $_POST['product_url'];
-
-$product_features = $_POST['product_features'];
-
-$product_video = $_POST['product_video'];
-
-$status = "product";
-
-$product_img1 = $_FILES['product_img1']['name'];
-$product_img2 = $_FILES['product_img2']['name'];
-$product_img3 = $_FILES['product_img3']['name'];
-
-$temp_name1 = $_FILES['product_img1']['tmp_name'];
-$temp_name2 = $_FILES['product_img2']['tmp_name'];
-$temp_name3 = $_FILES['product_img3']['tmp_name'];
-
-move_uploaded_file($temp_name1,"product_images/$product_img1");
-move_uploaded_file($temp_name2,"product_images/$product_img2");
-move_uploaded_file($temp_name3,"product_images/$product_img3");
-
-$insert_product = "insert into products (p_cat_id,cat_id,manufacturer_id,date,product_title,product_url,product_img1,product_img2,product_img3,product_price,product_psp_price,product_desc,product_features,product_video,product_keywords,product_label,status) values ('$product_cat','$cat','$manufacturer_id',NOW(),'$product_title','$product_url','$product_img1','$product_img2','$product_img3','$product_price','$psp_price','$product_desc','$product_features','$product_video','$product_keywords','$product_label','$status')";
-
-$run_product = mysqli_query($con,$insert_product);
-
-if($run_product){
-
-echo "<script>alert('El producto ha sido insertado con éxito')</script>";
-
-echo "<script>window.open('index.php?view_products','_self')</script>";
-
-}
-
-}
-
-?>
+  ?>
 
 <?php } ?>
