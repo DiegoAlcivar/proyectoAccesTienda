@@ -10,50 +10,42 @@ include("includes/main.php");
 ?>
 
 
-  <!-- MAIN -->
-  <main>
-    <!-- HERO -->
-    <div class="nero">
-      <div class="nero__heading">
+<!-- MAIN -->
+<main>
+  <!-- HERO -->
+  <div class="nero">
+    <div class="nero__heading">
       <!--  <span class="nero__bold">..</span>-->
-      </div>
-      <p class="nero__text">
-      </p>
     </div>
-  </main>
+    <p class="nero__text">
+    </p>
+  </div>
+</main>
+
+<div id="content"><!-- content Starts -->
+  <div class="container"><!-- container Starts -->
+
+    <div class="col-md-12"><!-- col-md-12 Starts -->
+
+      <?php
+
+      if (!isset($_SESSION['customer_email'])) {
+
+        include("customer/customer_login.php");
+      } else {
+
+        include("payment_options.php");
+      }
 
 
 
-<div id="content" ><!-- content Starts -->
-<div class="container" ><!-- container Starts -->
+      ?>
 
 
+    </div><!-- col-md-12 Ends -->
 
 
-<div class="col-md-12" ><!-- col-md-12 Starts -->
-
-<?php
-
-if(!isset($_SESSION['customer_email'])){
-
-include("customer/customer_login.php");
-
-
-}else{
-
-include("payment_options.php");
-
-}
-
-
-
-?>
-
-
-</div><!-- col-md-12 Ends -->
-
-
-</div><!-- container Ends -->
+  </div><!-- container Ends -->
 </div><!-- content Ends -->
 
 
@@ -69,4 +61,5 @@ include("includes/footer.php");
 <script src="js/bootstrap.min.js"></script>
 
 </body>
+
 </html>

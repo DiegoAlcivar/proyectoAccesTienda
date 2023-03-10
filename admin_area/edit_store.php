@@ -30,8 +30,6 @@ $store_id = $row_store['store_id'];
 
 $store_title = $row_store['store_title'];
 
-$store_image = $row_store['store_store'];
-
 $store_desc = $row_store['store_desc'];
 
 $store_button = $row_store['store_button'];

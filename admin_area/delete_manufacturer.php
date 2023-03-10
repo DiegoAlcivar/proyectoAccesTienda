@@ -24,7 +24,7 @@ $run_manufacturer = mysqli_query($con,$delete_manufacturer);
 
 if($run_manufacturer){
 
-echo "<script>alert('Se ha eliminado un fabricante')</script>";
+echo "<script>alert('Se ha eliminado el fabricante')</script>";
 echo "<script>window.open('index.php?view_manufacturers','_self')</script>";
 
 }

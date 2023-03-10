@@ -2,10 +2,9 @@
 
 <body>
 
-  <header class="page-header">
     <!-- topline -->
-    <div class="page-header__topline">
-      <div class="container clearfix">
+    <div class="page-header__topline container-fluid">
+      <div class=" clearfix col-8 col-md-12">
 
         <div class="currency">
           <a class="currency__change" href="customer/my_account.php?my_orders">
@@ -144,4 +143,3 @@ if(!isset($_SESSION['customer_email'])){
         </nav>
       </div>
     </div>
-  </header>

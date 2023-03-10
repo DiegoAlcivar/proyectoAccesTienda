@@ -18,7 +18,7 @@ $get_product = "select * from products where product_url='$product_id'";
 
 $run_product = mysqli_query($con,$get_product);
 
-$check_product = mysqli_num_rows($run_product);
+$check_product = mysqli_num_rows($run_product); 
 
 if($check_product == 0){
 
