@@ -51,7 +51,7 @@ $new_s_image = $row_store['store_image'];
 
 <li class="active">
 
-<i class="fa fa-dashboard" ></i> Panel / Editar tienda
+<i class="fa fa-dashboard" ></i> Dashboard / Editar tienda
 
 </li>
 

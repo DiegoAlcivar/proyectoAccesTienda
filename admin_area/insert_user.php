@@ -21,7 +21,7 @@ else {
 
 <li class="active" >
 
-<i class="fa fa-dashboard" ></i> Panel / Insert User
+<i class="fa fa-dashboard" ></i> Dashboard / Insertar Usuario
 
 </li>
 

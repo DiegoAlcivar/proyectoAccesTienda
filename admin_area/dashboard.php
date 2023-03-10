@@ -22,7 +22,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                 <li class="active">
 
-                    <i class="fa fa-dashboard"></i> Panel
+                    <i class="fa fa-dashboard"></i> Dashboard
 
                 </li>
 

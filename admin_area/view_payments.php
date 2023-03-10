@@ -21,7 +21,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard"></i> Panel / View Payments
+<i class="fa fa-dashboard"></i> Dashboard / Ver Pagos
 
 </li>
 

@@ -61,7 +61,7 @@ $admin_about = $row_admin['admin_about'];
 
 <li class="active" >
 
-<i class="fa fa-dashboard" ></i> Panel / Edit Profile
+<i class="fa fa-dashboard" ></i> Dashboard / Editar Perfil
 
 </li>
 

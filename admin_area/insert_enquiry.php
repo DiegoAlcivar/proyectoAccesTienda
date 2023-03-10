@@ -20,7 +20,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard" ></i> Panel / Insert Enquiry Type
+<i class="fa fa-dashboard" ></i> Dashboard / Insertar tipo de Solicitud
 
 </li>
 

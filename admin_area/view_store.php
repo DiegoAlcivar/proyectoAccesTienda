@@ -23,7 +23,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard" ></i> Panel / Ver Tienda
+<i class="fa fa-dashboard" ></i> Dashboard / Ver Tienda
 
 </li>
 

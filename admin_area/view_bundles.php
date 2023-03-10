@@ -21,7 +21,7 @@ else {
 
 <li class="active" >
 
-<i class="fa fa-dashboard"></i> Panel / Ver paquetes
+<i class="fa fa-dashboard"></i> Dashboard / Ver paquetes
 
 </li>
 

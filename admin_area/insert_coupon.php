@@ -21,7 +21,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard"> </i> Panel / Insert Coupon
+<i class="fa fa-dashboard"> </i> Dashboard / Insertar Cupon
 
 </li>
 

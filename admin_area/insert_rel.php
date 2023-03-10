@@ -20,7 +20,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard"></i> Panel / Insertar relación
+<i class="fa fa-dashboard"></i> Dashboard / Insertar relación
 
 </li>
 

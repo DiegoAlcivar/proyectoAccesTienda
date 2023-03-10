@@ -34,7 +34,7 @@ if (!isset($_SESSION['admin_email'])) {
 
           <li class="active">
 
-            <i class="fa fa-dashboard"> </i> Panel /Insertar productos
+            <i class="fa fa-dashboard"> </i> Dashboard /Insertar productos
 
           </li>
 

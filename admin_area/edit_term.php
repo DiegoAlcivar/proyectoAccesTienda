@@ -47,7 +47,7 @@ $term_desc = $row_term['term_desc'];
 
 <li class="active">
 
-<i class="fa fa-dashboard"></i> Panel / Edit Terms
+<i class="fa fa-dashboard"></i> Dashboard / Editar Términos
 
 </li>
 

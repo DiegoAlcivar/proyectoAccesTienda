@@ -22,7 +22,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard" ></i> Panel / Insertar Tienda
+<i class="fa fa-dashboard" ></i> Dashboard / Insertar Tienda
 
 </li>
 

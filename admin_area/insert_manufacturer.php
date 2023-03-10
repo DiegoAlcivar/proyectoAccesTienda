@@ -21,7 +21,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard"></i> Panel / Insertar Fabricante
+<i class="fa fa-dashboard"></i> Dashboard / Insertar Fabricante
 
 </li>
 

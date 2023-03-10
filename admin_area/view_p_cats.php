@@ -19,7 +19,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard"></i> Panel / Ver categorías de productos
+<i class="fa fa-dashboard"></i> Dashboard / Ver categorías de productos
 
 </li>
 

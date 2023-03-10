@@ -33,7 +33,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard"> </i> Panel / Insertar paquete
+<i class="fa fa-dashboard"> </i> Dashboard / Insertar paquete
 
 </li>
 

@@ -116,7 +116,7 @@ $cat_title = $row_cat['cat_title'];
 
 <li class="active">
 
-<i class="fa fa-dashboard"> </i> Panel / Editar productos
+<i class="fa fa-dashboard"> </i> Dashboard / Editar productos
 
 </li>
 

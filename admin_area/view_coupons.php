@@ -20,7 +20,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard"></i> Panel / View Coupons
+<i class="fa fa-dashboard"></i> Dashboard / Ver Cupones
 
 </li>
 

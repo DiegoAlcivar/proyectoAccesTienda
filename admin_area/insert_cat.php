@@ -19,7 +19,7 @@ else {
 
 <li>
 
-<i class="fa fa-dashboard"></i> Panel / Insert Category
+<i class="fa fa-dashboard"></i> Dashboard / Insertar Categoria
 
 </li>
 
