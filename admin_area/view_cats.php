@@ -20,7 +20,7 @@ else {
 
 <li class="active" >
 
-<i class="fa fa-dashboard" ></i> Dashboard / View Categories
+<i class="fa fa-dashboard" ></i> Panel / Ver categorías
 
 </li>
 
@@ -41,7 +41,7 @@ else {
 
 <h3 class="panel-title" >
 
-<i class="fa fa-money fa-fw"></i> View Categories
+<i class="fa fa-money fa-fw"></i> Ver categorías
 
 </h3>
 
@@ -58,9 +58,9 @@ else {
 <tr>
 
 <th>#</th>
-<th>Category Name</th>
-<th>Delete</th>
-<th>Edit</th>
+<th>Cnombre de la categoría</th>
+<th>Borrar</th>
+<th>Editar</th>
 
 
 

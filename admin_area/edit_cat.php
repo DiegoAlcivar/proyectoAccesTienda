@@ -41,7 +41,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                 <li>
 
-                    <i class="fa fa-dashboard"></i> Dashboard / Editar Categoria
+                    <i class="fa fa-dashboard"></i> Dashboard / Edit Category
 
                 </li>
 
@@ -62,7 +62,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <h3 class="panel-title"><!-- panel-title Starts -->
 
-                        <i class="fa fa-money fa-fw"></i> Editar Categoria
+                        <i class="fa fa-money fa-fw"></i> Edit Category
 
                     </h3><!-- panel-title Ends -->
 
@@ -74,7 +74,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                         <div class="form-group"><!-- form-group Starts -->
 
-                            <label class="col-md-3 control-label">Titulo de la categoria</label>
+                            <label class="col-md-3 control-label">Category Title</label>
 
                             <div class="col-md-6">
 
@@ -86,7 +86,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                         <div class="form-group"><!-- form-group Starts -->
 
-                            <label class="col-md-3 control-label">Mostrar como categoria principal</label>
+                            <label class="col-md-3 control-label">Show as Category Top</label>
 
                             <div class="col-md-6">
 
@@ -110,7 +110,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                         <div class="form-group"><!-- form-group Starts -->
 
-                            <label class="col-md-3 control-label">Seleccionar imagen de la Categoria</label>
+                            <label class="col-md-3 control-label">Select Category Image</label>
 
                             <div class="col-md-6">
 
@@ -172,7 +172,7 @@ if (!isset($_SESSION['admin_email'])) {
 
         if ($run_cat) {
 
-            echo "<script>alert('La categoria ha sido Actualizada!')</script>";
+            echo "<script>alert('One Category Has Been Updated')</script>";
 
             echo "<script>window.open('index.php?view_cats','_self')</script>";
         }

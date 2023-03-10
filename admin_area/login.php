@@ -65,13 +65,15 @@ if (isset($_POST['admin_login'])) {
 
         $_SESSION['admin_email'] = $admin_email;
 
-        echo "<script>alert('You are Logged in into admin panel')</script>";
+echo "<script>alert('Ha iniciado sesión en el panel de administración')</script>";
 
         echo "<script>window.open('index.php?dashboard','_self')</script>";
     } else {
 
-        echo "<script>alert('Email or Password is Wrong')</script>";
-    }
+echo "<script>alert('El correo o la contraseña son incorrectos!')</script>";
+
+}
+
 }
 
 ?>

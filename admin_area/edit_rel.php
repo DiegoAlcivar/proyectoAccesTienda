@@ -67,7 +67,7 @@ $b_title = $row_b['product_title'];
 
 <li class="active">
 
-<i class="fa fa-dashboard"></i> Dashboard / Edit Relation
+<i class="fa fa-dashboard"></i> Panel / Edit Relation
 
 </li>
 

@@ -51,7 +51,7 @@ $new_s_image = $row_store['store_image'];
 
 <li class="active">
 
-<i class="fa fa-dashboard" ></i> Dashboard / Edit store
+<i class="fa fa-dashboard" ></i> Panel / Editar tienda
 
 </li>
 
@@ -71,7 +71,7 @@ $new_s_image = $row_store['store_image'];
 
 <h3 class="panel-title">
 
-<i class="fa fa-money fa-fw"></i> Edit store
+<i class="fa fa-money fa-fw"></i> Editar tienda
 
 </h3>
 
@@ -83,7 +83,7 @@ $new_s_image = $row_store['store_image'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> store Title : </label>
+<label class="col-md-3 control-label"> Título de la tienda : </label>
 
 <div class="col-md-6">
 
@@ -97,7 +97,7 @@ $new_s_image = $row_store['store_image'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> store Image : </label>
+<label class="col-md-3 control-label"> Imagen del toldo : </label>
 
 <div class="col-md-6">
 
@@ -114,7 +114,7 @@ $new_s_image = $row_store['store_image'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> store Description : </label>
+<label class="col-md-3 control-label"> Descripción de la tienda : </label>
 
 <div class="col-md-6">
 
@@ -131,7 +131,7 @@ $new_s_image = $row_store['store_image'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> store Button : </label>
+<label class="col-md-3 control-label"> Botón de tienda : </label>
 
 <div class="col-md-6">
 
@@ -143,7 +143,7 @@ $new_s_image = $row_store['store_image'];
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> store Url : </label>
+<label class="col-md-3 control-label"> URL de la tienda : </label>
 
 <div class="col-md-6">
 
@@ -159,7 +159,7 @@ $new_s_image = $row_store['store_image'];
 
 <div class="col-md-6">
 
-<input type="submit" name="update" value="Update store" class="btn btn-primary form-control">
+<input type="submit" name="update" value="Actualizar tienda" class="btn btn-primary form-control">
 
 </div>
 
@@ -206,7 +206,7 @@ $run_store = mysqli_query($con,$update_store);
 
 if($run_store){
 
-echo "<script>alert('One store Column Has Been Updated')</script>";
+echo "<script>alert('Se ha actualizado la columna de una tienda')</script>";
 
 echo "<script>window.open('index.php?view_store','_self')</script>";
 

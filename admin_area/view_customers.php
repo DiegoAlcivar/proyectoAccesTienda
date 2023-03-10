@@ -19,7 +19,7 @@ else {
 
 <li class="active">
 
-<i class="fa fa-dashboard"></i> Dashboard / View Customers
+<i class="fa fa-dashboard"></i> Panel / View Customers
 
 </li>
 

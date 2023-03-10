@@ -29,6 +29,7 @@ if (!isset($_SESSION['admin_email'])) {
 
             </button><!-- navbar-ex1-collapse Ends -->
 
+<a class="navbar-brand" href="index.php?dashboard" >Panel de administrador</a>
             <a class="navbar-brand" href="index.php?dashboard">Panel de Administrador</a>
 
 
@@ -128,7 +129,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <a href="index.php?dashboard">
 
-                        <i class="fa fa-fw fa-dashboard"></i> Dashboard
+<i class="fa fa-fw fa-dashboard"></i> Dashboard
 
                     </a>
 
@@ -138,21 +139,22 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <a href="#" data-toggle="collapse" data-target="#products">
 
-                        <i class="fa fa-fw fa-table"></i> Productos
-                        <i class="fa fa-fw fa-caret-down"></i>
+<i class="fa fa-fw fa-table"></i> Products
+
+<i class="fa fa-fw fa-caret-down"></i>
 
 
                     </a>
 
                     <ul id="products" class="collapse">
 
-                        <li>
-                            <a href="index.php?insert_product"> Insertar Productos </a>
-                        </li>
+<li>
+<a href="index.php?insert_product"> Insert Products </a>
+</li>
 
-                        <li>
-                            <a href="index.php?view_products"> Ver Productos </a>
-                        </li>
+<li>
+<a href="index.php?view_products"> View Products </a>
+</li>
 
 
                     </ul>
@@ -163,7 +165,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <a href="#" data-toggle="collapse" data-target="#bundles">
 
-                        <i class="fa fa-fw fa-edit"></i> Paquetes
+<i class="fa fa-fw fa-edit"></i> Bundles
 
                         <i class="fa fa-fw fa-caret-down"></i>
 
@@ -171,13 +173,13 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <ul id="bundles" class="collapse">
 
-                        <li>
-                            <a href="index.php?insert_bundle"> Insertar Paquete </a>
-                        </li>
+<li>
+<a href="index.php?insert_bundle"> Insert Bundle </a>
+</li>
 
-                        <li>
-                            <a href="index.php?view_bundles"> Ver Paquete </a>
-                        </li>
+<li>
+<a href="index.php?view_bundles"> View Bundles </a>
+</li>
 
                     </ul>
 
@@ -187,7 +189,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <a href="#" data-toggle="collapse" data-target="#relations"><!-- anchor Starts -->
 
-                        <i class="fa fa-fw fa-retweet"></i> Asignar productos a las relaciones de los paquetes
+<i class="fa fa-fw fa-retweet"></i> Assign Products To Bundles Relations
 
                         <i class="fa fa-fw fa-caret-down"></i>
 
@@ -197,14 +199,14 @@ if (!isset($_SESSION['admin_email'])) {
 
                         <li>
 
-                            <a href="index.php?insert_rel"> Insertar Relación </a>
+<a href="index.php?insert_rel"> Insert Relation </a>
 
                         </li>
 
 
                         <li>
 
-                            <a href="index.php?view_rel"> Ver Relación </a>
+<a href="index.php?view_rel"> View Relations </a>
 
                         </li>
 
@@ -219,22 +221,22 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <a href="#" data-toggle="collapse" data-target="#manufacturers"><!-- anchor Starts -->
 
-                        <i class="fa fa-fw fa-briefcase"></i> Fabricantes
+<i class="fa fa-fw fa-briefcase"></i> Manufacturers
 
-                        <i class="fa fa-fw fa-caret-down"></i>
+<i class="fa fa-fw fa-caret-down"></i>
 
 
                     </a><!-- anchor Ends -->
 
                     <ul id="manufacturers" class="collapse"><!-- ul collapse Starts -->
 
-                        <li>
-                            <a href="index.php?insert_manufacturer"> Insertar Fabricante </a>
-                        </li>
+<li>
+<a href="index.php?insert_manufacturer"> Insert Manufacturer </a>
+</li>
 
-                        <li>
-                            <a href="index.php?view_manufacturers"> Ver Fabricante </a>
-                        </li>
+<li>
+<a href="index.php?view_manufacturers"> View Manufacturers </a>
+</li>
 
                     </ul><!-- ul collapse Ends -->
 
@@ -246,7 +248,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <a href="#" data-toggle="collapse" data-target="#p_cat">
 
-                        <i class="fa fa-fw fa-pencil"></i> Categoria de los productos
+<i class="fa fa-fw fa-pencil"></i> Products Categories
 
                         <i class="fa fa-fw fa-caret-down"></i>
 
@@ -255,13 +257,13 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <ul id="p_cat" class="collapse">
 
-                        <li>
-                            <a href="index.php?insert_p_cat"> Insertar categoria de los productos </a>
-                        </li>
+<li>
+<a href="index.php?insert_p_cat"> Insert Product Category </a>
+</li>
 
-                        <li>
-                            <a href="index.php?view_p_cats"> Ver categoria de los productos </a>
-                        </li>
+<li>
+<a href="index.php?view_p_cats"> View Products Categories </a>
+</li>
 
 
                     </ul>
@@ -273,7 +275,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <a href="#" data-toggle="collapse" data-target="#cat">
 
-                        <i class="fa fa-fw fa-arrows-v"></i> Categorias
+<i class="fa fa-fw fa-arrows-v"></i> Categories
 
                         <i class="fa fa-fw fa-caret-down"></i>
 
@@ -281,13 +283,13 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <ul id="cat" class="collapse">
 
-                        <li>
-                            <a href="index.php?insert_cat"> Insertar Categorias </a>
-                        </li>
+<li>
+<a href="index.php?insert_cat"> Insert Category </a>
+</li>
 
-                        <li>
-                            <a href="index.php?view_cats"> Ver Categorias </a>
-                        </li>
+<li>
+<a href="index.php?view_cats"> View Categories </a>
+</li>
 
 
                     </ul>
@@ -300,7 +302,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <a href="#" data-toggle="collapse" data-target="#store">
 
-                        <i class="fa fa-fw fa-briefcase"></i> Tiendas
+<i class="fa fa-fw fa-briefcase"></i> Stores
 
                         <i class="fa fa-fw fa-caret-down"></i>
 
@@ -308,13 +310,13 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <ul id="store" class="collapse">
 
-                        <li>
-                            <a href="index.php?insert_store"> Insertar Tiendas </a>
-                        </li>
+<li>
+<a href="index.php?insert_store"> Insert store </a>
+</li>
 
-                        <li>
-                            <a href="index.php?view_store"> Ver Tiendas </a>
-                        </li>
+<li>
+<a href="index.php?view_store"> View store </a>
+</li>
 
                     </ul>
 
@@ -325,7 +327,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <a href="#" data-toggle="collapse" data-target="#contact_us"><!-- anchor Starts -->
 
-                        <i class="fa fa-fw fa-pencil"> </i> Sección de Contactanos
+<i class="fa fa-fw fa-pencil"> </i> Contact Us Section
 
                         <i class="fa fa-fw fa-caret-down"></i>
 
@@ -335,19 +337,19 @@ if (!isset($_SESSION['admin_email'])) {
 
                         <li>
 
-                            <a href="index.php?edit_contact_us"> Editar Contactanos</a>
+<a href="index.php?edit_contact_us"> Edit Contact Us </a>
 
                         </li>
 
                         <li>
 
-                            <a href="index.php?insert_enquiry"> Insertar Tipo de Solicitud </a>
+<a href="index.php?insert_enquiry"> Insert Enquiry Type </a>
 
                         </li>
 
                         <li>
 
-                            <a href="index.php?view_enquiry"> Ver Tipos de Solicitud </a>
+<a href="index.php?view_enquiry"> View Enquiry Types </a>
 
                         </li>
 
@@ -359,7 +361,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <a href="index.php?edit_about_us">
 
-                        <i class="fa fa-fw fa-edit"></i> Editar pagina de Acerca de nosotros
+<i class="fa fa-fw fa-edit"></i> Edit About Us Page
 
                     </a>
 
@@ -370,7 +372,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <a href="#" data-toggle="collapse" data-target="#coupons"><!-- anchor Starts -->
 
-                        <i class="fa fa-fw fa-arrows-v"></i> Cupones
+<i class="fa fa-fw fa-arrows-v"></i> Coupons
 
                         <i class="fa fa-fw fa-caret-down"></i>
 
@@ -378,13 +380,13 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <ul id="coupons" class="collapse"><!-- ul collapse Starts -->
 
-                        <li>
-                            <a href="index.php?insert_coupon"> Insertar Cupones </a>
-                        </li>
+<li>
+<a href="index.php?insert_coupon"> Insert Coupon </a>
+</li>
 
-                        <li>
-                            <a href="index.php?view_coupons"> Ver Cupones </a>
-                        </li>
+<li>
+<a href="index.php?view_coupons"> View Coupons </a>
+</li>
 
                     </ul><!-- ul collapse Ends -->
 
@@ -396,7 +398,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <a href="#" data-toggle="collapse" data-target="#terms"><!-- anchor Starts -->
 
-                        <i class="fa fa-fw fa-table"></i> Terms
+<i class="fa fa-fw fa-table"></i> Terms
 
                         <i class="fa fa-fw fa-caret-down"></i>
 
@@ -404,13 +406,13 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <ul id="terms" class="collapse"><!-- ul collapse Starts -->
 
-                        <li>
-                            <a href="index.php?insert_term"> Insert Terms </a>
-                        </li>
+<li>
+<a href="index.php?insert_term"> Insert Terms </a> 
+</li>
 
-                        <li>
-                            <a href="index.php?view_terms"> View Terms </a>
-                        </li>
+<li>
+<a href="index.php?view_terms"> View Terms </a> 
+</li>
 
                     </ul><!-- ul collapse Ends -->
 
@@ -423,7 +425,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <a href="index.php?view_customers">
 
-                        <i class="fa fa-fw fa-edit"></i> View Customers
+<i class="fa fa-fw fa-edit"></i> View Customers
 
                     </a>
 
@@ -433,7 +435,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <a href="index.php?view_orders">
 
-                        <i class="fa fa-fw fa-list"></i> View Orders
+<i class="fa fa-fw fa-list"></i> View Orders
 
                     </a>
 
@@ -443,7 +445,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <a href="index.php?view_payments">
 
-                        <i class="fa fa-fw fa-pencil"></i> View Payments
+<i class="fa fa-fw fa-pencil"></i> View Payments
 
                     </a>
 
@@ -453,7 +455,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <a href="#" data-toggle="collapse" data-target="#users">
 
-                        <i class="fa fa-fw fa-gear"></i> Users
+<i class="fa fa-fw fa-gear"></i> Users
 
                         <i class="fa fa-fw fa-caret-down"></i>
 
@@ -462,17 +464,17 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <ul id="users" class="collapse">
 
-                        <li>
-                            <a href="index.php?insert_user"> Insert User </a>
-                        </li>
+<li>
+<a href="index.php?insert_user"> Insert User </a>
+</li>
 
-                        <li>
-                            <a href="index.php?view_users"> View Users </a>
-                        </li>
+<li>
+<a href="index.php?view_users"> View Users </a>
+</li>
 
-                        <li>
-                            <a href="index.php?user_profile=<?php echo $admin_id; ?>"> Edit Profile </a>
-                        </li>
+<li>
+<a href="index.php?user_profile=<?php echo $admin_id; ?>"> Edit Profile </a>
+</li>
 
                     </ul>
 
@@ -482,7 +484,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <a href="logout.php">
 
-                        <i class="fa fa-fw fa-power-off"></i> Log Out
+<i class="fa fa-fw fa-power-off"></i> Log Out
 
                     </a>
 

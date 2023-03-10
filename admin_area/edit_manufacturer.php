@@ -64,7 +64,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <h3 class="panel-title"><!-- panel-title Starts -->
 
-                        <i class="fa fa-money fa-fw"> </i> Editar Fabricante
+<i class="fa fa-money fa-fw"> </i> Editar Fabricantes
 
                     </h3><!-- panel-title Ends -->
 
@@ -97,7 +97,7 @@ if (!isset($_SESSION['admin_email'])) {
                                                                                             echo "checked='checked'";
                                                                                         } ?>>
 
-                                <label> Yes </label>
+<label> Si </label>
 
                                 <input type="radio" name="manufacturer_top" value="no" <?php if ($m_top == 'no') {
                                                                                             echo "checked='checked'";
@@ -112,7 +112,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                         <div class="form-group"><!-- form-group Starts -->
 
-                            <label class="col-md-3 control-label"> Seleccionar imagen del fabricante </label>
+<label class="col-md-3 control-label"> Seleccione la imagen del fabricante </label>
 
                             <div class="col-md-6">
 
@@ -132,7 +132,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                             <div class="col-md-6">
 
-                                <input type="submit" name="update" class="form-control btn btn-primary" value=" Update Manufacturer ">
+<input type="submit" name="update" class="form-control btn btn-primary" value=" Actualizar Fabricantes " >
 
                             </div>
 

@@ -94,7 +94,7 @@ if (!isset($_SESSION['admin_email'])) {
 
   <head>
 
-    <title> Editar paquete </title>
+<title> Editar paquete </title>
 
 
     <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
@@ -116,7 +116,7 @@ if (!isset($_SESSION['admin_email'])) {
 
           <li class="active">
 
-            <i class="fa fa-dashboard"> </i> Dashboard / Edit Paquete
+<i class="fa fa-dashboard"> </i> Dashboard / Edit Bundle
 
           </li>
 
@@ -137,7 +137,7 @@ if (!isset($_SESSION['admin_email'])) {
 
             <h3 class="panel-title">
 
-              <i class="fa fa-money fa-fw"></i> Edit Paquete
+<i class="fa fa-money fa-fw"></i> Edit Bundle
 
             </h3>
 
@@ -149,7 +149,7 @@ if (!isset($_SESSION['admin_email'])) {
 
               <div class="form-group"><!-- form-group Starts -->
 
-                <label class="col-md-3 control-label"> Titulo del Paquete </label>
+<label class="col-md-3 control-label" > Bundle Title </label>
 
                 <div class="col-md-6">
 
@@ -162,7 +162,7 @@ if (!isset($_SESSION['admin_email'])) {
 
               <div class="form-group"><!-- form-group Starts -->
 
-                <label class="col-md-3 control-label"> Url del paquete </label>
+<label class="col-md-3 control-label" > Bundle Url </label>
 
                 <div class="col-md-6">
 
@@ -172,7 +172,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                   <p style="font-size:15px; font-weight:bold;">
 
-                    Ejemplo del paquete : navy-blue-t-shirt
+Bundle Url Example : navy-blue-t-shirt
 
                   </p>
 
@@ -182,7 +182,7 @@ if (!isset($_SESSION['admin_email'])) {
 
               <div class="form-group"><!-- form-group Starts -->
 
-                <label class="col-md-3 control-label"> Seleccionar un fabricante </label>
+<label class="col-md-3 control-label" > Select A Manufacturer </label>
 
                 <div class="col-md-6">
 
@@ -221,7 +221,7 @@ $manufacturer_title
 
               <div class="form-group"><!-- form-group Starts -->
 
-                <label class="col-md-3 control-label"> Categoria de productos </label>
+<label class="col-md-3 control-label" > Product Category </label>
 
                 <div class="col-md-6">
 
@@ -257,7 +257,7 @@ $manufacturer_title
 
               <div class="form-group"><!-- form-group Starts -->
 
-                <label class="col-md-3 control-label"> Categoria </label>
+<label class="col-md-3 control-label" > Category </label>
 
                 <div class="col-md-6">
 
@@ -292,7 +292,7 @@ $manufacturer_title
 
               <div class="form-group"><!-- form-group Starts -->
 
-                <label class="col-md-3 control-label"> Imagen paquete 1 </label>
+<label class="col-md-3 control-label" > Bundle Image 1 </label>
 
                 <div class="col-md-6">
 
@@ -305,7 +305,7 @@ $manufacturer_title
 
               <div class="form-group"><!-- form-group Starts -->
 
-                <label class="col-md-3 control-label"> Imagen paquete 2 </label>
+<label class="col-md-3 control-label" > Bundle Image 2 </label>
 
                 <div class="col-md-6">
 
@@ -318,7 +318,7 @@ $manufacturer_title
 
               <div class="form-group"><!-- form-group Starts -->
 
-                <label class="col-md-3 control-label"> Imagen paquete 3 </label>
+<label class="col-md-3 control-label" > Bundle Image 3 </label>
 
                 <div class="col-md-6">
 
@@ -331,7 +331,7 @@ $manufacturer_title
 
               <div class="form-group"><!-- form-group Starts -->
 
-                <label class="col-md-3 control-label"> Regalo del paquete </label>
+<label class="col-md-3 control-label" > Bundle Price </label>
 
                 <div class="col-md-6">
 
@@ -343,7 +343,7 @@ $manufacturer_title
 
               <div class="form-group"><!-- form-group Starts -->
 
-                <label class="col-md-3 control-label"> Precio de venta del paquete </label>
+<label class="col-md-3 control-label" > Bundle Sale Price </label>
 
                 <div class="col-md-6">
 
@@ -355,7 +355,7 @@ $manufacturer_title
 
               <div class="form-group"><!-- form-group Starts -->
 
-                <label class="col-md-3 control-label"> Palabras clave del paquete </label>
+<label class="col-md-3 control-label" > Bundle Keywords </label>
 
                 <div class="col-md-6">
 
@@ -367,7 +367,7 @@ $manufacturer_title
 
               <div class="form-group"><!-- form-group Starts -->
 
-                <label class="col-md-3 control-label"> Pestañas del paquete </label>
+<label class="col-md-3 control-label" > Bundle Tabs </label>
 
                 <div class="col-md-6">
 
@@ -375,19 +375,19 @@ $manufacturer_title
 
                     <li class="active">
 
-                      <a data-toggle="tab" href="#description"> Descripción del paquete </a>
+<a data-toggle="tab" href="#description"> Bundle Description </a>
 
                     </li>
 
                     <li>
 
-                      <a data-toggle="tab" href="#features"> Caracteristicas del paquete </a>
+<a data-toggle="tab" href="#features"> Bundle Features </a>
 
                     </li>
 
                     <li>
 
-                      <a data-toggle="tab" href="#video"> Videos </a>
+<a data-toggle="tab" href="#video"> Sounds And Videos </a>
 
                     </li>
 
@@ -442,7 +442,7 @@ $manufacturer_title
 
               <div class="form-group"><!-- form-group Starts -->
 
-                <label class="col-md-3 control-label"> Etiquetas del paquete </label>
+<label class="col-md-3 control-label" > Bundle Label </label>
 
                 <div class="col-md-6">
 
@@ -458,7 +458,7 @@ $manufacturer_title
 
                 <div class="col-md-6">
 
-                  <input type="submit" name="update" value="Update Bundle" class="btn btn-primary form-control">
+<input type="submit" name="update" value="Update Bundle" class="btn btn-primary form-control" >
 
                 </div>
 
@@ -540,7 +540,7 @@ $manufacturer_title
 
     if ($run_product) {
 
-      echo "<script> alert('Bundle has been updated successfully') </script>";
+echo "<script> alert('Bundle has been updated successfully') </script>";
 
       echo "<script>window.open('index.php?view_bundles','_self')</script>";
     }

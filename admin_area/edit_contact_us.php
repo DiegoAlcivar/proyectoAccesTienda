@@ -38,7 +38,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                 <li class="active">
 
-                    <i class="fa fa-dashboard"></i> Dashboard / Editar Contactanos
+                    <i class="fa fa-dashboard"></i> Panel / Editar Contactanos
 
                 </li>
 
