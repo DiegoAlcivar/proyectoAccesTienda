@@ -87,11 +87,11 @@ include("includes/footer.php");
 
         if ($(this).css('display') == 'none') {
 
-          $(".hide-show").html('Show');
+          $(".hide-show").html('Ver');
 
         } else {
 
-          $(".hide-show").html('Hide');
+          $(".hide-show").html('Ocultar');
 
         }
 

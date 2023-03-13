@@ -68,7 +68,7 @@ $aCat[(int)$sVal] = (int)$sVal;
 
 <h3 class="panel-title"><!-- panel-title Starts -->
 
-Manufacturers
+Fabricantes
 
 <div class="pull-right"><!-- pull-right Starts -->
 
@@ -76,8 +76,7 @@ Manufacturers
 
 <span class="nav-toggle hide-show">
 
-Hide
-
+Ocultar
 </span>
 
 </a>
@@ -94,7 +93,7 @@ Hide
 
 <div class="input-group"><!-- input-group Starts -->
 
-<input type="text" class="form-control" id="dev-table-filter" data-action="filter" data-filters="#dev-manufacturer" placeholder="Filter Manufacturers">
+<input type="text" class="form-control" id="dev-table-filter" data-action="filter" data-filters="#dev-manufacturer" placeholder="Buscar Filtros">
 
 
 <a class="input-group-addon"> <i class="fa fa-search"></i> </a>
@@ -238,7 +237,7 @@ $manufacturer_title
 
 <h3 class="panel-title"><!-- panel-title Starts -->
 
-Products Categories
+Categorías
 
 <div class="pull-right"><!-- pull-right Starts -->
 
@@ -246,7 +245,7 @@ Products Categories
 
 <span class="nav-toggle hide-show">
 
-Hide
+Ocultar
 
 </span>
 
@@ -264,7 +263,7 @@ Hide
 
 <div class="input-group"><!-- input-group Starts -->
 
-<input type="text" class="form-control" id="dev-table-filter" data-action="filter" data-filters="#dev-p-cats" placeholder="Filter Product Categories">
+<input type="text" class="form-control" id="dev-table-filter" data-action="filter" data-filters="#dev-p-cats" placeholder="Buscar Categorias">
 
 <a class="input-group-addon"> <i class="fa fa-search"></i> </a>
 
@@ -404,15 +403,15 @@ $p_cat_title
 
 <h3 class="panel-title"><!-- panel-title Starts -->
 
-Categories
-
+Género
+ 
 <div class="pull-right"><!-- pull-right Starts -->
 
 <a href="#" style="color:black;">
 
 <span class="nav-toggle hide-show">
 
-Hide
+Ocultar
 
 </span>
 
@@ -431,7 +430,7 @@ Hide
 
 <div class="input-group"><!-- input-group Starts -->
 
-<input type="text" class="form-control" id="dev-table-filter" data-action="filter" data-filters="#dev-cats" placeholder="Filter Categories">
+<input type="text" class="form-control" id="dev-table-filter" data-action="filter" data-filters="#dev-cats" placeholder="Buscar Género">
 
 <a class="input-group-addon"> <i class="fa fa-search"> </i> </a>
 
