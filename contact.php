@@ -174,15 +174,15 @@ mail($contact_email,$sender_subject,$new_message,$headers);
 
 $email = $_POST['email'];
 
-$subject = "Welcome to my website";
+$subject = "Bienvenido a mi sitio web";
 
-$msg = "I shall get you soon, thanks for sending us email";
+$msg = "Te recibiré pronto, gracias por enviarnos un correo electrónico.";
 
 $from = "sad.ahmed22224@gmail.com";
 
 mail($email,$subject,$msg,$from);
 
-echo "<h2 align='center'>Your message has been sent successfully</h2>";
+echo "<h2 align='center'>Tu mensaje ha sido enviado exitosamente</h2>";
 
 }
 

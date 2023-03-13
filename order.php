@@ -48,7 +48,7 @@ while ($row_cart = mysqli_fetch_array($run_cart)) {
 
     $run_delete = mysqli_query($con, $delete_cart);
 
-    echo "<script>alert('Your order has been submitted,Thanks ')</script>";
+    echo "<script>alert('Su pedido ha sido enviado, gracias')</script>";
 
     echo "<script>window.open('customer/my_account.php?my_orders','_self')</script>";
 }
