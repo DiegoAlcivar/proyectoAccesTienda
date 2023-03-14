@@ -40,7 +40,7 @@ else {
 
 <h3 class="panel-title"><!-- panel-title Starts -->
 
-<i class="fa fa-money fa-fw"></i> Insert Category
+<i class="fa fa-money fa-fw"></i> Insertar categoria
 
 </h3><!-- panel-title Ends -->
 
@@ -52,7 +52,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label">Category Title</label>
+<label class="col-md-3 control-label">Título de la Categoria</label>
 
 <div class="col-md-6">
 
@@ -64,13 +64,13 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label">Show as Category Top</label>
+<label class="col-md-3 control-label">Seleccionar como categoria principal</label>
 
 <div class="col-md-6">
 
 <input type="radio" name="cat_top" value="yes">
 
-<label>Yes</label>
+<label>Si</label>
 
 <input type="radio" name="cat_top" value="no">
 
@@ -82,7 +82,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label">Select Category Image</label>
+<label class="col-md-3 control-label">Seleccionar imagen de la categoria</label>
 
 <div class="col-md-6">
 

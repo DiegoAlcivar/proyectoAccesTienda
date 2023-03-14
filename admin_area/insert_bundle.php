@@ -15,7 +15,7 @@ else {
 
 <head>
 
-<title> Insert Bundle </title>
+<title> Insertar paquete </title>
 
 
 <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
