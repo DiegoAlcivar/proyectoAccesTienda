@@ -9,9 +9,9 @@
 					<li class="footer-nav__item">
 						<a href="#" class="footer-nav__link">La Marca</a>
 					</li>
-					<li class="footer-nav__item">
+					<!--<li class="footer-nav__item">
 						<a href="#" class="footer-nav__link">Tiendas Locales</a>
-					</li>
+					</li>-->
 					<li class="footer-nav__item">
 						<a href="#" class="footer-nav__link">Servicio al cliente</a>
 					</li>
@@ -36,12 +36,12 @@
 					<li class="footer-nav__item">
 						<a href="#" class="footer-nav__link">Testimonios</a>
 					</li>
-					<li class="footer-nav__item">
+					<!--<li class="footer-nav__item">
 						<a href="#" class="footer-nav__link">Ganador de premio</a>
 					</li>
 					<li class="footer-nav__item">
 						<a href="#" class="footer-nav__link">Comercio etico</a>
-					</li>
+					</li>-->
 				</ul>
 			</div>
 
@@ -55,14 +55,14 @@
 						<a href="#" class="footer-nav__link">Registrar</a>
 					</li>
 					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Ver Carrito</a>
+						<a href="cart.php" class="footer-nav__link">Ver Carrito</a>
 					</li>
 					<li class="footer-nav__item">
 						<a href="#" class="footer-nav__link">Ver su catalogo</a>
 					</li>
-					<li class="footer-nav__item">
+					<!--<li class="footer-nav__item">
 						<a href="#" class="footer-nav__link">Seguimiento de un pedido</a>
-					</li>
+					</li>-->
 					<li class="footer-nav__item">
 						<a href="#" class="footer-nav__link">Actualizar informacion</a>
 					</li>

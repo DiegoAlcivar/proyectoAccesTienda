@@ -49,9 +49,9 @@ include("includes/main.php");
             <li class="footer-nav__item">
               <a href="#" class="footer-nav__link">La Marca</a>
             </li>
-            <li class="footer-nav__item">
-              <a href="#" class="footer-nav__link">Tiendas Locales</a>
-            </li>
+          <!--  <li class="footer-nav__item">
+              <a href="localstore.php" class="footer-nav__link">Tiendas Locales</a>
+            </li>-->
             <li class="footer-nav__item">
               <a href="#" class="footer-nav__link">Servicio al Cliente</a>
             </li>
@@ -76,12 +76,12 @@ include("includes/main.php");
             <li class="footer-nav__item">
               <a href="#" class="footer-nav__link">Testimonios</a>
             </li>
-            <li class="footer-nav__item">
+           <!-- <li class="footer-nav__item">
               <a href="#" class="footer-nav__link">Ganador de premio </a>
             </li>
             <li class="footer-nav__item">
               <a href="#" class="footer-nav__link">Comercio ético</a>
-            </li>
+            </li>-->
           </ul>
         </div>
 
@@ -89,22 +89,22 @@ include("includes/main.php");
           <div class="footer-nav__heading">TU CUENTA</div>
           <ul class="footer-nav__list">
             <li class="footer-nav__item">
-              <a href="#" class="footer-nav__link">Iniciar sesión</a>
+              <a href="checkout.php" class="footer-nav__link">Iniciar sesión</a>
             </li>
             <li class="footer-nav__item">
-              <a href="#" class="footer-nav__link">Registrar</a>
+              <a href="customer_register.php" class="footer-nav__link">Registrar</a>
             </li>
             <li class="footer-nav__item">
-              <a href="#" class="footer-nav__link">Ver carrito</a>
+              <a href="cart.php" class="footer-nav__link">Ver carrito</a>
             </li>
             <li class="footer-nav__item">
-              <a href="#" class="footer-nav__link">Ver su catálogo</a>
+              <a href="index.php" class="footer-nav__link">Ver su catálogo</a>
             </li>
-            <li class="footer-nav__item">
+           <!-- <li class="footer-nav__item">
               <a href="#" class="footer-nav__link">Seguimiento de un pedido</a>
-            </li>
+            </li>-->
             <li class="footer-nav__item">
-              <a href="#" class="footer-nav__link">Actualizar información</a>
+              <a href="customer/my_account.php?edit_account" class="footer-nav__link">Actualizar información</a>
             </li>
           </ul>
         </div>

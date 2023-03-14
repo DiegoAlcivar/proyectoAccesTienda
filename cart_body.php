@@ -250,7 +250,7 @@ include("includes/main.php");
 
             if ($coupon_limit == $coupon_used) {
 
-              echo "<script>alert('Your Coupon Code Has Been Expired')</script>";
+              echo "<script>alert('Se ha aplicado su código de cupón')</script>";
             } else {
 
               $get_cart = "select * from cart where p_id='$coupon_pro' AND ip_add='$ip_add'";
@@ -270,17 +270,17 @@ include("includes/main.php");
 
                 $run_update = mysqli_query($con, $update_cart);
 
-                echo "<script>alert('Your Coupon Code Has Been Applied')</script>";
+                echo "<script>alert('Se ha aplicado su código de cupón')</script>";
 
                 echo "<script>window.open('cart.php','_self')</script>";
               } else {
 
-                echo "<script>alert('Product Does Not Exist In Cart')</script>";
+                echo "<script>alert('El producto no existe en el carrito')</script>";
               }
             }
           } else {
 
-            echo "<script> alert('Your Coupon Code Is Not Valid') </script>";
+            echo "<script> alert('Su código de cupón no es válido') </script>";
           }
         }
       }

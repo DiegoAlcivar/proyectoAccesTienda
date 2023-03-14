@@ -112,20 +112,20 @@ if (isset($_POST['forgot_pass'])) {
 
   if ($count_c == 0) {
 
-    echo "<script> alert('Sorry, We do not have your email') </script>";
+    echo "<script> alert('Lo sentimos, no tenemos su correo electrónico') </script>";
 
     exit();
   } else {
 
     $message = "
 
-<h1 align='center'> Your Password Has Been Sent To You </h1>
+<h1 align='center'> Su contraseña se le ha enviado </h1>
 
 <h2 align='center'> Dear $c_name </h2>
 
 <h3 align='center'>
 
-Your Password is : <span> <b>$c_pass</b> </span>
+Tu contraseña es : <span> <b>$c_pass</b> </span>
 
 </h3>
 
@@ -133,7 +133,7 @@ Your Password is : <span> <b>$c_pass</b> </span>
 
 <a href='localhost/ecom_store/checkout.php'>
 
-Click Here To Login Your Account
+Haga clic aquí para iniciar sesión en su cuenta
 
 </a>
 
@@ -151,7 +151,7 @@ Click Here To Login Your Account
 
     mail($c_email, $subject, $message, $headers);
 
-    echo "<script> alert('Your Password has been sent to you, check your inbox ') </script>";
+    echo "<script> alert('Se le ha enviado su contraseña, revise su bandeja de entrada ') </script>";
 
     echo "<script>window.open('checkout.php','_self')</script>";
   }

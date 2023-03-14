@@ -139,7 +139,7 @@ $run_customer = mysqli_query($con,$update_customer);
 
 if($run_customer){
 
-echo "<script>alert('Your account has been updated please login again')</script>";
+echo "<script>alert('Tu cuenta ha sido actualizada por favor inicia sesión de nuevo')</script>";
 
 echo "<script>window.open('logout.php','_self')</script>";
 

@@ -173,12 +173,12 @@ if (!isset($_SESSION['admin_email'])) {
 
         if ($run_manufacturer) {
 
-            echo "<script>alert('Manufacturer Has Been Updated')</script>";
+            echo "<script>alert('El fabricante ha sido actualizado')</script>";
 
             echo "<script>window.open('index.php?view_manufacturers','_self')</script>";
         }
     }
 
-    ?>
+?>
 
 <?php } ?>
