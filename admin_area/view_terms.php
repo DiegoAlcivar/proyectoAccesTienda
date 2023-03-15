@@ -38,7 +38,7 @@ else {
 
 <div class="panel-heading"><!-- panel-heading Starts -->
 
-<h3 class="panel-title">
+<h3 class="panel-title">    
 
 <i class="fa fa-money fa-fw"></i>  Ver Terminos
 
