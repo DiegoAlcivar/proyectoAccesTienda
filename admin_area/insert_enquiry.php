@@ -40,7 +40,7 @@ else {
 
 <h3 class="panel-title">
 
-<i class="fa fa-money fa-fw"></i> Insert Enquiry Type 
+<i class="fa fa-money fa-fw"></i>Insertar tipo de consulta
 
 </h3>
 
@@ -52,7 +52,7 @@ else {
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-3 control-label"> Enquiry Title </label>
+<label class="col-md-3 control-label"> Título de la consulta </label>
 
 <div class="col-md-6">
 
@@ -68,7 +68,7 @@ else {
 
 <div class="col-md-6">
 
-<input type="submit" name="submit" class="btn btn-primary form-control" value="Insert Enquiry Type">
+<input type="submit" name="submit" class="btn btn-primary form-control" value="Insertar tipo de consulta">
 
 </div>
 
@@ -97,7 +97,7 @@ $run_enquiry = mysqli_query($con,$insert_enquiry);
 
 if($run_enquiry){
 
-echo "<script> alert('New Enquiry Type Has Been Inserted') </script>";
+echo "<script> alert('Se ha insertado un nuevo tipo de consulta') </script>";
 echo "<script>window.open('index.php?view_enquiry','_self')</script>";
 
 }

@@ -87,7 +87,7 @@ if (!isset($_SESSION['admin_email'])) {
 
             <div class="form-group"><!-- form-group Starts -->
 
-              <label class="col-md-3 control-label"> Acerca de nosotros Descripcion pequeña : </label>
+              <label class="col-md-3 control-label"> Acerca de nosotros Descripción pequeña : </label>
 
               <div class="col-md-8">
 
@@ -103,7 +103,7 @@ if (!isset($_SESSION['admin_email'])) {
 
             <div class="form-group"><!-- form-group Starts -->
 
-              <label class="col-md-3 control-label"> Acerca de nosotros Descripcion : </label>
+              <label class="col-md-3 control-label"> Acerca de nosotros Descripción : </label>
 
               <div class="col-md-8">
 
@@ -123,7 +123,7 @@ if (!isset($_SESSION['admin_email'])) {
 
               <div class="col-md-8">
 
-                <input type="submit" name="submit" value="Update About Us Page" class="btn btn-primary form-control">
+                <input type="submit" name="submit" value="Actualizar la página Acerca de nosotros" class="btn btn-primary form-control">
 
               </div>
 

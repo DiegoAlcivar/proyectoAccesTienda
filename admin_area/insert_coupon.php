@@ -163,7 +163,7 @@ echo "<option value='$p_id'> $p_title </option>";
 
 <div class="col-md-6">
 
-<input type="submit" name="submit" class=" btn btn-primary form-control" value=" Insert Coupon ">
+<input type="submit" name="submit" class=" btn btn-primary form-control" value="Insertar cupón">
 
 </div>
 
@@ -203,7 +203,7 @@ $check_coupons = mysqli_num_rows($run_coupons);
 
 if($check_coupons == 1){
 
-echo "<script>alert('Coupon Code or Product Already Added Choose another Coupon code or Product')</script>";
+echo "<script>alert('Código de cupón o producto ya agregado Elija otro código de cupón o producto')</script>";
 
 }
 else{
@@ -214,7 +214,7 @@ $run_coupon = mysqli_query($con,$insert_coupon);
 
 if($run_coupon){
 
-echo "<script>alert('New Coupon Has Been Inserted')</script>";
+echo "<script>alert('Se ha insertado un nuevo cupón')</script>";
 
 echo "<script>window.open('index.php?view_coupons','_self')</script>";
 

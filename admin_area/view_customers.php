@@ -39,7 +39,7 @@ else {
 
 <h3 class="panel-title"><!-- panel-title Starts -->
 
-<i class="fa fa-money fa-fw"></i> View Customers
+<i class="fa fa-money fa-fw"></i> Ver clientes
 
 </h3><!-- panel-title Ends -->
 
@@ -57,13 +57,13 @@ else {
 <tr>
 
 <th>#</th>
-<th>Name</th>
+<th>Nombre</th>
 <th>Email</th>
-<th>Image</th>
-<th>Country</th>
-<th>City</th>
-<th>Phone Number</th>
-<th>Delete</th>
+<th>Imagen</th>
+<th>País</th>
+<th>Ciudad</th>
+<th>Número celular</th>
+<th>Borrar</th>
 
 
 </tr>

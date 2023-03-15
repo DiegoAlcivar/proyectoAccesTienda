@@ -10,7 +10,7 @@ include("includes/db.php");
 
 <head>
 
-    <title>Admin Login</title>
+    <title>Inicio de sesión de administrador</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -24,7 +24,7 @@ include("includes/db.php");
 
         <form class="form-login" action="" method="post"><!-- form-login Starts -->
 
-            <h2 class="form-login-heading">Admin Login</h2>
+            <h2 class="form-login-heading">Inicio de sesión de administrador</h2>
 
             <input type="text" class="form-control" name="admin_email" placeholder="Email Address" required>
 
@@ -32,7 +32,7 @@ include("includes/db.php");
 
             <button class="btn btn-lg btn-primary btn-block" type="submit" name="admin_login">
 
-                Log in
+            Acceso
 
             </button>
 

@@ -57,9 +57,9 @@ else {
 <tr>
 
 <th>#</th>
-<th>Name</th>
-<th>Delete</th>
-<th>Edit</th>
+<th>Nombre</th>
+<th>Borrar</th>
+<th>Editar</th>
 
 
 </tr>

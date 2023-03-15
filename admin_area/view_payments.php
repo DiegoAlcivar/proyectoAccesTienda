@@ -42,7 +42,7 @@ else {
 
 <h3 class="panel-title"><!-- panel-title Starts -->
 
-<i class="fa fa-money fa-fw"> </i> View Payments
+<i class="fa fa-money fa-fw"> </i> Ver pagos
 
 </h3><!-- panel-title Ends -->
 
@@ -59,13 +59,13 @@ else {
 <tr>
 
 <th>#</th>
-<th>Invoice No</th>
-<th>Amount Paid</th>
-<th>Payment Method</th>
-<th>Reference #</th>
-<th>Payment Code</th>
-<th>Payment Date</th>
-<th>Action</th>
+<th>No Factura</th>
+<th>Cantidad pagada</th>
+<th>Método de pago</th>
+<th># Referencia</th>
+<th>Código de pago</th>
+<th>Fecha de pago</th>
+<th>Acción</th>
 
 </tr>
 

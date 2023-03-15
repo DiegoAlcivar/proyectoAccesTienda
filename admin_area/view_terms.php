@@ -40,7 +40,7 @@ else {
 
 <h3 class="panel-title">
 
-<i class="fa fa-money fa-fw"></i> View Terms
+<i class="fa fa-money fa-fw"></i>  Ver Terminos
 
 </h3>
 
