@@ -77,7 +77,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <h3 class="panel-title"><!-- panel-title Starts -->
 
-                        <i class="fa fa-money fa-fw"> </i> Editar Cupon
+                        <i class="fa fa-money fa-fw"> </i> Editar Cupón
 
                     </h3><!-- panel-title Ends -->
 
@@ -89,7 +89,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                         <div class="form-group"><!-- form-group Starts -->
 
-                            <label class="col-md-3 control-label"> Titulo del cupon </label>
+                            <label class="col-md-3 control-label"> Titulo del cupón </label>
 
                             <div class="col-md-6">
 
@@ -101,7 +101,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                         <div class="form-group"><!-- form-group Starts -->
 
-                            <label class="col-md-3 control-label"> Coupon Price </label>
+                            <label class="col-md-3 control-label"> Precio del cupón</label>
 
                             <div class="col-md-6">
 
@@ -113,7 +113,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                         <div class="form-group"><!-- form-group Starts -->
 
-                            <label class="col-md-3 control-label"> Coupon Code </label>
+                            <label class="col-md-3 control-label"> Código promocional </label>
 
                             <div class="col-md-6">
 
@@ -125,7 +125,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                         <div class="form-group"><!-- form-group Starts -->
 
-                            <label class="col-md-3 control-label"> Coupon Limit </label>
+                            <label class="col-md-3 control-label">Límite de cupón </label>
 
                             <div class="col-md-6">
 
@@ -137,7 +137,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                         <div class="form-group"><!-- form-group Starts -->
 
-                            <label class="col-md-3 control-label"> Select Coupon For Product or Bundle </label>
+                            <label class="col-md-3 control-label"> Seleccionar cupón para producto o paquete </label>
 
                             <div class="col-md-6">
 
@@ -165,7 +165,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                                     <option></option>
 
-                                    <option>Select Coupon for bundle</option>
+                                    <option>Seleccionar cupón para paquete</option>
 
                                     <option></option>
 
@@ -198,7 +198,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                             <div class="col-md-6">
 
-                                <input type="submit" name="update" class=" btn btn-primary form-control" value=" Update Coupon ">
+                                <input type="submit" name="update" class=" btn btn-primary form-control" value=" Actualizar cupón ">
 
                             </div>
 
@@ -235,7 +235,7 @@ if (!isset($_SESSION['admin_email'])) {
 
         if ($run_coupon) {
 
-            echo "<script>alert('One Coupon Has Been Updated')</script>";
+            echo "<script>alert('Se ha actualizado un cupón')</script>";
 
             echo "<script>window.open('index.php?view_coupons','_self')</script>";
         }
