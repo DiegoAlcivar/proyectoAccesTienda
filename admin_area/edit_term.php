@@ -154,6 +154,8 @@ $term_link = $_POST['term_link'];
 
 $update_term = "update terms set term_title='$term_title',term_link='$term_link',term_desc='$term_desc' where term_id='$term_id'";
 
+
+
 $run_term = mysqli_query($con,$update_term);
 
 if($run_term){
