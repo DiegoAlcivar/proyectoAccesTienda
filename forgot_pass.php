@@ -13,7 +13,7 @@ include("includes/main.php");
   <!-- HERO -->
   <div class="nero">
     <div class="nero__heading">
-      <span class="nero__bold">Forgot</span> password
+    <!--  <span class="nero__bold">Forgot</span> password-->
     </div>
     <p class="nero__text">
     </p>
@@ -25,7 +25,7 @@ include("includes/main.php");
 
     <div class="col-md-12"><!--- col-md-12 Starts -->
 
-      <ul class="breadcrumb"><!-- breadcrumb Starts -->
+     <!-- <ul class="breadcrumb">
 
         <li>
           <a href="index.php">Home</a>
@@ -33,7 +33,7 @@ include("includes/main.php");
 
         <li>Register</li>
 
-      </ul><!-- breadcrumb Ends -->
+      </ul>--><!-- breadcrumb Ends -->
 
 
 
@@ -48,7 +48,7 @@ include("includes/main.php");
 
           <center>
 
-            <h3> Enter Your Email Below , We Will Send You , Your Password </h3>
+            <h3> Ingrese su correo electrónico a continuación, le enviaremos su contraseña </h3>
 
           </center>
 
@@ -58,11 +58,11 @@ include("includes/main.php");
 
           <form action="" method="post"><!-- form Starts -->
 
-            <input type="text" class="form-control" name="c_email" placeholder="Enter Your Email">
+            <input type="text" class="form-control" name="c_email" placeholder="Introduce tu correo electrónico">
 
             <br>
 
-            <input type="submit" name="forgot_pass" class="btn btn-primary" value="Send My Password">
+            <input type="submit" name="forgot_pass" class="btn btn-primary" value="Enviar mi contraseña">
 
           </form><!-- form Ends -->
 

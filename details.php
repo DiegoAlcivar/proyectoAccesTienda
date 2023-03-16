@@ -154,7 +154,7 @@ $p_cat_title = $row_p_cat['p_cat_title'];
 
 <span class="glyphicon glyphicon-chevron-left"> </span>
 
-<span class="sr-only"> Previous </span>
+<span class="sr-only"> Anterior </span>
 
 </a><!-- left carousel-control Ends -->
 
@@ -162,7 +162,7 @@ $p_cat_title = $row_p_cat['p_cat_title'];
 
 <span class="glyphicon glyphicon-chevron-right"> </span>
 
-<span class="sr-only"> Next </span>
+<span class="sr-only"> Próximo </span>
 
 </a><!-- right carousel-control Ends -->
 
@@ -254,13 +254,13 @@ if($status == "product"){
 
 <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-5 control-label" >Product Quantity </label>
+<label class="col-md-5 control-label" >Cantidad de producto </label>
 
 <div class="col-md-7" ><!-- col-md-7 Starts -->
 
 <select name="product_qty" class="form-control" >
 
-<option>Select quantity</option>
+<option>Selecciona la cantidad</option>
 <option>1</option>
 <option>2</option>
 <option>3</option>
@@ -276,16 +276,16 @@ if($status == "product"){
 
 <div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-5 control-label" >Product Size</label>
+<label class="col-md-5 control-label" >Tamaño del producto</label>
 
 <div class="col-md-7" ><!-- col-md-7 Starts -->
 
 <select name="product_size" class="form-control" >
 
-<option>Select a Size</option>
-<option>Small</option>
-<option>Medium</option>
-<option>Large</option>
+<option>Seleccione una talla</option>
+<option>Pequeño</option>
+<option>Medio</option>
+<option>Ancho</option>
 
 
 </select>
@@ -548,7 +548,7 @@ echo "<script>window.open('$pro_url','_self')</script>";
 
 if($status == "product"){
 
-echo "Product Description";
+echo "Descripción del Producto";
 
 }
 else{
