@@ -123,7 +123,7 @@ include("includes/main.php");
           </div>
           <div class="email">
             Email:
-            <a href="mailto:support@yourwebsite.com" class="email__addr">atencionalcliente@accesworldtravel.com</a>
+            <a href="mailto:atencionalcliente@accesworldtravel.com" class="email__addr">atencionalcliente@accesworldtravel.com</a>
           </div>
         </div>
 

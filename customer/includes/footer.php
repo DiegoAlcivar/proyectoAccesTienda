@@ -82,7 +82,7 @@
 				</div>
 				<div class="email">
 					Email:
-					<a href="atencionalcliente@accesworldtravel.com" class="email__addr">atencionalcliente@accesworldtravel.com</a>
+					<a href="mailto:atencionalcliente@accesworldtravel.com" class="email__addr">atencionalcliente@accesworldtravel.com</a>
 				</div>
 			</div>
 
