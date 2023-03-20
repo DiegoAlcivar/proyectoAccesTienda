@@ -38,7 +38,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                 <li class="active">
 
-                    <i class="fa fa-dashboard"></i> Dashboard / Editar Contactanos
+                    <i class="fa fa-dashboard"></i> Dashboard / Editar Contáctanos
 
                 </li>
 
@@ -58,7 +58,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <h3 class="panel-title">
 
-                        <i class="fa fa-money fa-fw"></i> Editar Contactanos
+                        <i class="fa fa-money fa-fw"></i> Editar Contáctanos
 
                     </h3>
 
@@ -70,7 +70,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                         <div class="form-group"><!-- form-group Starts -->
 
-                            <label class="col-md-3 control-label"> Correo elecronico de contacto: </label>
+                            <label class="col-md-3 control-label"> Correo eletcrónico de contacto: </label>
 
                             <div class="col-md-6">
 
@@ -94,7 +94,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                         <div class="form-group"><!-- form-group Starts -->
 
-                            <label class="col-md-3 control-label"> Descripcion del contacto: </label>
+                            <label class="col-md-3 control-label"> Descripción del contacto: </label>
 
                             <div class="col-md-6">
 
@@ -112,7 +112,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                             <div class="col-md-6">
 
-                                <input type="submit" name="submit" class="btn btn-primary form-control" value=" Update Contact Us ">
+                                <input type="submit" name="submit" class="btn btn-primary form-control" value="Actualizar Contáctenos">
 
                             </div>
 

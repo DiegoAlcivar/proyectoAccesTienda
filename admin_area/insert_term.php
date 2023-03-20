@@ -47,7 +47,7 @@ if (!isset($_SESSION['admin_email'])) {
 
           <h3 class="panel-title"><!-- panel-title Starts -->
 
-            <i class="fa fa-money fa-fw"></i> Insert Terms
+<i class="fa fa-money fa-fw"></i> Insertar términos
 
           </h3><!-- panel-title Ends -->
 
@@ -59,7 +59,7 @@ if (!isset($_SESSION['admin_email'])) {
 
             <div class="form-group"><!-- form-group Starts -->
 
-              <label class="col-md-3 control-label"> Term Title </label>
+<label class="col-md-3 control-label">Título del término</label>
 
               <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -71,7 +71,7 @@ if (!isset($_SESSION['admin_email'])) {
 
             <div class="form-group"><!-- form-group Starts -->
 
-              <label class="col-md-3 control-label"> Term Description </label>
+<label class="col-md-3 control-label"> Término Descripción </label>
 
               <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -83,7 +83,7 @@ if (!isset($_SESSION['admin_email'])) {
 
             <div class="form-group"><!-- form-group Starts -->
 
-              <label class="col-md-3 control-label"> Term Link </label>
+<label class="col-md-3 control-label"> Enlace de término </label>
 
               <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -133,7 +133,7 @@ if (!isset($_SESSION['admin_email'])) {
 
     if ($run_term) {
 
-      echo "<script>alert('New Term Has Been Inserted')</script>";
+echo "<script>alert('Se ha insertado un nuevo término')</script>";
 
       echo "<script>window.open('index.php?view_terms','_self')</script>";
     }

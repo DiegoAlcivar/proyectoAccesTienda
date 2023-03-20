@@ -12,7 +12,7 @@ include("includes/main.php");
   <!-- HERO -->
   <div class="nero">
     <div class="nero__heading">
-      <span class="nero__bold">SHOP</span> Cart
+     <!-- <span class="nero__bold">SHOP</span> Cart-->
     </div>
     <p class="nero__text">
     </p>
@@ -31,7 +31,7 @@ include("includes/main.php");
 
         <form action="cart.php" method="post" enctype="multipart-form-data"><!-- form Starts -->
 
-          <h1> Shopping Cart </h1>
+          <h1> carro de la compra </h1>
 
           <?php
 
@@ -45,7 +45,7 @@ include("includes/main.php");
 
           ?>
 
-          <p class="text-muted"> You currently have <?php echo $count; ?> item(s) in your cart. </p>
+          <p class="text-muted"> Tu Actualmente tienes <?php echo $count; ?> objetos en tu carro de compras. </p>
 
           <div class="table-responsive"><!-- table-responsive Starts -->
 
@@ -56,15 +56,15 @@ include("includes/main.php");
                 <tr>
 
 
-                  <th colspan="2">Product</th>
+                  <th colspan="2">Producto</th>
 
-                  <th>Quantity</th>
+                  <th>Cantidad</th>
 
-                  <th>Unit Price</th>
+                  <th>Precio unitario</th>
 
-                  <th>Size</th>
+                  <th>Tamaño</th>
 
-                  <th colspan="1">Delete</th>
+                  <th colspan="1">Borrar</th>
 
                   <th colspan="2"> Sub Total </th>
 
@@ -172,7 +172,7 @@ include("includes/main.php");
 
               <div class="form-group"><!-- form-group Starts -->
 
-                <label>Coupon Code : </label>
+                <label>Código de cupón : </label>
 
                 <input type="text" name="code" class="form-control">
 
@@ -191,7 +191,7 @@ include("includes/main.php");
 
               <a href="index.php" class="btn btn-default">
 
-                <i class="fa fa-chevron-left"></i> Continue Shopping
+                <i class="fa fa-chevron-left"></i> Seguir comprando
 
               </a>
 
@@ -201,13 +201,13 @@ include("includes/main.php");
 
               <button class="btn btn-default" type="submit" name="update" value="Update Cart">
 
-                <i class="fa fa-refresh"></i> Update Cart
+                <i class="fa fa-refresh"></i> Actualización de la compra
 
               </button>
 
               <a href="checkout.php" class="btn btn-primary">
 
-                Proceed to checkout <i class="fa fa-chevron-right"></i>
+              Pasar por la caja <i class="fa fa-chevron-right"></i>
 
               </a>
 

@@ -158,7 +158,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                             <div class="col-md-6">
 
-                                <input type="submit" name="submit" class=" btn btn-primary form-control" value=" Insert Coupon ">
+<input type="submit" name="submit" class=" btn btn-primary form-control" value="Insertar cupón">
 
                             </div>
 
@@ -198,8 +198,10 @@ if (!isset($_SESSION['admin_email'])) {
 
         if ($check_coupons == 1) {
 
-            echo "<script>alert('Coupon Code or Product Already Added Choose another Coupon code or Product')</script>";
-        } else {
+echo "<script>alert('Código de cupón o producto ya agregado Elija otro código de cupón o producto')</script>";
+
+}
+else{
 
             $insert_coupon = "insert into coupons (product_id,coupon_title,coupon_price,coupon_code,coupon_limit,coupon_used) values ('$product_id','$coupon_title','$coupon_price','$coupon_code','$coupon_limit','$coupon_used')";
 
@@ -207,7 +209,7 @@ if (!isset($_SESSION['admin_email'])) {
 
             if ($run_coupon) {
 
-                echo "<script>alert('New Coupon Has Been Inserted')</script>";
+echo "<script>alert('Se ha insertado un nuevo cupón')</script>";
 
                 echo "<script>window.open('index.php?view_coupons','_self')</script>";
             }

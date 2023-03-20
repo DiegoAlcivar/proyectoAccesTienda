@@ -71,9 +71,8 @@ if (!isset($_SESSION['admin_email'])) {
 
           <h3 class="panel-title"><!-- panel-title Starts -->
 
-            <i class="fa fa-money fa-fw"></i> Edit Terms
-
-          </h3><!-- panel-title Ends -->
+<i class="fa fa-money fa-fw"></i>Editar términos
+</h3><!-- panel-title Ends -->
 
         </div><!-- panel-heading Ends -->
 
@@ -83,7 +82,7 @@ if (!isset($_SESSION['admin_email'])) {
 
             <div class="form-group"><!-- form-group Starts -->
 
-              <label class="col-md-3 control-label"> Term Title </label>
+<label class="col-md-3 control-label"> Título del término </label>
 
               <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -95,7 +94,7 @@ if (!isset($_SESSION['admin_email'])) {
 
             <div class="form-group"><!-- form-group Starts -->
 
-              <label class="col-md-3 control-label"> Term Description </label>
+<label class="col-md-3 control-label"> Término Descripción</label>
 
               <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -109,7 +108,7 @@ if (!isset($_SESSION['admin_email'])) {
 
             <div class="form-group"><!-- form-group Starts -->
 
-              <label class="col-md-3 control-label"> Term Link </label>
+<label class="col-md-3 control-label"> Enlace de término </label>
 
               <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -125,7 +124,7 @@ if (!isset($_SESSION['admin_email'])) {
 
               <div class="col-md-6"><!-- col-md-6 Starts -->
 
-                <input type="submit" name="update" value="Update Term" class="btn btn-primary form-control">
+<input type="submit" name="update" value="Actualizar término" class="btn btn-primary form-control" >
 
               </div><!-- col-md-6 Ends -->
 
@@ -153,13 +152,13 @@ if (!isset($_SESSION['admin_email'])) {
 
     $term_link = $_POST['term_link'];
 
-    $update_term = "update terms set term_title='$term_title',term_link='$term_link',term_desc='$term_desc' where term_id='$term_id'";
+$update_term = "update terms set term_title='$term_title',term_link='$term_link',term_desc='$term_desc' where term_id='$term_id'";
 
     $run_term = mysqli_query($con, $update_term);
 
     if ($run_term) {
 
-      echo "<script>alert('One Term Box Has Been Updated ')</script>";
+echo "<script>alert('Se ha actualizado el cuadro de un término ')</script>";
 
       echo "<script>window.open('index.php?view_terms','_self')</script>";
     }

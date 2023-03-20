@@ -13,7 +13,7 @@ include("includes/main.php");
   <!-- HERO -->
   <div class="nero">
     <div class="nero__heading">
-      <span class="nero__bold">Terms</span> of use
+    <!--  <span class="nero__bold">Términos</span> de uso-->
     </div>
     <p class="nero__text">
     </p>

@@ -37,7 +37,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <h3 class="panel-title"><!-- panel-title Starts -->
 
-                        <i class="fa fa-money fa-fw"></i> View Coupons
+<i class="fa fa-money fa-fw"></i> Ver cupones
 
                     </h3><!-- panel-title Ends -->
 
@@ -53,15 +53,15 @@ if (!isset($_SESSION['admin_email'])) {
 
                                 <tr>
 
-                                    <th>#</th>
-                                    <th>Title </th>
-                                    <th>Product </th>
-                                    <th>Coupon Price </th>
-                                    <th>Code </th>
-                                    <th>Limit </th>
-                                    <th>Used </th>
-                                    <th>Delete </th>
-                                    <th>Edit </th>
+<th>#</th>
+<th>Título  </th>
+<th>Producto  </th>
+<th>Precio del cupón </th>
+<th>Código  </th>
+<th>Limite  </th>
+<th>Usado  </th>
+<th>Borrar  </th>
+<th>Editar  </th>
 
                                 </tr>
 

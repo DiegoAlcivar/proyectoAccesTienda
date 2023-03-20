@@ -82,14 +82,14 @@
 				</div>
 				<div class="email">
 					Email:
-					<a href="atencionalcliente@accesworldtravel.com" class="email__addr">support@yourwebsite.com</a>
+					<a href="mailto:atencionalcliente@accesworldtravel.com" class="email__addr">atencionalcliente@accesworldtravel.com</a>
 				</div>
 			</div>
 
 		</div>
 	</div>
 
-	<!-- <div class="banners">
+	<div class="banners">
 		<div class="container clearfix">
 
 			<div class="banner-award">
@@ -112,7 +112,7 @@
 			</div>
 
 		</div>
-	</div> -->
+	</div>
 
 	<div class="page-footer__subline">
 		<div class="container clearfix">

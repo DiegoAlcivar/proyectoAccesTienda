@@ -73,7 +73,7 @@
         <nav class="main-nav">
           <ul class="categories">
 
-            <li class="categories__item">
+           <!--  <li class="categories__item">
               <a class="categories__link" href="#">
                 Hombres
                 
@@ -85,23 +85,23 @@
                 Mujeres
             
               </a>
-            </li>
+            </li>-->
 
             <li class="categories__item">
               <a class="categories__link categories__link--active" href="shop.php">
-                Tienda
+                TIENDA
               </a>
             </li>
 
             <li class="categories__item">
               <a class="categories__link" href="../about.php">
-              Sobre nosotros
+              SOBRE NOSOTROS
               </a>
             </li>
 
           <li class="categories__item">
               <a class="categories__link" href="#">
-                Mi cuenta
+                MI CUENTA
               </a>
             <!--  <div class="dropdown dropdown--lookbook">
                 <div class="clearfix">

@@ -123,28 +123,28 @@ include("includes/main.php");
           </div>
           <div class="email">
             Email:
-            <a href="mailto:support@yourwebsite.com" class="email__addr">atencionalcliente@accesworldtravel.com</a>
+            <a href="mailto:atencionalcliente@accesworldtravel.com" class="email__addr">atencionalcliente@accesworldtravel.com</a>
           </div>
         </div>
 
       </div>
     </div>
 
-    <!-- <div class="banners">
+   <div class="banners">
         <div class="container clearfix">
 
           <div class="banner-award">
-            <span>Award winner</span><br> Fashion awards 2016
+            <span>INK</span><br> PORTECH 2023
           </div>
 
           <div class="banner-social">
-            <a href="#" class="banner-social__link">
+            <a href="https://www.facebook.com/accesworldtravel" class="banner-social__link">
             <i class="icon-facebook"></i>
           </a>
             <a href="#" class="banner-social__link">
             <i class="icon-twitter"></i>
           </a>
-            <a href="#" class="banner-social__link">
+            <a href="https://www.instagram.com/accesworldtravel.s.a/" class="banner-social__link">
             <i class="icon-instagram"></i>
           </a>
             <a href="#" class="banner-social__link">
@@ -153,7 +153,7 @@ include("includes/main.php");
           </div>
 
         </div>
-      </div> -->
+      </div>
 
     <div class="page-footer__subline">
       <div class="container clearfix">

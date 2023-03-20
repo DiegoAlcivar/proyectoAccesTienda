@@ -85,7 +85,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                             <div class="col-md-6">
 
-                                <input type="submit" name="update" class="btn btn-primary form-control" value="Update Enquiry Type">
+                                <input type="submit" name="update" class="btn btn-primary form-control" value="Actualizar tipo de consulta">
 
                             </div>
 

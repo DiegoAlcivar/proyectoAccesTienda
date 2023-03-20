@@ -132,7 +132,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                             <div class="col-md-6">
 
-                                <input type="submit" name="update" value="Update Now" class="btn btn-primary form-control">
+                                <input type="submit" name="update" value="Actualizar ahora" class="btn btn-primary form-control">
 
                             </div>
 

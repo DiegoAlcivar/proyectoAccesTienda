@@ -38,7 +38,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <h3 class="panel-title">
 
-                        <i class="fa fa-money fa-fw"></i> View Enquiry Types
+<i class="fa fa-money fa-fw"></i>Ver tipos de consultas
 
                     </h3>
 
@@ -56,11 +56,11 @@ if (!isset($_SESSION['admin_email'])) {
 
                                     <th>#</th>
 
-                                    <th>Enquiry Type Title</th>
+<th>Título del tipo de consulta</th>
 
-                                    <th>Delete</th>
+<th>Borrar</th>
 
-                                    <th>Edit</th>
+<th>Editar</th>
 
                                 </tr>
 

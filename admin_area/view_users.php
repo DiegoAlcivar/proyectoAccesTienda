@@ -39,7 +39,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <h3 class="panel-title"><!-- panel-title Starts -->
 
-                        <i class="fa fa-money fa-fw"></i> View Users
+<i class="fa fa-money fa-fw" ></i> Ver usuarios
 
                     </h3><!-- panel-title Ends -->
 
@@ -56,17 +56,17 @@ if (!isset($_SESSION['admin_email'])) {
 
                                 <tr>
 
-                                    <th>User Name</th>
+<th>Nombre de usuario</th>
 
                                     <th>Email</th>
 
-                                    <th>Image</th>
+<th>Imagen</th>
 
-                                    <th>Country</th>
+<th>País</th>
 
-                                    <th>Job</th>
+<th>Trabajo</th>
 
-                                    <th>Delete</th>
+<th>Borrar</th>
 
 
                                 </tr>

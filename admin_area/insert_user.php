@@ -40,7 +40,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                     <h3 class="panel-title">
 
-                        <i class="fa fa-money fa-fw"></i> Insert User
+<i class="fa fa-money fa-fw" ></i> Insertar usuario
 
                     </h3>
 
@@ -54,7 +54,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                         <div class="form-group"><!-- form-group Starts -->
 
-                            <label class="col-md-3 control-label">User Name: </label>
+<label class="col-md-3 control-label">Nombre de usuario: </label>
 
                             <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -67,7 +67,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                         <div class="form-group"><!-- form-group Starts -->
 
-                            <label class="col-md-3 control-label">User Email: </label>
+<label class="col-md-3 control-label">Correo electrónico del usuario: </label>
 
                             <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -80,7 +80,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                         <div class="form-group"><!-- form-group Starts -->
 
-                            <label class="col-md-3 control-label">User Password: </label>
+<label class="col-md-3 control-label">Contraseña de usuario: </label>
 
                             <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -92,7 +92,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                         <div class="form-group"><!-- form-group Starts -->
 
-                            <label class="col-md-3 control-label">User Country: </label>
+<label class="col-md-3 control-label">País del usuario: </label>
 
                             <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -105,7 +105,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                         <div class="form-group"><!-- form-group Starts -->
 
-                            <label class="col-md-3 control-label">User Job: </label>
+<label class="col-md-3 control-label">Trabajo de usuario: </label>
 
                             <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -118,7 +118,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                         <div class="form-group"><!-- form-group Starts -->
 
-                            <label class="col-md-3 control-label">User Contact: </label>
+<label class="col-md-3 control-label">Contacto de usuario: </label>
 
                             <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -131,7 +131,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                         <div class="form-group"><!-- form-group Starts -->
 
-                            <label class="col-md-3 control-label">User About: </label>
+<label class="col-md-3 control-label">Usuario Acerca de: </label>
 
                             <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -143,7 +143,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                         <div class="form-group"><!-- form-group Starts -->
 
-                            <label class="col-md-3 control-label">User Image: </label>
+<label class="col-md-3 control-label">Imagen de usuario: </label>
 
                             <div class="col-md-6"><!-- col-md-6 Starts -->
 
@@ -160,7 +160,7 @@ if (!isset($_SESSION['admin_email'])) {
 
                             <div class="col-md-6"><!-- col-md-6 Starts -->
 
-                                <input type="submit" name="submit" value="Insert User" class="btn btn-primary form-control">
+<input type="submit" name="submit" value="Insertar usuario" class="btn btn-primary form-control">
 
                             </div><!-- col-md-6 Ends -->
 
@@ -210,7 +210,7 @@ if (!isset($_SESSION['admin_email'])) {
 
         if ($run_admin) {
 
-            echo "<script>alert('One User Has Been Inserted successfully')</script>";
+echo "<script>alert('Un usuario ha sido insertado con éxito')</script>";
 
             echo "<script>window.open('index.php?view_users','_self')</script>";
         }
