@@ -409,7 +409,7 @@ img {
 
 .page-header__topline .currency__change {
   display: block;
-  color: #777;
+  color:  #FFF;
   font-size: 13px;
   line-height: 45px;
   text-decoration: none;
@@ -418,7 +418,8 @@ img {
 }
 
 .page-header__topline .currency__change:hover {
-  color: #5e5e5e
+  background-color: #777777;
+  color: #FFF;
 }
 
 .page-header__topline .login {
@@ -444,7 +445,7 @@ img {
 .page-header__topline .login__link {
   display: block;
   font-size: 13px;
-  color: #999;
+  color: #FFF;
   line-height: 45px;
   text-decoration: none;
   -webkit-transition: color .3s;
@@ -452,7 +453,8 @@ img {
 }
 
 .page-header__topline .login__link:hover {
-  color: gray
+  background-color: #777777;
+  color: #FFF;
 }
 
 .page-header__topline .basket {
@@ -878,13 +880,15 @@ img {
   width: 100%;
   height: 45px;
   padding-left: 18px;
-  background-color: #00c8c8;
+  color: #FFF;
+  background-color: #333;
   -webkit-transition: background-color .3s;
   transition: background-color .3s
 }
 
 .btn--basket:hover {
-  background-color: #009595
+  background-color: #337ab7;
+  color: #FFF;
 }
 
 .btn--basket .icon-basket {
@@ -948,7 +952,7 @@ img {
 }
 
 .hero .btn1:hover {
-  background-color: #009595;
+  background-color: #337ab7;
   color: white;
 }
 
