@@ -72,7 +72,7 @@ if(!isset($_SESSION['customer_email'])){
         <nav class="main-nav">
           <ul class="categories">
 
-            <li class="categories__item">
+            <!-- <li class="categories__item">
               <a class="categories__link" href="#">
                 HOMBRES
                
@@ -84,7 +84,7 @@ if(!isset($_SESSION['customer_email'])){
                 MUJERES
                
               </a>
-            </li>
+            </li>-->
 
             <li class="categories__item">
               <a class="categories__link categories__link--active" href="shop.php">
@@ -94,7 +94,7 @@ if(!isset($_SESSION['customer_email'])){
 
             <li class="categories__item">
               <a class="categories__link" href="localstore.php">
-                Tiendas Locales
+                SOBRE NOSOTROS
               </a>
             </li>
 

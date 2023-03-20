@@ -498,7 +498,7 @@ img {
 }
 
 .page-header__bottomline .main-nav .categories__link:hover {
-  color: #00c8c8
+  color:#337ab7
 }
 
 .page-header__bottomline .main-nav .categories__link i {
@@ -509,7 +509,7 @@ img {
 }
 
 .page-header__bottomline .main-nav .categories__link--active {
-  color: #00c8c8
+  color: #337ab7
 }
 
 .page-header .dropdown {
@@ -725,7 +725,7 @@ img {
   padding-top: 80px;
   font-size: 0;
   text-align: center;
-  background-color: #00c8c8
+  background-color: #0088cc
 }
 
 .page-footer .banners .banner-social__link {

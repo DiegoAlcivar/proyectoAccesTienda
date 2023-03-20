@@ -89,7 +89,7 @@
 		</div>
 	</div>
 
-	<!-- <div class="banners">
+	<div class="banners">
 		<div class="container clearfix">
 
 			<div class="banner-award">
@@ -112,7 +112,7 @@
 			</div>
 
 		</div>
-	</div> -->
+	</div>
 
 	<div class="page-footer__subline">
 		<div class="container clearfix">
