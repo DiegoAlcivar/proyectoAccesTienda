@@ -13,7 +13,7 @@ include("includes/main.php");
   <!-- HERO -->
   <div class="nero">
     <div class="nero__heading">
-    <!--  <span class="nero__bold">Forgot</span> password-->
+      <!--  <span class="nero__bold">Forgot</span> password-->
     </div>
     <p class="nero__text">
     </p>
@@ -25,7 +25,7 @@ include("includes/main.php");
 
     <div class="col-md-12"><!--- col-md-12 Starts -->
 
-     <!-- <ul class="breadcrumb">
+      <!-- <ul class="breadcrumb">
 
         <li>
           <a href="index.php">Home</a>

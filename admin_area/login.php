@@ -32,7 +32,7 @@ include("includes/db.php");
 
             <button class="btn btn-lg btn-primary btn-block" type="submit" name="admin_login">
 
-            Acceso
+                Acceso
 
             </button>
 

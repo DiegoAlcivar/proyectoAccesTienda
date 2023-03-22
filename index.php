@@ -100,7 +100,7 @@ include("includes/main.php");
             <li class="footer-nav__item">
               <a href="index.php" class="footer-nav__link">Ver su catálogo</a>
             </li>
-           <!-- <li class="footer-nav__item">
+            <!-- <li class="footer-nav__item">
               <a href="#" class="footer-nav__link">Seguimiento de un pedido</a>
             </li>-->
             <li class="footer-nav__item">
@@ -130,30 +130,30 @@ include("includes/main.php");
       </div>
     </div>
 
-   <div class="banners">
-        <div class="container clearfix">
+    <div class="banners">
+      <div class="container clearfix">
 
-          <div class="banner-award">
-            <span>INK</span><br> PORTECH 2023
-          </div>
+        <div class="banner-award">
+          <span>INK</span><br> PORTECH 2023
+        </div>
 
-          <div class="banner-social">
-            <a href="https://www.facebook.com/accesworldtravel" class="banner-social__link">
+        <div class="banner-social">
+          <a href="https://www.facebook.com/accesworldtravel" class="banner-social__link">
             <i class="icon-facebook"></i>
           </a>
-            <a href="#" class="banner-social__link">
+          <a href="#" class="banner-social__link">
             <i class="icon-twitter"></i>
           </a>
-            <a href="https://www.instagram.com/accesworldtravel.s.a/" class="banner-social__link">
+          <a href="https://www.instagram.com/accesworldtravel.s.a/" class="banner-social__link">
             <i class="icon-instagram"></i>
           </a>
-            <a href="#" class="banner-social__link">
+          <a href="#" class="banner-social__link">
             <i class="icon-pinterest-circled"></i>
           </a>
-          </div>
-
         </div>
+
       </div>
+    </div>
 
     <div class="page-footer__subline">
       <div class="container clearfix">

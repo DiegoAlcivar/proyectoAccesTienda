@@ -1,233 +1,223 @@
 <?php
 
 
-if(!isset($_SESSION['admin_email'])){
+if (!isset($_SESSION['admin_email'])) {
 
-echo "<script>window.open('login.php','_self')</script>";
-
-}
-
-else {
+    echo "<script>window.open('login.php','_self')</script>";
+} else {
 
 
 ?>
 
 
-<?php
+    <?php
 
-if(isset($_GET['edit_rel'])){
+    if (isset($_GET['edit_rel'])) {
 
-$edit_id = $_GET['edit_rel'];
+        $edit_id = $_GET['edit_rel'];
 
-$edit_rel = "select * from bundle_product_relation where rel_id='$edit_id'";
+        $edit_rel = "select * from bundle_product_relation where rel_id='$edit_id'";
 
-$run_edit = mysqli_query($con,$edit_rel);
+        $run_edit = mysqli_query($con, $edit_rel);
 
-$row_edit = mysqli_fetch_array($run_edit);
+        $row_edit = mysqli_fetch_array($run_edit);
 
-$r_id = $row_edit['rel_id'];
+        $r_id = $row_edit['rel_id'];
 
-$r_title = $row_edit['rel_title'];
+        $r_title = $row_edit['rel_title'];
 
-$r_p = $row_edit['product_id'];
+        $r_p = $row_edit['product_id'];
 
-$r_b = $row_edit['bundle_id'];
+        $r_b = $row_edit['bundle_id'];
 
-$get_p = "select * from products where product_id='$r_p'";
+        $get_p = "select * from products where product_id='$r_p'";
 
-$run_p = mysqli_query($con,$get_p);
+        $run_p = mysqli_query($con, $get_p);
 
-$row_p = mysqli_fetch_array($run_p);
+        $row_p = mysqli_fetch_array($run_p);
 
-$p_id = $row_p['product_id'];
+        $p_id = $row_p['product_id'];
 
-$p_title = $row_p['product_title'];
+        $p_title = $row_p['product_title'];
 
 
-$get_b = "select * from products where product_id='$r_b'";
+        $get_b = "select * from products where product_id='$r_b'";
 
-$run_b = mysqli_query($con,$get_b);
+        $run_b = mysqli_query($con, $get_b);
 
-$row_b = mysqli_fetch_array($run_b);
+        $row_b = mysqli_fetch_array($run_b);
 
-$b_id = $row_b['product_id'];
+        $b_id = $row_b['product_id'];
 
-$b_title = $row_b['product_title'];
+        $b_title = $row_b['product_title'];
+    }
 
+    ?>
 
-}
+    <div class="row"><!-- 1 row Starts -->
 
-?>
+        <div class="col-lg-12"><!-- col-lg-12 Starts -->
 
-<div class="row"><!-- 1 row Starts -->
+            <ol class="breadcrumb"><!-- breadcrumb Starts -->
 
-<div class="col-lg-12"><!-- col-lg-12 Starts -->
+                <li class="active">
 
-<ol class="breadcrumb"><!-- breadcrumb Starts -->
+                    <i class="fa fa-dashboard"></i> Dashboard / Editar Relacion
 
-<li class="active">
+                </li>
 
-<i class="fa fa-dashboard"></i> Dashboard / Editar Relacion
+            </ol><!-- breadcrumb Ends -->
 
-</li>
+        </div><!-- col-lg-12 Ends -->
 
-</ol><!-- breadcrumb Ends -->
+    </div><!-- 1 row Ends -->
 
-</div><!-- col-lg-12 Ends -->
 
-</div><!-- 1 row Ends -->
+    <div class="row"><!-- 2 row Starts -->
 
+        <div class="col-lg-12"><!-- col-lg-12 Starts -->
 
-<div class="row"><!-- 2 row Starts -->
+            <div class="panel panel-default"><!-- panel panel-default Starts -->
 
-<div class="col-lg-12"><!-- col-lg-12 Starts -->
+                <div class="panel-heading"><!-- panel-heading Starts -->
 
-<div class="panel panel-default"><!-- panel panel-default Starts -->
+                    <h3 class="panel-title"><!-- panel-title Starts -->
 
-<div class="panel-heading"><!-- panel-heading Starts -->
+                        <i class="fa fa-money fa-fw"></i> Edit Relation
 
-<h3 class="panel-title"><!-- panel-title Starts -->
+                    </h3><!-- panel-title Ends -->
 
-<i  class="fa fa-money fa-fw"></i> Edit Relation
+                </div><!-- panel-heading Ends -->
 
-</h3><!-- panel-title Ends -->
+                <div class="panel-body"><!-- panel-body Starts -->
 
-</div><!-- panel-heading Ends -->
+                    <form class="form-horizontal" action="" method="post"><!-- form-horizontal Starts -->
 
-<div class="panel-body"><!-- panel-body Starts -->
+                        <div class="form-group"><!-- form-group Starts -->
 
-<form class="form-horizontal" action="" method="post"><!-- form-horizontal Starts -->
+                            <label class="col-md-3 control-label"> Relation Title </label>
 
-<div class="form-group"><!-- form-group Starts -->
+                            <div class="col-md-6">
 
-<label class="col-md-3 control-label"> Relation Title  </label>
+                                <input type="text" name="rel_title" class="form-control" value="<?php echo $r_title; ?>">
 
-<div class="col-md-6">
+                            </div>
 
-<input type="text" name="rel_title" class="form-control" value="<?php echo $r_title; ?>">
+                        </div><!-- form-group Ends -->
 
-</div>
+                        <div class="form-group"><!-- form-group Starts -->
 
-</div><!-- form-group Ends -->
+                            <label class="col-md-3 control-label"> Select Product </label>
 
-<div class="form-group"><!-- form-group Starts -->
+                            <div class="col-md-6">
 
-<label class="col-md-3 control-label"> Select Product  </label>
+                                <select name="product_id" class="form-control">
 
-<div class="col-md-6">
+                                    <option value="<?php echo $p_id; ?>"> <?php echo $p_title; ?> </option>
 
-<select name="product_id" class="form-control">
+                                    <?php
 
-<option value="<?php echo $p_id; ?>"> <?php echo $p_title; ?>  </option>
+                                    $get_p = "select * from products where status='product'";
 
-<?php
+                                    $run_p = mysqli_query($con, $get_p);
 
-$get_p = "select * from products where status='product'";
+                                    while ($row_p = mysqli_fetch_array($run_p)) {
 
-$run_p = mysqli_query($con,$get_p);
+                                        $p_id = $row_p['product_id'];
 
-while($row_p = mysqli_fetch_array($run_p)){
+                                        $p_title = $row_p['product_title'];
 
-$p_id = $row_p['product_id'];
+                                        echo "<option value='$p_id'> $p_title </option>";
+                                    }
 
-$p_title = $row_p['product_title'];
+                                    ?>
 
-echo "<option value='$p_id'> $p_title </option>";
+                                </select>
 
-}
+                            </div>
 
-?>
+                        </div><!-- form-group Ends -->
 
-</select>
+                        <div class="form-group"><!-- form-group Starts -->
 
-</div>
+                            <label class="col-md-3 control-label"> Select Bundle </label>
 
-</div><!-- form-group Ends -->
+                            <div class="col-md-6">
 
-<div class="form-group"><!-- form-group Starts -->
+                                <select name="bundle_id" class="form-control">
 
-<label class="col-md-3 control-label"> Select Bundle  </label>
+                                    <option value="<?php echo $b_id; ?>"> <?php echo $b_title; ?> </option>
 
-<div class="col-md-6">
+                                    <?php
 
-<select name="bundle_id" class="form-control">
+                                    $get_p = "select * from products where status='bundle'";
 
-<option value="<?php echo $b_id; ?>">  <?php echo $b_title; ?> </option>
+                                    $run_p = mysqli_query($con, $get_p);
 
-<?php
+                                    while ($row_p = mysqli_fetch_array($run_p)) {
 
-$get_p = "select * from products where status='bundle'";
+                                        $p_id = $row_p['product_id'];
 
-$run_p = mysqli_query($con,$get_p);
+                                        $p_title = $row_p['product_title'];
 
-while($row_p = mysqli_fetch_array($run_p)){
+                                        echo "<option value='$p_id'> $p_title </option>";
+                                    }
 
-$p_id = $row_p['product_id'];
+                                    ?>
 
-$p_title = $row_p['product_title'];
+                                </select>
 
-echo "<option value='$p_id'> $p_title </option>";
+                            </div>
 
-}
+                        </div><!-- form-group Ends -->
 
-?>
 
-</select>
+                        <div class="form-group"><!-- form-group Starts -->
 
-</div>
+                            <label class="col-md-3 control-label"> </label>
 
-</div><!-- form-group Ends -->
+                            <div class="col-md-6">
 
+                                <input type="submit" name="update" class="btn btn-primary form-control" value="Update Relation">
 
-<div class="form-group"><!-- form-group Starts -->
+                            </div>
 
-<label class="col-md-3 control-label"> </label>
+                        </div><!-- form-group Ends -->
 
-<div class="col-md-6">
+                    </form><!-- form-horizontal Ends -->
 
-<input type="submit" name="update" class="btn btn-primary form-control" value="Update Relation">
+                </div><!-- panel-body Ends -->
 
-</div>
+            </div><!-- panel panel-default Ends -->
 
-</div><!-- form-group Ends -->
+        </div><!-- col-lg-12 Ends -->
 
-</form><!-- form-horizontal Ends -->
+    </div><!-- 2 row Ends -->
 
-</div><!-- panel-body Ends -->
 
-</div><!-- panel panel-default Ends -->
+    <?php
 
-</div><!-- col-lg-12 Ends -->
+    if (isset($_POST['update'])) {
 
-</div><!-- 2 row Ends -->
+        $rel_title = $_POST['rel_title'];
 
+        $product_id = $_POST['product_id'];
 
-<?php
+        $bundle_id = $_POST['bundle_id'];
 
-if(isset($_POST['update'])){
+        $update_rel = "update bundle_product_relation set rel_title='$rel_title',product_id='$product_id',bundle_id='$bundle_id' where rel_id='$r_id'";
 
-$rel_title = $_POST['rel_title'];
+        $run_rel = mysqli_query($con, $update_rel);
 
-$product_id = $_POST['product_id'];
+        if ($run_rel) {
 
-$bundle_id = $_POST['bundle_id'];
+            echo "<script>alert('Relation Has Been Updated')</script>";
 
-$update_rel = "update bundle_product_relation set rel_title='$rel_title',product_id='$product_id',bundle_id='$bundle_id' where rel_id='$r_id'";
+            echo "<script> window.open('index.php?view_rel','_self') </script>";
+        }
+    }
 
-$run_rel = mysqli_query($con,$update_rel);
-
-if($run_rel){
-
-echo "<script>alert('Relation Has Been Updated')</script>";
-
-echo "<script> window.open('index.php?view_rel','_self') </script>";
-
-}
-
-
-}
-
-?>
+    ?>
 
 
 <?php } ?>

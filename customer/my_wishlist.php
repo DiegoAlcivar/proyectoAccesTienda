@@ -1,9 +1,8 @@
-
 <center><!-- center Starts -->
 
-<h1> Mi Lista de Deseos </h1>
+    <h1> Mi Lista de Deseos </h1>
 
-<p class="lead">Todos sus productos de lista de deseos en un solo lugar. </p>
+    <p class="lead">Todos sus productos de lista de deseos en un solo lugar. </p>
 
 </center><!-- center Ends -->
 
@@ -11,100 +10,100 @@
 
 <div class="table-responsive"><!-- table-responsive Starts -->
 
-<table class="table table-bordered table-hover"><!-- table table-bordered table-hover Starts -->
+    <table class="table table-bordered table-hover"><!-- table table-bordered table-hover Starts -->
 
-<thead>
+        <thead>
 
-<tr>
+            <tr>
 
-<th> No. de lista de deseos: </th>
+                <th> No. de lista de deseos: </th>
 
-<th> Producto de la lista de deseos </th>
+                <th> Producto de la lista de deseos </th>
 
-<th> Eliminar lista de deseos </th>
+                <th> Eliminar lista de deseos </th>
 
-</tr>
+            </tr>
 
-</thead>
+        </thead>
 
-<tbody>
+        <tbody>
 
-<?php
-
-
-$customer_session = $_SESSION['customer_email'];
-
-$get_customer = "select * from customers where customer_email='$customer_session'";
-
-$run_customer = mysqli_query($con,$get_customer);
-
-$row_customer = mysqli_fetch_array($run_customer);
-
-$customer_id = $row_customer['customer_id'];
-
-$i = 0;
+            <?php
 
 
-$get_wishlist = "select * from wishlist where customer_id='$customer_id'";
+            $customer_session = $_SESSION['customer_email'];
 
-$run_wishlist = mysqli_query($con,$get_wishlist);
+            $get_customer = "select * from customers where customer_email='$customer_session'";
 
-while($row_wishlist = mysqli_fetch_array($run_wishlist)){
+            $run_customer = mysqli_query($con, $get_customer);
 
-$wishlist_id = $row_wishlist['wishlist_id'];
+            $row_customer = mysqli_fetch_array($run_customer);
 
-$product_id = $row_wishlist['product_id'];
+            $customer_id = $row_customer['customer_id'];
 
-$get_products = "select * from products where product_id='$product_id'";
+            $i = 0;
 
-$run_products = mysqli_query($con,$get_products);
 
-$row_products = mysqli_fetch_array($run_products);
+            $get_wishlist = "select * from wishlist where customer_id='$customer_id'";
 
-$product_title = $row_products['product_title'];
+            $run_wishlist = mysqli_query($con, $get_wishlist);
 
-$product_url = $row_products['product_url'];
+            while ($row_wishlist = mysqli_fetch_array($run_wishlist)) {
 
-$product_img1 = $row_products['product_img1'];
+                $wishlist_id = $row_wishlist['wishlist_id'];
 
-$i++;
+                $product_id = $row_wishlist['product_id'];
 
-?>
+                $get_products = "select * from products where product_id='$product_id'";
 
-<tr>
+                $run_products = mysqli_query($con, $get_products);
 
-<td width="100"> <?php echo $i; ?> </td>
+                $row_products = mysqli_fetch_array($run_products);
 
-<td>
+                $product_title = $row_products['product_title'];
 
-<img src="../admin_area/product_images/<?php echo $product_img1; ?>" width="60" height="60">
+                $product_url = $row_products['product_url'];
 
-&nbsp;&nbsp;&nbsp; 
+                $product_img1 = $row_products['product_img1'];
 
-<a href="../<?php echo $product_url; ?>">
+                $i++;
 
-<?php echo $product_title; ?>
+            ?>
 
-</a>
+                <tr>
 
-</td>
+                    <td width="100"> <?php echo $i; ?> </td>
 
-<td>
+                    <td>
 
-<a href="my_account.php?delete_wishlist=<?php echo $wishlist_id; ?>" class="btn btn-primary">
+                        <img src="../admin_area/product_images/<?php echo $product_img1; ?>" width="60" height="60">
 
-<i class="fa fa-trash-o"> </i>Borrar
+                        &nbsp;&nbsp;&nbsp;
 
-</a>
+                        <a href="../<?php echo $product_url; ?>">
 
-</td>
+                            <?php echo $product_title; ?>
 
-</tr>
+                        </a>
 
-<?php } ?>
+                    </td>
 
-</tbody>
+                    <td>
 
-</table><!-- table table-bordered table-hover Ends -->
+                        <a href="my_account.php?delete_wishlist=<?php echo $wishlist_id; ?>" class="btn btn-primary">
+
+                            <i class="fa fa-trash-o"> </i>Borrar
+
+                        </a>
+
+                    </td>
+
+                </tr>
+
+            <?php } ?>
+
+        </tbody>
+
+    </table><!-- table table-bordered table-hover Ends -->
 
 </div><!-- table-responsive Ends -->
