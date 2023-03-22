@@ -615,7 +615,7 @@ img {
 }
 
 .page-footer .footer-nav__col--contacts {
-  width: 240px
+  width: 280px
 }
 
 .page-footer .footer-nav__col .address {
@@ -880,13 +880,13 @@ img {
 /*cover*/
 
 .nero {
-  padding-top: 160px;
+  padding-top: 120px;
   padding-bottom: 140px;
   font-family: 'montserratlight', sans-serif;
   text-align: center;
   text-transform: uppercase;
   color: #FFF;
-  background: #666 url("../images/inklogo-banner.jpg") no-repeat;
+  background: #666 url("../images/ink2.png") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -904,10 +904,10 @@ img {
 }
 
 .hero {
-  padding-top: 300px;
+  padding-top: 130px;
   padding-bottom: 140px;
   color: #fff;
-  background: #666 url(../images/inklogo.jpg) no-repeat;
+  background: #666 url(../images/ink2.png) no-repeat;
   background-size: cover;
   background-position: 50%;
 }

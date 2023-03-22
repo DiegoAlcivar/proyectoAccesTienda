@@ -3,48 +3,6 @@
 	<div class="footer-nav">
 		<div class="container clearfix">
 
-			<div class="footer-nav__col footer-nav__col--info">
-				<div class="footer-nav__heading">INFORMACION</div>
-				<ul class="footer-nav__list">
-					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">La Marca</a>
-					</li>
-					<!--<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Tiendas Locales</a>
-					</li>-->
-					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Servicio al cliente</a>
-					</li>
-					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Privacidad &amp; cookies</a>
-					</li>
-					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link"> Mapa del Sitio</a>
-					</li>
-				</ul>
-			</div>
-
-			<div class="footer-nav__col footer-nav__col--whybuy">
-				<div class="footer-nav__heading">PORQUE COMPRAR CON NOSOTROS?</div>
-				<ul class="footer-nav__list">
-					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Envio &amp; Devoluciones</a>
-					</li>
-					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Envio Seguro</a>
-					</li>
-					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Testimonios</a>
-					</li>
-					<!--<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Ganador de premio</a>
-					</li>
-					<li class="footer-nav__item">
-						<a href="#" class="footer-nav__link">Comercio etico</a>
-					</li>-->
-				</ul>
-			</div>
-
 			<div class="footer-nav__col footer-nav__col--account">
 				<div class="footer-nav__heading">TU CUENTA</div>
 				<ul class="footer-nav__list">
@@ -81,8 +39,7 @@
 					<a class="phone__number" href="tel:0123456789">0989138892</a>
 				</div>
 				<div class="email">
-					Email:
-					<a href="mailto:atencionalcliente@accesworldtravel.com" class="email__addr">atencionalcliente@accesworldtravel.com</a>
+					Email:<a href="mailto:atencionalcliente@accesworldtravel.com" class="email__addr">atencionalcliente@accesworldtravel.com</a>
 				</div>
 			</div>
 
