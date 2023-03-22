@@ -1,144 +1,149 @@
 <?php
 
-if (!isset($_SESSION['admin_email'])) {
+if(!isset($_SESSION['admin_email'])){
 
-    echo "<script>window.open('login.php','_self')</script>";
-} else {
+echo "<script>window.open('login.php','_self')</script>";
+
+}
+
+else {
 
 
 ?>
 
-    <div class="row"><!-- 1 row Starts -->
+<div class="row"><!-- 1 row Starts -->
 
-        <div class="col-lg-12"><!-- col-lg-12 Starts -->
+<div class="col-lg-12"><!-- col-lg-12 Starts -->
 
-            <ol class="breadcrumb"><!-- breadcrumb Starts -->
+<ol class="breadcrumb"><!-- breadcrumb Starts -->
 
-                <li>
+<li>
 
-                    <i class="fa fa-dashboard"></i> Dashboard / Insertar Categoria
+<i class="fa fa-dashboard"></i> Dashboard / Insertar Categoria
 
-                </li>
+</li>
 
-            </ol><!-- breadcrumb Ends -->
+</ol><!-- breadcrumb Ends -->
 
-        </div><!-- col-lg-12 Ends -->
+</div><!-- col-lg-12 Ends -->
 
-    </div><!-- 1 row Ends -->
+</div><!-- 1 row Ends -->
 
 
-    <div class="row"><!-- 2 row Starts -->
+<div class="row"><!-- 2 row Starts -->
 
-        <div class="col-lg-12"><!-- col-lg-12 Starts -->
+<div class="col-lg-12"><!-- col-lg-12 Starts -->
 
-            <div class="panel panel-default"><!-- panel panel-default Starts -->
+<div class="panel panel-default"><!-- panel panel-default Starts -->
 
-                <div class="panel-heading"><!-- panel-heading Starts -->
+<div class="panel-heading"><!-- panel-heading Starts -->
 
-                    <h3 class="panel-title"><!-- panel-title Starts -->
+<h3 class="panel-title"><!-- panel-title Starts -->
 
-                        <i class="fa fa-money fa-fw"></i> Insertar categoria
+<i class="fa fa-money fa-fw"></i> Insertar categoria
 
-                    </h3><!-- panel-title Ends -->
+</h3><!-- panel-title Ends -->
 
-                </div><!-- panel-heading Ends -->
+</div><!-- panel-heading Ends -->
 
-                <div class="panel-body"><!-- panel-body Starts -->
+<div class="panel-body"><!-- panel-body Starts -->
 
-                    <form class="form-horizontal" action="" method="post" enctype="multipart/form-data"><!-- form-horizontal Starts -->
+<form class="form-horizontal" action="" method="post" enctype="multipart/form-data"><!-- form-horizontal Starts -->
 
-                        <div class="form-group"><!-- form-group Starts -->
+<div class="form-group"><!-- form-group Starts -->
 
-                            <label class="col-md-3 control-label">Título de la Categoria</label>
+<label class="col-md-3 control-label">Título de la Categoria</label>
 
-                            <div class="col-md-6">
+<div class="col-md-6">
 
-                                <input type="text" name="cat_title" class="form-control">
+<input type="text" name="cat_title" class="form-control">
 
-                            </div>
+</div>
 
-                        </div><!-- form-group Ends -->
+</div><!-- form-group Ends -->
 
-                        <div class="form-group"><!-- form-group Starts -->
+<div class="form-group"><!-- form-group Starts -->
 
-                            <label class="col-md-3 control-label">Seleccionar como categoria principal</label>
+<label class="col-md-3 control-label">Seleccionar como categoria principal</label>
 
-                            <div class="col-md-6">
+<div class="col-md-6">
 
-                                <input type="radio" name="cat_top" value="yes">
+<input type="radio" name="cat_top" value="yes">
 
-                                <label>Si</label>
+<label>Si</label>
 
-                                <input type="radio" name="cat_top" value="no">
+<input type="radio" name="cat_top" value="no">
 
-                                <label>No</label>
+<label>No</label>
 
-                            </div>
+</div>
 
-                        </div><!-- form-group Ends -->
+</div><!-- form-group Ends -->
 
-                        <div class="form-group"><!-- form-group Starts -->
+<div class="form-group"><!-- form-group Starts -->
 
-                            <label class="col-md-3 control-label">Seleccionar imagen de la categoria</label>
+<label class="col-md-3 control-label">Seleccionar imagen de la categoria</label>
 
-                            <div class="col-md-6">
+<div class="col-md-6">
 
-                                <input type="file" name="cat_image" class="form-control">
+<input type="file" name="cat_image" class="form-control">
 
-                            </div>
+</div>
 
-                        </div><!-- form-group Ends -->
+</div><!-- form-group Ends -->
 
-                        <div class="form-group"><!-- form-group Starts -->
+<div class="form-group"><!-- form-group Starts -->
 
-                            <label class="col-md-3 control-label"></label>
+<label class="col-md-3 control-label"></label>
 
-                            <div class="col-md-6">
+<div class="col-md-6">
 
-                                <input type="submit" name="submit" value="Insert Category" class="btn btn-primary form-control">
+<input type="submit" name="submit" value="Insert Category" class="btn btn-primary form-control">
 
-                            </div>
+</div>
 
-                        </div><!-- form-group Ends -->
+</div><!-- form-group Ends -->
 
-                    </form><!-- form-horizontal Ends -->
+</form><!-- form-horizontal Ends -->
 
-                </div><!-- panel-body Ends -->
+</div><!-- panel-body Ends -->
 
-            </div><!-- panel panel-default Ends -->
+</div><!-- panel panel-default Ends -->
 
-        </div><!-- col-lg-12 Ends -->
+</div><!-- col-lg-12 Ends -->
 
-    </div><!-- 2 row Ends -->
+</div><!-- 2 row Ends -->
 
-    <?php
+<?php
 
-    if (isset($_POST['submit'])) {
+if(isset($_POST['submit'])){
 
-        $cat_title = $_POST['cat_title'];
+$cat_title = $_POST['cat_title'];
 
-        $cat_top = $_POST['cat_top'];
+$cat_top = $_POST['cat_top'];
 
-        $cat_image = $_FILES['cat_image']['name'];
+$cat_image = $_FILES['cat_image']['name'];
 
-        $temp_name = $_FILES['cat_image']['tmp_name'];
+$temp_name = $_FILES['cat_image']['tmp_name'];
 
-        move_uploaded_file($temp_name, "other_images/$cat_image");
+move_uploaded_file($temp_name,"other_images/$cat_image");
 
-        $insert_cat = "insert into categories (cat_title,cat_top,cat_image) values ('$cat_title','$cat_top','$cat_image')";
+$insert_cat = "insert into categories (cat_title,cat_top,cat_image) values ('$cat_title','$cat_top','$cat_image')";
 
-        $run_cat = mysqli_query($con, $insert_cat);
+$run_cat = mysqli_query($con,$insert_cat);
 
-        if ($run_cat) {
+if($run_cat){
 
-            echo "<script> alert('New Category Has Been Inserted')</script>";
+echo "<script> alert('New Category Has Been Inserted')</script>";
 
-            echo "<script> window.open('index.php?view_cats','_self') </script>";
-        }
-    }
+echo "<script> window.open('index.php?view_cats','_self') </script>";
 
+}
 
+}
 
-    ?>
+
+
+?>
 
 <?php } ?>

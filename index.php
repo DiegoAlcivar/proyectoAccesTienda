@@ -44,14 +44,14 @@ include("includes/main.php");
       <div class="container clearfix">
 
         <div class="footer-nav__col footer-nav__col--info">
-          <div class="footer-nav__heading">INFORMACION</div>
+          <div class="footer-nav__heading"></div>
           <ul class="footer-nav__list">
             <li class="footer-nav__item">
-              <a href="#" class="footer-nav__link">La Marca</a>
+              <!--<a href="#" class="footer-nav__link">La Marca</a>
             </li>
-          <!--  <li class="footer-nav__item">
+            <li class="footer-nav__item">
               <a href="localstore.php" class="footer-nav__link">Tiendas Locales</a>
-            </li>-->
+            </li>
             <li class="footer-nav__item">
               <a href="#" class="footer-nav__link">Servicio al Cliente</a>
             </li>
@@ -60,12 +60,12 @@ include("includes/main.php");
             </li>
             <li class="footer-nav__item">
               <a href="#" class="footer-nav__link">Mapa del Sitio</a>
-            </li>
+            </li>-->
           </ul>
         </div>
 
         <div class="footer-nav__col footer-nav__col--whybuy">
-          <div class="footer-nav__heading">PORQUE COMPRAR CON NOSOTROS?</div>
+          <!--<div class="footer-nav__heading">PORQUE COMPRAR CON NOSOTROS?</div>
           <ul class="footer-nav__list">
             <li class="footer-nav__item">
               <a href="#" class="footer-nav__link">Envío &amp; devoluciones</a>
@@ -76,7 +76,7 @@ include("includes/main.php");
             <li class="footer-nav__item">
               <a href="#" class="footer-nav__link">Testimonios</a>
             </li>
-           <!-- <li class="footer-nav__item">
+           <li class="footer-nav__item">
               <a href="#" class="footer-nav__link">Ganador de premio </a>
             </li>
             <li class="footer-nav__item">

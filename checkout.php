@@ -27,7 +27,7 @@ include("includes/main.php");
 
     <div class="col-md-12"><!-- col-md-12 Starts -->
 
-      <?php
+      <?php 
 
       if (!isset($_SESSION['customer_email'])) {
 

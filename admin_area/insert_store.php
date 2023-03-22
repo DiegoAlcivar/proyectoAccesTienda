@@ -1,191 +1,195 @@
 <?php
 
 
-if (!isset($_SESSION['admin_email'])) {
+if(!isset($_SESSION['admin_email'])){
 
-  echo "<script>window.open('login.php','_self')</script>";
-} else {
+echo "<script>window.open('login.php','_self')</script>";
+
+}
+
+else {
 
 ?>
 
-  <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
-  <script>
-    tinymce.init({
-      selector: 'textarea'
-    });
-  </script>
+<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+  <script>tinymce.init({ selector:'textarea' });</script>
 
-  <div class="row"><!-- 1 row Starts -->
+<div class="row" ><!-- 1 row Starts -->
 
-    <div class="col-lg-12"><!-- col-lg-12 Starts -->
+<div class="col-lg-12" ><!-- col-lg-12 Starts --> 
 
-      <ol class="breadcrumb"><!-- breadcrumb Starts -->
+<ol class="breadcrumb"><!-- breadcrumb Starts -->
 
-        <li class="active">
+<li class="active">
 
-          <i class="fa fa-dashboard"></i> Dashboard / Insertar Tienda
+<i class="fa fa-dashboard" ></i> Dashboard / Insertar Tienda
 
-        </li>
+</li>
 
-      </ol><!-- breadcrumb Ends -->
+</ol><!-- breadcrumb Ends -->
 
-    </div><!-- col-lg-12 Ends -->
+</div><!-- col-lg-12 Ends --> 
 
-  </div><!-- 1 row Ends -->
+</div><!-- 1 row Ends -->
 
-  <div class="row"><!-- 2 row Starts -->
+<div class="row"><!-- 2 row Starts -->
 
-    <div class="col-lg-12"><!-- col-lg-12 Starts -->
+<div class="col-lg-12"><!-- col-lg-12 Starts -->
 
-      <div class="panel panel-default"><!-- panel panel-default Starts -->
+<div class="panel panel-default"><!-- panel panel-default Starts -->
 
-        <div class="panel-heading"><!-- panel-heading Starts -->
+<div class="panel-heading"><!-- panel-heading Starts -->
 
-          <h3 class="panel-title">
+<h3 class="panel-title">
 
-            <i class="fa fa-money fa-fw"></i> Insertar Tienda
+<i class="fa fa-money fa-fw"></i> Insertar Tienda
 
-          </h3>
+</h3>
 
-        </div><!-- panel-heading Ends -->
+</div><!-- panel-heading Ends -->
 
-        <div class="panel-body"><!-- panel-body Starts -->
+<div class="panel-body"><!-- panel-body Starts -->
 
-          <form class="form-horizontal" action="" method="post" enctype="multipart/form-data"><!-- form-horizontal Starts -->
+<form class="form-horizontal" action="" method="post" enctype="multipart/form-data"><!-- form-horizontal Starts -->
 
-            <div class="form-group"><!-- form-group Starts -->
+<div class="form-group"><!-- form-group Starts -->
 
-              <label class="col-md-3 control-label"> Título de la tienda : </label>
+<label class="col-md-3 control-label"> Título de la tienda : </label>
 
-              <div class="col-md-6">
+<div class="col-md-6">
 
-                <input type="text" name="store_title" class="form-control">
+<input type="text" name="store_title" class="form-control">
 
-              </div>
+</div>
 
-            </div><!-- form-group Ends -->
+</div><!-- form-group Ends -->
 
 
 
-            <div class="form-group"><!-- form-group Starts -->
+<div class="form-group"><!-- form-group Starts -->
 
-              <label class="col-md-3 control-label"> Imagen del tienda : </label>
+<label class="col-md-3 control-label"> Imagen del tienda : </label>
 
-              <div class="col-md-6">
+<div class="col-md-6">
 
-                <input type="file" name="store_image" class="form-control">
+<input type="file" name="store_image" class="form-control">
 
-              </div>
+</div>
 
-            </div><!-- form-group Ends -->
+</div><!-- form-group Ends -->
 
 
-            <div class="form-group"><!-- form-group Starts -->
+<div class="form-group"><!-- form-group Starts -->
 
-              <label class="col-md-3 control-label"> Descripcion de la tienda : </label>
+<label class="col-md-3 control-label"> Descripcion de la tienda : </label>
 
-              <div class="col-md-6">
+<div class="col-md-6">
 
-                <textarea name="store_desc" class="form-control" rows="10" cols="19">
+<textarea name="store_desc" class="form-control" rows="10" cols="19">
 
 
 
 </textarea>
 
-              </div>
+</div>
 
-            </div><!-- form-group Ends -->
-
-
-            <div class="form-group"><!-- form-group Starts -->
-
-              <label class="col-md-3 control-label"> Boton de la tienda: </label>
-
-              <div class="col-md-6">
-
-                <input type="text" name="store_button" class="form-control">
-
-              </div>
-
-            </div><!-- form-group Ends -->
-
-            <div class="form-group"><!-- form-group Starts -->
-
-              <label class="col-md-3 control-label"> URL de la tienda : </label>
-
-              <div class="col-md-6">
-
-                <input type="url" name="store_url" class="form-control">
-
-              </div>
-
-            </div><!-- form-group Ends -->
-
-            <div class="form-group"><!-- form-group Starts -->
-
-              <label class="col-md-3 control-label"> </label>
-
-              <div class="col-md-6">
-
-                <input type="submit" name="submit" value="Insertar Tienda" class="btn btn-primary form-control">
-
-              </div>
-
-            </div><!-- form-group Ends -->
+</div><!-- form-group Ends -->
 
 
-          </form><!-- form-horizontal Ends -->
+<div class="form-group"><!-- form-group Starts -->
 
-        </div><!-- panel-body Ends -->
+<label class="col-md-3 control-label"> Boton de la tienda: </label>
 
-      </div><!-- panel panel-default Ends -->
+<div class="col-md-6">
 
-    </div><!-- col-lg-12 Ends -->
+<input type="text" name="store_button" class="form-control">
 
-  </div><!-- 2 row Ends -->
+</div>
 
-  <?php
+</div><!-- form-group Ends -->
 
-  if (isset($_POST['submit'])) {
+<div class="form-group"><!-- form-group Starts -->
 
-    $store_title = $_POST['store_title'];
+<label class="col-md-3 control-label"> URL de la tienda : </label>
 
-    $store_desc = $_POST['store_desc'];
+<div class="col-md-6">
 
-    $store_button = $_POST['store_button'];
+<input type="url" name="store_url" class="form-control">
 
-    $store_url = $_POST['store_url'];
+</div>
 
-    $store_image = $_FILES['store_image']['name'];
+</div><!-- form-group Ends -->
 
-    $tmp_image = $_FILES['store_image']['tmp_name'];
+<div class="form-group"><!-- form-group Starts -->
 
-    $sel_store = "select * from store";
+<label class="col-md-3 control-label"> </label>
 
-    $run_store = mysqli_query($con, $sel_store);
+<div class="col-md-6">
 
-    $count = mysqli_num_rows($run_store);
+<input type="submit" name="submit" value="Insertar Tienda" class="btn btn-primary form-control">
 
-    if ($count == 3) {
+</div>
 
-      echo "<script>alert('You Have already Inserted 3 store columns')</script>";
-    } else {
+</div><!-- form-group Ends -->
 
-      move_uploaded_file($tmp_image, "store_images/$store_image");
 
-      $insert_store = "insert into store (store_title,store_image,store_desc,store_button,store_url) values ('$store_title','$store_image','$store_desc','$store_button','$store_url')";
+</form><!-- form-horizontal Ends -->
 
-      $run_store = mysqli_query($con, $insert_store);
+</div><!-- panel-body Ends -->
 
-      if ($run_store) {
+</div><!-- panel panel-default Ends -->
 
-        echo "<script>alert('New store Column Has Been Inserted')</script>";
+</div><!-- col-lg-12 Ends -->
 
-        echo "<script>window.open('index.php?view_store','_self')</script>";
-      }
-    }
-  }
+</div><!-- 2 row Ends -->
 
-  ?>
+<?php
+
+if(isset($_POST['submit'])){
+
+$store_title = $_POST['store_title'];
+
+$store_desc = $_POST['store_desc'];
+
+$store_button = $_POST['store_button'];
+
+$store_url = $_POST['store_url'];
+
+$store_image = $_FILES['store_image']['name'];
+
+$tmp_image = $_FILES['store_image']['tmp_name'];
+
+$sel_store = "select * from store";
+
+$run_store = mysqli_query($con,$sel_store);
+
+$count = mysqli_num_rows($run_store);
+
+if($count == 3){
+
+echo "<script>alert('You Have already Inserted 3 store columns')</script>";
+
+}
+else{
+
+move_uploaded_file($tmp_image,"store_images/$store_image");
+
+$insert_store = "insert into store (store_title,store_image,store_desc,store_button,store_url) values ('$store_title','$store_image','$store_desc','$store_button','$store_url')";
+
+$run_store = mysqli_query($con,$insert_store);
+
+if($run_store){
+
+echo "<script>alert('New store Column Has Been Inserted')</script>";
+
+echo "<script>window.open('index.php?view_store','_self')</script>";
+
+}
+
+}
+
+}
+
+?>
 
 <?php } ?>

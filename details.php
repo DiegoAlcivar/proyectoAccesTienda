@@ -16,51 +16,56 @@ $product_id = @$_GET['pro_id'];
 
 $get_product = "select * from products where product_url='$product_id'";
 
-$run_product = mysqli_query($con, $get_product);
+$run_product = mysqli_query($con,$get_product);
 
-$check_product = mysqli_num_rows($run_product);
+$check_product = mysqli_num_rows($run_product); 
 
-if ($check_product == 0) {
+if($check_product == 0){
 
-  echo "<script> window.open('index.php','_self') </script>";
-} else {
+echo "<script> window.open('index.php','_self') </script>";
+
+}
+else{
 
 
 
-  $row_product = mysqli_fetch_array($run_product);
+$row_product = mysqli_fetch_array($run_product);
 
-  $p_cat_id = $row_product['p_cat_id'];
+$p_cat_id = $row_product['p_cat_id'];
 
-  $pro_id = $row_product['product_id'];
+$pro_id = $row_product['product_id'];
 
-  $pro_title = $row_product['product_title'];
+$pro_title = $row_product['product_title'];
 
-  $pro_price = $row_product['product_price'];
+$pro_price = $row_product['product_price'];
 
-  $pro_desc = $row_product['product_desc'];
+$pro_desc = $row_product['product_desc'];
 
-  $pro_img1 = $row_product['product_img1'];
+$pro_img1 = $row_product['product_img1'];
 
-  $pro_img2 = $row_product['product_img2'];
+$pro_img2 = $row_product['product_img2'];
 
-  $pro_img3 = $row_product['product_img3'];
+$pro_img3 = $row_product['product_img3'];
 
-  $pro_label = $row_product['product_label'];
+$pro_label = $row_product['product_label'];
 
-  $pro_psp_price = $row_product['product_psp_price'];
+$pro_psp_price = $row_product['product_psp_price'];
 
-  $pro_features = $row_product['product_features'];
+$pro_features = $row_product['product_features'];
 
-  $pro_video = $row_product['product_video'];
+$pro_video = $row_product['product_video'];
 
-  $status = $row_product['status'];
+$status = $row_product['status'];
 
-  $pro_url = $row_product['product_url'];
+$pro_url = $row_product['product_url'];
 
-  if ($pro_label == "") {
-  } else {
+if($pro_label == ""){
 
-    $product_label = "
+
+}
+else{
+
+$product_label = "
 
 <a class='label sale' href='#' style='color:black;'>
 
@@ -71,15 +76,16 @@ if ($check_product == 0) {
 </a>
 
 ";
-  }
 
-  $get_p_cat = "select * from product_categories where p_cat_id='$p_cat_id'";
+}
 
-  $run_p_cat = mysqli_query($con, $get_p_cat);
+$get_p_cat = "select * from product_categories where p_cat_id='$p_cat_id'";
 
-  $row_p_cat = mysqli_fetch_array($run_p_cat);
+$run_p_cat = mysqli_query($con,$get_p_cat);
 
-  $p_cat_title = $row_p_cat['p_cat_title'];
+$row_p_cat = mysqli_fetch_array($run_p_cat);
+
+$p_cat_title = $row_p_cat['p_cat_title'];
 
 
 
@@ -90,162 +96,169 @@ if ($check_product == 0) {
     <!-- HERO -->
     <div class="nero">
       <div class="nero__heading">
-        <!--   <span class="nero__bold">Product </span>View-->
+      <!--   <span class="nero__bold">Product </span>View-->
       </div>
       <p class="nero__text">
       </p>
     </div>
   </main>
 
-  <div id="content"><!-- content Starts -->
-    <div class="container"><!-- container Starts -->
+<div id="content" ><!-- content Starts -->
+<div class="container" ><!-- container Starts -->
 
 
 
 
 
-      <div class="col-md-12"><!-- col-md-12 Starts -->
+<div class="col-md-12"><!-- col-md-12 Starts -->
 
-        <div class="row" id="productMain"><!-- row Starts -->
+<div class="row" id="productMain"><!-- row Starts -->
 
-          <div class="col-sm-6"><!-- col-sm-6 Starts -->
+<div class="col-sm-6"><!-- col-sm-6 Starts -->
 
-            <div id="mainImage"><!-- mainImage Starts -->
+<div id="mainImage"><!-- mainImage Starts -->
 
-              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-                <ol class="carousel-indicators"><!-- carousel-indicators Starts -->
+<ol class="carousel-indicators"><!-- carousel-indicators Starts -->
 
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
+<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+<li data-target="#myCarousel" data-slide-to="1"></li>
+<li data-target="#myCarousel" data-slide-to="2"></li>
 
-                </ol><!-- carousel-indicators Ends -->
+</ol><!-- carousel-indicators Ends -->
 
-                <div class="carousel-inner"><!-- carousel-inner Starts -->
+<div class="carousel-inner"><!-- carousel-inner Starts -->
 
-                  <div class="item active">
-                    <center>
-                      <img src="admin_area/product_images/<?php echo $pro_img1; ?>" class="img-responsive">
-                    </center>
-                  </div>
+<div class="item active">
+<center>
+<img src="admin_area/product_images/<?php echo $pro_img1; ?>" class="img-responsive">
+</center>
+</div>
 
-                  <div class="item">
-                    <center>
-                      <img src="admin_area/product_images/<?php echo $pro_img2; ?>" class="img-responsive">
-                    </center>
-                  </div>
+<div class="item">
+<center>
+<img src="admin_area/product_images/<?php echo $pro_img2; ?>" class="img-responsive">
+</center>
+</div>
 
-                  <div class="item">
-                    <center>
-                      <img src="admin_area/product_images/<?php echo $pro_img3; ?>" class="img-responsive">
-                    </center>
-                  </div>
+<div class="item">
+<center>
+<img src="admin_area/product_images/<?php echo $pro_img3; ?>" class="img-responsive">
+</center>
+</div>
 
-                </div><!-- carousel-inner Ends -->
+</div><!-- carousel-inner Ends -->
 
-                <a href="#myCarousel" class="left carousel-control" data-slide="prev"><!-- left carousel-control Starts -->
+<a href="#myCarousel" class="left carousel-control" data-slide="prev"><!-- left carousel-control Starts -->
 
-                  <span class="glyphicon glyphicon-chevron-left"> </span>
+<span class="glyphicon glyphicon-chevron-left"> </span>
 
 <span class="sr-only"> Anterior </span>
 
-                </a><!-- left carousel-control Ends -->
+</a><!-- left carousel-control Ends -->
 
-                <a class="right carousel-control" href="#myCarousel" data-slide="next"><!-- right carousel-control Starts -->
+<a class="right carousel-control" href="#myCarousel" data-slide="next"><!-- right carousel-control Starts -->
 
-                  <span class="glyphicon glyphicon-chevron-right"> </span>
+<span class="glyphicon glyphicon-chevron-right"> </span>
 
 <span class="sr-only"> Próximo </span>
 
-                </a><!-- right carousel-control Ends -->
+</a><!-- right carousel-control Ends -->
 
-              </div>
+</div>
 
-            </div><!-- mainImage Ends -->
+</div><!-- mainImage Ends -->
 
-            <?php echo $product_label; ?>
+<?php echo $product_label; ?>
 
-          </div><!-- col-sm-6 Ends -->
-
-
-          <div class="col-sm-6"><!-- col-sm-6 Starts -->
-
-            <div class="box"><!-- box Starts -->
-
-              <h1 class="text-center"> <?php echo $pro_title; ?> </h1>
-
-              <?php
+</div><!-- col-sm-6 Ends -->
 
 
-              if (isset($_POST['add_cart'])) {
+<div class="col-sm-6" ><!-- col-sm-6 Starts -->
 
-                $ip_add = getRealUserIp();
+<div class="box" ><!-- box Starts -->
 
-                $p_id = $pro_id;
+<h1 class="text-center" > <?php echo $pro_title; ?> </h1>
 
-                $product_qty = $_POST['product_qty'];
-
-                $product_size = $_POST['product_size'];
+<?php
 
 
-                $check_product = "select * from cart where ip_add='$ip_add' AND p_id='$p_id'";
+if(isset($_POST['add_cart'])){
 
-                $run_check = mysqli_query($con, $check_product);
+$ip_add = getRealUserIp();
 
-                if (mysqli_num_rows($run_check) > 0) {
+$p_id = $pro_id;
 
-                  echo "<script>alert('Este producto ya está agregado en el carrito')</script>";
+$product_qty = $_POST['product_qty'];
 
-                  echo "<script>window.open('$pro_url','_self')</script>";
-                } else {
-
-                  $get_price = "select * from products where product_id='$p_id'";
-
-                  $run_price = mysqli_query($con, $get_price);
-
-                  $row_price = mysqli_fetch_array($run_price);
-
-                  $pro_price = $row_price['product_price'];
-
-                  $pro_psp_price = $row_price['product_psp_price'];
-
-                  $pro_label = $row_price['product_label'];
-
-                  if ($pro_label == "Sale" or $pro_label == "Gift") {
-
-                    $product_price = $pro_psp_price;
-                  } else {
-
-                    $product_price = $pro_price;
-                  }
-
-                  $query = "insert into cart (p_id,ip_add,qty,p_price,size) values ('$p_id','$ip_add','$product_qty','$product_price','$product_size')";
-
-                  $run_query = mysqli_query($db, $query);
-
-                  echo "<script>window.open('$pro_url','_self')</script>";
-                }
-              }
+$product_size = $_POST['product_size'];
 
 
-              ?>
+$check_product = "select * from cart where ip_add='$ip_add' AND p_id='$p_id'";
 
-              <form action="" method="post" class="form-horizontal"><!-- form-horizontal Starts -->
+$run_check = mysqli_query($con,$check_product);
 
-                <?php
+if(mysqli_num_rows($run_check)>0){
 
-                if ($status == "product") {
+echo "<script>alert('Este producto ya está agregado en el carrito')</script>";
 
-                ?>
+echo "<script>window.open('$pro_url','_self')</script>";
 
-                  <div class="form-group"><!-- form-group Starts -->
+}
+else {
+
+$get_price = "select * from products where product_id='$p_id'";
+
+$run_price = mysqli_query($con,$get_price);
+
+$row_price = mysqli_fetch_array($run_price);
+
+$pro_price = $row_price['product_price'];
+
+$pro_psp_price = $row_price['product_psp_price'];
+
+$pro_label = $row_price['product_label'];
+
+if($pro_label == "Sale" or $pro_label == "Gift"){
+
+$product_price = $pro_psp_price;
+
+}
+else{
+
+$product_price = $pro_price;
+
+}
+
+$query = "insert into cart (p_id,ip_add,qty,p_price,size) values ('$p_id','$ip_add','$product_qty','$product_price','$product_size')";
+
+$run_query = mysqli_query($db,$query);
+
+echo "<script>window.open('$pro_url','_self')</script>";
+
+}
+
+}
+
+
+?>
+
+<form action="" method="post" class="form-horizontal" ><!-- form-horizontal Starts -->
+
+<?php
+
+if($status == "product"){
+
+?>
+
+<div class="form-group"><!-- form-group Starts -->
 
 <label class="col-md-5 control-label" >Cantidad de producto </label>
 
-                    <div class="col-md-7"><!-- col-md-7 Starts -->
+<div class="col-md-7" ><!-- col-md-7 Starts -->
 
-                      <select name="product_qty" class="form-control">
+<select name="product_qty" class="form-control" >
 
 <option>Selecciona la cantidad</option>
 <option>1</option>
@@ -255,19 +268,19 @@ if ($check_product == 0) {
 <option>5</option>
 
 
-                      </select>
+</select>
 
-                    </div><!-- col-md-7 Ends -->
+</div><!-- col-md-7 Ends -->
 
-                  </div><!-- form-group Ends -->
+</div><!-- form-group Ends -->
 
-                  <div class="form-group"><!-- form-group Starts -->
+<div class="form-group" ><!-- form-group Starts -->
 
-<label class="col-md-5 control-label" >Product Size</label>
+<label class="col-md-5 control-label" >Tamaño del producto</label>
 
-                    <div class="col-md-7"><!-- col-md-7 Starts -->
+<div class="col-md-7" ><!-- col-md-7 Starts -->
 
-                      <select name="product_size" class="form-control">
+<select name="product_size" class="form-control" >
 
 <option>Seleccione una talla</option>
 <option>Pequeño</option>
@@ -275,73 +288,73 @@ if ($check_product == 0) {
 <option>Ancho</option>
 
 
-                      </select>
+</select>
 
-                    </div><!-- col-md-7 Ends -->
-
-
-                  </div><!-- form-group Ends -->
-
-                <?php } else { ?>
+</div><!-- col-md-7 Ends -->
 
 
-                  <div class="form-group"><!-- form-group Starts -->
+</div><!-- form-group Ends -->
 
-                    <label class="col-md-5 control-label">Cantidad de paquetes </label>
-
-                    <div class="col-md-7"><!-- col-md-7 Starts -->
-
-                      <select name="product_qty" class="form-control">
-
-                        <option>Selecciona la cantidad</option>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
+<?php }else { ?>
 
 
-                      </select>
+<div class="form-group"><!-- form-group Starts -->
 
-                    </div><!-- col-md-7 Ends -->
+<label class="col-md-5 control-label" >Cantidad de paquetes </label>
 
-                  </div><!-- form-group Ends -->
+<div class="col-md-7" ><!-- col-md-7 Starts -->
 
-                  <div class="form-group"><!-- form-group Starts -->
+<select name="product_qty" class="form-control" >
 
-                    <label class="col-md-5 control-label">Tamaño del paquete</label>
-
-                    <div class="col-md-7"><!-- col-md-7 Starts -->
-
-                      <select name="product_size" class="form-control">
-
-                        <option>Seleccione una talla</option>
-                        <option>Pequeño</option>
-                        <option>Medio</option>
-                        <option>Grande</option>
+<option>Selecciona la cantidad</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
 
 
-                      </select>
+</select>
 
-                    </div><!-- col-md-7 Ends -->
+</div><!-- col-md-7 Ends -->
+
+</div><!-- form-group Ends -->
+
+<div class="form-group" ><!-- form-group Starts -->
+
+<label class="col-md-5 control-label" >Tamaño del paquete</label>
+
+<div class="col-md-7" ><!-- col-md-7 Starts -->
+
+<select name="product_size" class="form-control" >
+
+<option>Seleccione una talla</option>
+<option>Pequeño</option>
+<option>Medio</option>
+<option>Grande</option>
 
 
-                  </div><!-- form-group Ends -->
+</select>
+
+</div><!-- col-md-7 Ends -->
 
 
-                <?php } ?>
+</div><!-- form-group Ends -->
 
 
-                <?php
-
-                if ($status == "product") {
+<?php } ?>
 
 
+<?php
+
+if($status == "product"){
 
 
-                  if ($pro_label == "Sale" or $pro_label == "Gift") {
 
-                    echo "
+
+if($pro_label == "Sale" or $pro_label == "Gift"){
+
+echo "
 
 <p class='price'>
 
@@ -352,9 +365,11 @@ Precio de venta del producto : $$pro_psp_price
 </p>
 
 ";
-                  } else {
 
-                    echo "
+}
+else{
+
+echo "
 
 <p class='price'>
 
@@ -363,13 +378,16 @@ Precio del producto : $$pro_price
 </p>
 
 ";
-                  }
-                } else {
+
+}
+
+}
+else{
 
 
-                  if ($pro_label == "Sale" or $pro_label == "Gift") {
+if($pro_label == "Sale" or $pro_label == "Gift"){
 
-                    echo "
+echo "
 
 <p class='price'>
 
@@ -380,9 +398,11 @@ Precio de venta del paquete : $$pro_psp_price
 </p>
 
 ";
-                  } else {
 
-                    echo "
+}
+else{
+
+echo "
 
 <p class='price'>
 
@@ -391,250 +411,271 @@ Precio del paquete : $$pro_price
 </p>
 
 ";
-                  }
-                }
 
-                ?>
+}
 
-                <p class="text-center buttons"><!-- text-center buttons Starts -->
 
-                  <button class="btn btn-danger" type="submit" name="add_cart">
+}
 
-                    <i class="fa fa-shopping-cart"></i> Añadir al carro
+?>
 
-                  </button>
+<p class="text-center buttons" ><!-- text-center buttons Starts -->
 
-                  <button class="btn btn-warning" type="submit" name="add_wishlist">
+<button class="btn btn-danger" type="submit" name="add_cart">
 
-                    <i class="fa fa-heart"></i> Añadir a la lista de deseos
+<i class="fa fa-shopping-cart" ></i> Añadir al carro
 
-                  </button>
+</button>
 
+<button class="btn btn-warning" type="submit" name="add_wishlist">
 
-                  <?php
+<i class="fa fa-heart" ></i> Añadir a la lista de deseos
 
-                  if (isset($_POST['add_wishlist'])) {
+</button>
 
-                    if (!isset($_SESSION['customer_email'])) {
 
-                      echo "<script>alert('Debe iniciar sesión para agregar productos en la lista de deseos')</script>";
+<?php
 
-                      echo "<script>window.open('checkout.php','_self')</script>";
-                    } else {
+if(isset($_POST['add_wishlist'])){
 
-                      $customer_session = $_SESSION['customer_email'];
+if(!isset($_SESSION['customer_email'])){
 
-                      $get_customer = "select * from customers where customer_email='$customer_session'";
+echo "<script>alert('Debe iniciar sesión para agregar productos en la lista de deseos')</script>";
 
-                      $run_customer = mysqli_query($con, $get_customer);
+echo "<script>window.open('checkout.php','_self')</script>";
 
-                      $row_customer = mysqli_fetch_array($run_customer);
+}
+else{
 
-                      $customer_id = $row_customer['customer_id'];
+$customer_session = $_SESSION['customer_email'];
 
-                      $select_wishlist = "select * from wishlist where customer_id='$customer_id' AND product_id='$pro_id'";
+$get_customer = "select * from customers where customer_email='$customer_session'";
 
-                      $run_wishlist = mysqli_query($con, $select_wishlist);
+$run_customer = mysqli_query($con,$get_customer);
 
-                      $check_wishlist = mysqli_num_rows($run_wishlist);
+$row_customer = mysqli_fetch_array($run_customer);
 
-                      if ($check_wishlist == 1) {
+$customer_id = $row_customer['customer_id'];
 
-                        echo "<script>alert('Este producto ya ha sido agregado en la lista de deseos')</script>";
+$select_wishlist = "select * from wishlist where customer_id='$customer_id' AND product_id='$pro_id'";
 
-                        echo "<script>window.open('$pro_url','_self')</script>";
-                      } else {
+$run_wishlist = mysqli_query($con,$select_wishlist);
 
-                        $insert_wishlist = "insert into wishlist (customer_id,product_id) values ('$customer_id','$pro_id')";
+$check_wishlist = mysqli_num_rows($run_wishlist);
 
-                        $run_wishlist = mysqli_query($con, $insert_wishlist);
+if($check_wishlist == 1){
 
-                        if ($run_wishlist) {
+echo "<script>alert('Este producto ya ha sido agregado en la lista de deseos')</script>";
 
-                          echo "<script> alert('El producto se ha insertado en la lista de deseos') </script>";
+echo "<script>window.open('$pro_url','_self')</script>";
 
-                          echo "<script>window.open('$pro_url','_self')</script>";
-                        }
-                      }
-                    }
-                  }
+}
+else{
 
-                  ?>
+$insert_wishlist = "insert into wishlist (customer_id,product_id) values ('$customer_id','$pro_id')";
 
-                </p><!-- text-center buttons Ends -->
+$run_wishlist = mysqli_query($con,$insert_wishlist);
 
-              </form><!-- form-horizontal Ends -->
+if($run_wishlist){
 
-            </div><!-- box Ends -->
+echo "<script> alert('El producto se ha insertado en la lista de deseos') </script>";
 
+echo "<script>window.open('$pro_url','_self')</script>";
 
-            <div class="row" id="thumbs"><!-- row Starts -->
+}
 
-              <div class="col-xs-4"><!-- col-xs-4 Starts -->
+}
 
-                <a href="#" class="thumb">
+}
 
-                  <img src="admin_area/product_images/<?php echo $pro_img1; ?>" class="img-responsive">
+}
 
-                </a>
+?>
 
-              </div><!-- col-xs-4 Ends -->
+</p><!-- text-center buttons Ends -->
 
-              <div class="col-xs-4"><!-- col-xs-4 Starts -->
+</form><!-- form-horizontal Ends -->
 
-                <a href="#" class="thumb">
+</div><!-- box Ends -->
 
-                  <img src="admin_area/product_images/<?php echo $pro_img2; ?>" class="img-responsive">
 
-                </a>
+<div class="row" id="thumbs" ><!-- row Starts -->
 
-              </div><!-- col-xs-4 Ends -->
+<div class="col-xs-4" ><!-- col-xs-4 Starts -->
 
-              <div class="col-xs-4"><!-- col-xs-4 Starts -->
+<a href="#" class="thumb" >
 
-                <a href="#" class="thumb">
+<img src="admin_area/product_images/<?php echo $pro_img1; ?>" class="img-responsive" >
 
-                  <img src="admin_area/product_images/<?php echo $pro_img3; ?>" class="img-responsive">
+</a>
 
-                </a>
+</div><!-- col-xs-4 Ends -->
 
-              </div><!-- col-xs-4 Ends -->
+<div class="col-xs-4" ><!-- col-xs-4 Starts -->
 
+<a href="#" class="thumb" >
 
-            </div><!-- row Ends -->
+<img src="admin_area/product_images/<?php echo $pro_img2; ?>" class="img-responsive" >
 
+</a>
 
-          </div><!-- col-sm-6 Ends -->
+</div><!-- col-xs-4 Ends -->
 
+<div class="col-xs-4" ><!-- col-xs-4 Starts -->
 
-        </div><!-- row Ends -->
+<a href="#" class="thumb" >
 
-        <div class="box" id="details"><!-- box Starts -->
+<img src="admin_area/product_images/<?php echo $pro_img3; ?>" class="img-responsive" >
 
-          <a class="btn btn-info tab" style="margin-bottom:10px;" href="#description" data-toggle="tab"><!-- btn btn-primary tab Starts -->
+</a>
 
-            <?php
+</div><!-- col-xs-4 Ends -->
 
-            if ($status == "product") {
 
-echo "Product Description";
+</div><!-- row Ends -->
 
-              echo "Descripción del paquete";
-            }
 
-            ?>
+</div><!-- col-sm-6 Ends -->
 
-          </a><!-- btn btn-primary tab Ends -->
 
-          <a class="btn btn-info tab" style="margin-bottom:10px;" href="#features" data-toggle="tab"><!-- btn btn-primary tab Starts -->
+</div><!-- row Ends -->
 
-            Características
+<div class="box" id="details"><!-- box Starts -->
 
-          </a><!-- btn btn-primary tab Ends -->
+<a class="btn btn-info tab" style="margin-bottom:10px;" href="#description" data-toggle="tab"><!-- btn btn-primary tab Starts -->
 
-          <a class="btn btn-info tab" style="margin-bottom:10px;" href="#video" data-toggle="tab"><!-- btn btn-primary tab Starts -->
+<?php
 
-            Sonidos y Vídeos
+if($status == "product"){
 
-          </a><!-- btn btn-primary tab Ends -->
+echo "Descripción del Producto";
 
-          <hr style="margin-top:0px;">
+}
+else{
 
-          <div class="tab-content"><!-- tab-content Starts -->
+echo "Descripción del paquete";
 
-            <div id="description" class="tab-pane fade in active" style="margin-top:7px;"><!-- description tab-pane fade in active Starts -->
+}
 
-              <?php echo $pro_desc; ?>
+?>
 
-            </div><!-- description tab-pane fade in active Ends -->
+</a><!-- btn btn-primary tab Ends -->
 
-            <div id="features" class="tab-pane fade in" style="margin-top:7px;"><!-- features tab-pane fade in  Starts -->
+<a class="btn btn-info tab" style="margin-bottom:10px;" href="#features" data-toggle="tab"><!-- btn btn-primary tab Starts -->
 
-              <?php echo $pro_features; ?>
+Características
 
-            </div><!-- features tab-pane fade in  Ends -->
+</a><!-- btn btn-primary tab Ends -->
 
-            <div id="video" class="tab-pane fade in" style="margin-top:7px;"><!-- video tab-pane fade in Starts -->
+<a class="btn btn-info tab" style="margin-bottom:10px;" href="#video" data-toggle="tab"><!-- btn btn-primary tab Starts -->
 
-              <?php echo $pro_video; ?>
+Sonidos y Vídeos
 
-            </div><!-- video tab-pane fade in  Ends -->
+</a><!-- btn btn-primary tab Ends -->
 
+<hr style="margin-top:0px;">
 
-          </div><!-- tab-content Ends -->
+<div class="tab-content"><!-- tab-content Starts -->
 
-        </div><!-- box Ends -->
+<div id="description" class="tab-pane fade in active" style="margin-top:7px;" ><!-- description tab-pane fade in active Starts -->
 
-        <div id="row same-height-row"><!-- row same-height-row Starts -->
+<?php echo $pro_desc; ?>
 
-          <?php
+</div><!-- description tab-pane fade in active Ends -->
 
-          if ($status == "product") {
+<div id="features" class="tab-pane fade in" style="margin-top:7px;" ><!-- features tab-pane fade in  Starts -->
 
+<?php echo $pro_features; ?>
 
+</div><!-- features tab-pane fade in  Ends -->
 
-          ?>
+<div id="video" class="tab-pane fade in" style="margin-top:7px;" ><!-- video tab-pane fade in Starts -->
 
-            <div class="col-md-3 col-sm-6"><!-- col-md-3 col-sm-6 Starts -->
+<?php echo $pro_video; ?>
 
-              <div class="box same-height headline"><!-- box same-height headline Starts -->
+</div><!-- video tab-pane fade in  Ends -->
 
-                <h3 class="text-center"> También le pueden gustar estos productos: le proporcionamos los 3 mejores artículos de productos. </h3>
 
-              </div><!-- box same-height headline Ends -->
+</div><!-- tab-content Ends -->
 
-            </div><!-- col-md-3 col-sm-6 Ends -->
+</div><!-- box Ends -->
 
-            <?php
+<div id="row same-height-row"><!-- row same-height-row Starts -->
 
-            $get_products = "select * from products order by rand() LIMIT 0,3";
+<?php
 
-            $run_products = mysqli_query($con, $get_products);
+if($status == "product"){
 
-            while ($row_products = mysqli_fetch_array($run_products)) {
 
-              $pro_id = $row_products['product_id'];
 
-              $pro_title = $row_products['product_title'];
+?>
 
-              $pro_price = $row_products['product_price'];
+<div class="col-md-3 col-sm-6"><!-- col-md-3 col-sm-6 Starts -->
 
-              $pro_img1 = $row_products['product_img1'];
+<div class="box same-height headline"><!-- box same-height headline Starts -->
 
-              $pro_label = $row_products['product_label'];
+<h3 class="text-center"> También le pueden gustar estos productos: le proporcionamos los 3 mejores artículos de productos. </h3>
 
-              $manufacturer_id = $row_products['manufacturer_id'];
+</div><!-- box same-height headline Ends -->
 
-              $get_manufacturer = "select * from manufacturers where manufacturer_id='$manufacturer_id'";
+</div><!-- col-md-3 col-sm-6 Ends -->
 
-              $run_manufacturer = mysqli_query($db, $get_manufacturer);
+<?php
 
-              $row_manufacturer = mysqli_fetch_array($run_manufacturer);
+$get_products = "select * from products order by rand() LIMIT 0,3";
 
-              $manufacturer_name = $row_manufacturer['manufacturer_title'];
+$run_products = mysqli_query($con,$get_products);
 
-              $pro_psp_price = $row_products['product_psp_price'];
+while($row_products = mysqli_fetch_array($run_products)) {
 
-              $pro_url = $row_products['product_url'];
+$pro_id = $row_products['product_id'];
 
+$pro_title = $row_products['product_title'];
 
-              if ($pro_label == "Sale" or $pro_label == "Gift") {
+$pro_price = $row_products['product_price'];
 
-                $product_price = "<del> $$pro_price </del>";
+$pro_img1 = $row_products['product_img1'];
 
-                $product_psp_price = "| $$pro_psp_price";
-              } else {
+$pro_label = $row_products['product_label'];
 
-                $product_psp_price = "";
+$manufacturer_id = $row_products['manufacturer_id'];
 
-                $product_price = "$$pro_price";
-              }
+$get_manufacturer = "select * from manufacturers where manufacturer_id='$manufacturer_id'";
 
+$run_manufacturer = mysqli_query($db,$get_manufacturer);
 
-              if ($pro_label == "") {
-              } else {
+$row_manufacturer = mysqli_fetch_array($run_manufacturer);
 
-                $product_label = "
+$manufacturer_name = $row_manufacturer['manufacturer_title'];
+
+$pro_psp_price = $row_products['product_psp_price'];
+
+$pro_url = $row_products['product_url'];
+
+
+if($pro_label == "Sale" or $pro_label == "Gift"){
+
+$product_price = "<del> $$pro_price </del>";
+
+$product_psp_price = "| $$pro_psp_price";
+
+}
+else{
+
+$product_psp_price = "";
+
+$product_price = "$$pro_price";
+
+}
+
+
+if($pro_label == ""){
+
+
+}
+else{
+
+$product_label = "
 
 <a class='label sale' href='#' style='color:black;'>
 
@@ -645,10 +686,11 @@ echo "Product Description";
 </a>
 
 ";
-              }
+
+}
 
 
-              echo "
+echo "
 
 <div class='col-md-3 col-sm-6 center-responsive' >
 
@@ -697,77 +739,85 @@ $product_label
 </div>
 
 ";
-            }
 
 
-            ?>
-
-          <?php } else { ?>
-
-            <div class="box same-height"><!-- box same-height Starts -->
-
-              <h3 class="text-center">Paquete de productos</h3>
-
-            </div><!-- box same-height Ends -->
-
-            <?php
-
-            $get_bundle_product_relation = "select * from bundle_product_relation where bundle_id='$pro_id'";
-
-            $run_bundle_product_relation = mysqli_query($con, $get_bundle_product_relation);
-
-            while ($row_bundle_product_relation = mysqli_fetch_array($run_bundle_product_relation)) {
-
-              $bundle_product_relation_product_id = $row_bundle_product_relation['product_id'];
-
-              $get_products = "select * from products where product_id='$bundle_product_relation_product_id'";
+}
 
 
-              $run_products = mysqli_query($con, $get_products);
+?>
 
-              while ($row_products = mysqli_fetch_array($run_products)) {
-                $pro_id = $row_products['product_id'];
+<?php }else{ ?>
 
-                $pro_title = $row_products['product_title'];
+<div class="box same-height"><!-- box same-height Starts -->
 
-                $pro_price = $row_products['product_price'];
+<h3 class="text-center">Paquete de productos</h3>
 
-                $pro_img1 = $row_products['product_img1'];
+</div><!-- box same-height Ends -->
 
-                $pro_label = $row_products['product_label'];
+<?php
 
-                $manufacturer_id = $row_products['manufacturer_id'];
+$get_bundle_product_relation = "select * from bundle_product_relation where bundle_id='$pro_id'";
 
-                $get_manufacturer = "select * from manufacturers where manufacturer_id='$manufacturer_id'";
+$run_bundle_product_relation = mysqli_query($con,$get_bundle_product_relation);
 
-                $run_manufacturer = mysqli_query($db, $get_manufacturer);
+while($row_bundle_product_relation = mysqli_fetch_array($run_bundle_product_relation)){
 
-                $row_manufacturer = mysqli_fetch_array($run_manufacturer);
+$bundle_product_relation_product_id = $row_bundle_product_relation['product_id'];
 
-                $manufacturer_name = $row_manufacturer['manufacturer_title'];
-
-                $pro_psp_price = $row_products['product_psp_price'];
-
-                $pro_url = $row_products['product_url'];
+$get_products = "select * from products where product_id='$bundle_product_relation_product_id'";
 
 
-                if ($pro_label == "Sale" or $pro_label == "Gift") {
+$run_products = mysqli_query($con,$get_products);
 
-                  $product_price = "<del> $$pro_price </del>";
+while($row_products = mysqli_fetch_array($run_products)){
+$pro_id = $row_products['product_id'];
 
-                  $product_psp_price = "| $$pro_psp_price";
-                } else {
+$pro_title = $row_products['product_title'];
 
-                  $product_psp_price = "";
+$pro_price = $row_products['product_price'];
 
-                  $product_price = "$$pro_price";
-                }
+$pro_img1 = $row_products['product_img1'];
+
+$pro_label = $row_products['product_label'];
+
+$manufacturer_id = $row_products['manufacturer_id'];
+
+$get_manufacturer = "select * from manufacturers where manufacturer_id='$manufacturer_id'";
+
+$run_manufacturer = mysqli_query($db,$get_manufacturer);
+
+$row_manufacturer = mysqli_fetch_array($run_manufacturer);
+
+$manufacturer_name = $row_manufacturer['manufacturer_title'];
+
+$pro_psp_price = $row_products['product_psp_price'];
+
+$pro_url = $row_products['product_url'];
 
 
-                if ($pro_label == "") {
-                } else {
+if($pro_label == "Sale" or $pro_label == "Gift"){
 
-                  $product_label = "
+$product_price = "<del> $$pro_price </del>";
+
+$product_psp_price = "| $$pro_psp_price";
+
+}
+else{
+
+$product_psp_price = "";
+
+$product_price = "$$pro_price";
+
+}
+
+
+if($pro_label == ""){
+
+
+}
+else{
+
+$product_label = "
 
 <a class='label sale' href='#' style='color:black;'>
 
@@ -778,10 +828,11 @@ $product_label
 </a>
 
 ";
-                }
+
+}
 
 
-                echo "
+echo "
 
 <div class='col-md-3 col-sm-6 center-responsive' >
 
@@ -829,38 +880,43 @@ $product_label
 </div>
 
 ";
-              }
-            }
+
+
+}
+
+
+}
 
 
 
-            ?>
+?>
 
 
-          <?php } ?>
+<?php } ?>
 
-        </div><!-- row same-height-row Ends -->
+</div><!-- row same-height-row Ends -->
 
-      </div><!-- col-md-12 Ends -->
-
-
-    </div><!-- container Ends -->
-  </div><!-- content Ends -->
+</div><!-- col-md-12 Ends -->
 
 
+</div><!-- container Ends -->
+</div><!-- content Ends -->
 
-  <?php
 
-  include("includes/footer.php");
 
-  ?>
+<?php
 
-  <script src="js/jquery.min.js"> </script>
+include("includes/footer.php");
 
-  <script src="js/bootstrap.min.js"></script>
+?>
 
-  </body>
+<script src="js/jquery.min.js"> </script>
 
-  </html>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+<?php } ?>
 
 <?php } ?>

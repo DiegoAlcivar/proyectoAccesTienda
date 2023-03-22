@@ -6,12 +6,12 @@
 			<div class="footer-nav__col footer-nav__col--info">
 				<div class="footer-nav__heading">INFORMACION</div>
 				<ul class="footer-nav__list">
-					<li class="footer-nav__item">
+					<!--<li class="footer-nav__item">
 						<a href="#" class="footer-nav__link">La Marca</a>
 					</li>
-					<!--<li class="footer-nav__item">
+					<li class="footer-nav__item">
 						<a href="#" class="footer-nav__link">Tiendas Locales</a>
-					</li>-->
+					</li>
 					<li class="footer-nav__item">
 						<a href="#" class="footer-nav__link">Servicio al cliente</a>
 					</li>
@@ -20,7 +20,7 @@
 					</li>
 					<li class="footer-nav__item">
 						<a href="#" class="footer-nav__link"> Mapa del Sitio</a>
-					</li>
+					</li>-->
 				</ul>
 			</div>
 
