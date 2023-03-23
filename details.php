@@ -96,7 +96,7 @@ if ($check_product == 0) {
       </p>
     </div>
   </main>
-
+<br>
   <div id="content"><!-- content Starts -->
     <div class="container"><!-- container Starts -->
 
@@ -148,7 +148,7 @@ if ($check_product == 0) {
 
                   <span class="glyphicon glyphicon-chevron-left"> </span>
 
-<span class="sr-only"> Anterior </span>
+                  <span class="sr-only"> Anterior </span>
 
                 </a><!-- left carousel-control Ends -->
 
@@ -156,7 +156,7 @@ if ($check_product == 0) {
 
                   <span class="glyphicon glyphicon-chevron-right"> </span>
 
-<span class="sr-only"> Próximo </span>
+                  <span class="sr-only"> Próximo </span>
 
                 </a><!-- right carousel-control Ends -->
 
@@ -241,18 +241,18 @@ if ($check_product == 0) {
 
                   <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-5 control-label" >Cantidad de producto </label>
+                    <label class="col-md-5 control-label">Cantidad de producto </label>
 
                     <div class="col-md-7"><!-- col-md-7 Starts -->
 
                       <select name="product_qty" class="form-control">
 
-<option>Selecciona la cantidad</option>
-<option>1</option>
-<option>2</option>
-<option>3</option>
-<option>4</option>
-<option>5</option>
+                        <option>Selecciona la cantidad</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
 
 
                       </select>
@@ -263,16 +263,16 @@ if ($check_product == 0) {
 
                   <div class="form-group"><!-- form-group Starts -->
 
-<label class="col-md-5 control-label" >Product Size</label>
+                    <label class="col-md-5 control-label">Product Size</label>
 
                     <div class="col-md-7"><!-- col-md-7 Starts -->
 
                       <select name="product_size" class="form-control">
 
-<option>Seleccione una talla</option>
-<option>Pequeño</option>
-<option>Medio</option>
-<option>Ancho</option>
+                        <option>Seleccione una talla</option>
+                        <option>Pequeño</option>
+                        <option>Medio</option>
+                        <option>Ancho</option>
 
 
                       </select>
@@ -400,7 +400,7 @@ Precio del paquete : $$pro_price
 
                   <button class="btn btn-danger" type="submit" name="add_cart">
 
-                    <i class="fa fa-shopping-cart"></i> Añadir al carro
+                    <i class="fa fa-shopping-cart"></i> Añadir al carrito
 
                   </button>
 
@@ -509,62 +509,7 @@ Precio del paquete : $$pro_price
 
         </div><!-- row Ends -->
 
-        <div class="box" id="details"><!-- box Starts -->
-
-          <a class="btn btn-info tab" style="margin-bottom:10px;" href="#description" data-toggle="tab"><!-- btn btn-primary tab Starts -->
-
-            <?php
-
-            if ($status == "product") {
-
-echo "Product Description";
-
-              echo "Descripción del paquete";
-            }
-
-            ?>
-
-          </a><!-- btn btn-primary tab Ends -->
-
-          <a class="btn btn-info tab" style="margin-bottom:10px;" href="#features" data-toggle="tab"><!-- btn btn-primary tab Starts -->
-
-            Características
-
-          </a><!-- btn btn-primary tab Ends -->
-
-          <a class="btn btn-info tab" style="margin-bottom:10px;" href="#video" data-toggle="tab"><!-- btn btn-primary tab Starts -->
-
-            Sonidos y Vídeos
-
-          </a><!-- btn btn-primary tab Ends -->
-
-          <hr style="margin-top:0px;">
-
-          <div class="tab-content"><!-- tab-content Starts -->
-
-            <div id="description" class="tab-pane fade in active" style="margin-top:7px;"><!-- description tab-pane fade in active Starts -->
-
-              <?php echo $pro_desc; ?>
-
-            </div><!-- description tab-pane fade in active Ends -->
-
-            <div id="features" class="tab-pane fade in" style="margin-top:7px;"><!-- features tab-pane fade in  Starts -->
-
-              <?php echo $pro_features; ?>
-
-            </div><!-- features tab-pane fade in  Ends -->
-
-            <div id="video" class="tab-pane fade in" style="margin-top:7px;"><!-- video tab-pane fade in Starts -->
-
-              <?php echo $pro_video; ?>
-
-            </div><!-- video tab-pane fade in  Ends -->
-
-
-          </div><!-- tab-content Ends -->
-
-        </div><!-- box Ends -->
-
+        
         <div id="row same-height-row"><!-- row same-height-row Starts -->
 
           <?php
@@ -680,7 +625,7 @@ echo "Product Description";
 
 <a href='$pro_url' class='btn btn-danger'>
 
-<i class='fa fa-shopping-cart'></i> Añadir a la cesta
+<i class='fa fa-shopping-cart'></i> Añadir al carrito
 
 </a>
 
@@ -813,7 +758,7 @@ $product_label
 
 <a href='$pro_url' class='btn btn-primary'>
 
-<i class='fa fa-shopping-cart'></i> Añadir a la cesta
+<i class='fa fa-shopping-cart'></i> Añadir al carrito
 </a>
 
 

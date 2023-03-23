@@ -127,7 +127,7 @@ echo "
 
 <a href='details.php?pro_id=$pro_id' class='btn btn-primary'>
 
-<i class='fa fa-shopping-cart'></i> Añadir a la cesta
+<i class='fa fa-shopping-cart'></i> Añadir al carrito
 
 </a>
 

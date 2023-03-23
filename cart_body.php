@@ -426,7 +426,7 @@ include("includes/main.php");
 
 <a href='$pro_url' class='btn btn-primary'>
 
-<i class='fa fa-shopping-cart'></i> Añadir a la cesta
+<i class='fa fa-shopping-cart'></i> Añadir al carrito
 
 </a>
 
