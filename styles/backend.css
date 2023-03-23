@@ -906,10 +906,13 @@ img {
 .hero {
   padding-top: 130px;
   padding-bottom: 140px;
-  color: #fff;
-  background: #666 url(../images/ink2.png) no-repeat;
+  font-family: 'montserratlight', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFF;
+  background: #666 url("../images/ink2.png") no-repeat;
   background-size: cover;
-  background-position: 50%;
+  background-position: center;
 }
 
 .hero .btn1 {
@@ -918,7 +921,6 @@ img {
   color: gray;
   font-size: 14px;
   font-family: Roboto;
-  border: 1.5px solid gray;
   background-color: #f8f8f8;
   position: relative;
   line-height: 40px;
@@ -928,11 +930,15 @@ img {
   display: inline-block;
   padding-left: 10px;
   padding-right: 10px;
+  transition: 0.5s;
+  border-radius: 4px;
+
 }
 
 .hero .btn1:hover {
   background-color: #337ab7;
   color: white;
+  transition: 0.5s;
 }
 
 .wrapper {
