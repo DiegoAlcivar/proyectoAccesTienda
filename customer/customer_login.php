@@ -46,7 +46,7 @@
 
         <div class="text-center"><!-- text-center Starts -->
 
-            <button name="login" value="Login" class="btn btn-primary">
+            <button name="login" value="Login" class="btn1">
 
                 <i class="fa fa-sign-in"></i> Ingresar
 
@@ -71,7 +71,30 @@
 
 
 </div><!-- box Ends -->
+<style>
+    .btn1 {
+        text-decoration: none;
+        text-align: center;
+        border-style: none;
+        color: white;
+        font-size: 14px;
+        font-family: Roboto;
+        background-color: #337ab7;
+        position: relative;
+        line-height: 40px;
+        display: inline-block;
+        padding-left: 10px;
+        padding-right: 10px;
+        transition: 0.5s;
+        border-radius: 4px;
+    }
 
+    .btn1:hover {
+        background-color: #A9A9A9;
+        color: white;
+        transition: 0.5s;
+    }
+</style>
 <?php
 
 if (isset($_POST['login'])) {
