@@ -100,10 +100,6 @@ if ($check_product == 0) {
   <div id="content"><!-- content Starts -->
     <div class="container"><!-- container Starts -->
 
-
-
-
-
       <div class="col-md-12"><!-- col-md-12 Starts -->
 
         <div class="row" id="productMain"><!-- row Starts -->
