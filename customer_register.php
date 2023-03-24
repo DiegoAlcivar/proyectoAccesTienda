@@ -364,12 +364,32 @@ if (isset($_POST['register'])) {
 
     $check_email = mysqli_num_rows($run_email);
 
+
+
+
     if ($check_email == 1) {
 
       echo "<script>alert('Este correo ya está registrado, prueba con otro')</script>";
 
       exit();
     }
+
+    if (true !== strpos($c_email, "@")) {
+
+      echo "<script>alert('Correo electronico invalido, revise los caracteres y vuelva a intentar')</script>";
+      
+      exit();
+    
+    };
+
+    if (true !== strpos($c_email, ".")) {
+
+      echo "<script>alert('Correo electronico invalido, revise los caracteres y vuelva a intentar')</script>";
+      
+      exit();
+    
+    };
+
 
     $customer_confirm_code = mt_rand();
 
