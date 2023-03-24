@@ -627,7 +627,9 @@ img {
 }
 
 .page-footer .footer-nav__col--account {
-  margin-right: 76px
+  margin-right: 76px;
+  margin-left: 300px;
+  text-align: center;
 }
 
 .page-footer .footer-nav__col--lookbook {
@@ -636,7 +638,9 @@ img {
 }
 
 .page-footer .footer-nav__col--contacts {
-  width: 240px
+  width: 280px;
+  text-align: center;
+  margin-left: 100px;
 }
 
 .page-footer .footer-nav__col .address {
