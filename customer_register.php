@@ -374,21 +374,16 @@ if (isset($_POST['register'])) {
       exit();
     }
 
-    if (true !== strpos($c_email, "@")) {
+    if (false == strpos($c_email, "@") || false == strpos($c_email, ".")) {
 
-      echo "<script>alert('Correo electronico invalido, revise los caracteres y vuelva a intentar')</script>";
-      
+      echo "<script>alert('correo invalido')</script>";
+
       exit();
-    
     };
 
-    if (true !== strpos($c_email, ".")) {
 
-      echo "<script>alert('Correo electronico invalido, revise los caracteres y vuelva a intentar')</script>";
-      
-      exit();
-    
-    };
+
+
 
 
     $customer_confirm_code = mt_rand();

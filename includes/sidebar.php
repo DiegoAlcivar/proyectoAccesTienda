@@ -63,7 +63,7 @@ if (isset($_REQUEST['cat']) && is_array($_REQUEST['cat'])) {
 
             <div class="pull-right"><!-- pull-right Starts -->
 
-                <a href="#" style="color:black;">
+                <a style="color:black;">
 
                     <span class="nav-toggle hide-show">
 
@@ -85,7 +85,6 @@ if (isset($_REQUEST['cat']) && is_array($_REQUEST['cat'])) {
             <div class="input-group"><!-- input-group Starts -->
 
                 <input type="text" class="form-control" id="dev-table-filter" data-action="filter" data-filters="#dev-manufacturer" placeholder="Buscar Filtros">
-
 
                 <a class="input-group-addon"> <i class="fa fa-search"></i> </a>
 
@@ -226,7 +225,7 @@ $manufacturer_title
 
             <div class="pull-right"><!-- pull-right Starts -->
 
-                <a href="#" style="color:black;">
+                <a  style="color:black;">
 
                     <span class="nav-toggle hide-show">
 
@@ -384,7 +383,7 @@ $p_cat_title
 
             <div class="pull-right"><!-- pull-right Starts -->
 
-                <a href="#" style="color:black;">
+                <a style="color:black;">
 
                     <span class="nav-toggle hide-show">
 
